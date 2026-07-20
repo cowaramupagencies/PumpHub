@@ -26,6 +26,29 @@ interface PanZoomState {
   offset: { x: number; y: number };
 }
 
+interface PanZoomOptions {
+  /** Pinch/drag gestures — best in full-screen expanded view only */
+  touchGestures?: boolean;
+}
+
+const MIN_SCALE = 1;
+const MAX_SCALE = 4;
+const BUTTON_ZOOM_STEP = 0.35;
+/** Finger must move this far before panning starts (avoids jitter while tapping) */
+const PAN_ACTIVATION_PX = 14;
+/** Pinch must change scale by at least this much before zoom applies */
+const PINCH_ACTIVATION_RATIO = 0.02;
+/** Snap back to fit when zoomed out close to 100% */
+const SCALE_SNAP_THRESHOLD = 1.06;
+
+function clampScale(scale: number): number {
+  return Math.min(MAX_SCALE, Math.max(MIN_SCALE, scale));
+}
+
+function snapScale(scale: number): number {
+  return scale <= SCALE_SNAP_THRESHOLD ? MIN_SCALE : scale;
+}
+
 function hotspotCenter(hotspot: DiagramHotspot, viewWidth: number, viewHeight: number) {
   return {
     cx: hotspot.x * viewWidth + (hotspot.width * viewWidth) / 2,
@@ -51,17 +74,23 @@ function clampOffset(
   };
 }
 
-function usePanZoom(enabled: boolean) {
+function usePanZoom(enabled: boolean, options: PanZoomOptions = {}) {
+  const touchGestures = options.touchGestures ?? false;
   const viewportRef = useRef<HTMLDivElement>(null);
   const [state, setState] = useState<PanZoomState>({ scale: 1, offset: { x: 0, y: 0 } });
   const stateRef = useRef(state);
   const [isDragging, setIsDragging] = useState(false);
   const dragStart = useRef({ x: 0, y: 0, offsetX: 0, offsetY: 0 });
-  const touchPanStart = useRef<{ x: number; y: number; offsetX: number; offsetY: number } | null>(
-    null,
-  );
-  const lastTouchDistance = useRef<number | null>(null);
-  const pinching = useRef(false);
+  const pointerPanActive = useRef(false);
+  const pointerDown = useRef(false);
+  const touchPan = useRef<{
+    startX: number;
+    startY: number;
+    offsetX: number;
+    offsetY: number;
+    active: boolean;
+  } | null>(null);
+  const pinch = useRef<{ startDistance: number; startScale: number } | null>(null);
 
   useEffect(() => {
     stateRef.current = state;
@@ -78,38 +107,49 @@ function usePanZoom(enabled: boolean) {
     };
   }, []);
 
-  const applyState = useCallback(
-    (updater: (current: PanZoomState) => PanZoomState) => {
-      setState((current) => {
-        const next = updater(current);
-        const { width, height } = getViewportSize();
-        const clamped = {
-          scale: next.scale,
-          offset: clampOffset(next.offset, next.scale, width, height),
-        };
-        stateRef.current = clamped;
-        return clamped;
-      });
+  const commitState = useCallback(
+    (next: PanZoomState) => {
+      const snappedScale = snapScale(next.scale);
+      const { width, height } = getViewportSize();
+      const clamped = {
+        scale: snappedScale,
+        offset: snappedScale <= MIN_SCALE ? { x: 0, y: 0 } : clampOffset(next.offset, snappedScale, width, height),
+      };
+      stateRef.current = clamped;
+      setState(clamped);
+      return clamped;
     },
     [getViewportSize],
   );
 
+  const applyState = useCallback(
+    (updater: (current: PanZoomState) => PanZoomState) => {
+      commitState(updater(stateRef.current));
+    },
+    [commitState],
+  );
+
   const resetView = useCallback(() => {
-    const reset = { scale: 1, offset: { x: 0, y: 0 } };
+    const reset = { scale: MIN_SCALE, offset: { x: 0, y: 0 } };
     stateRef.current = reset;
     setState(reset);
+    touchPan.current = null;
+    pinch.current = null;
+    pointerPanActive.current = false;
+    pointerDown.current = false;
+    setIsDragging(false);
   }, []);
 
   const zoomIn = useCallback(() => {
     applyState((current) => ({
-      scale: Math.min(4, current.scale + 0.25),
+      scale: clampScale(current.scale + BUTTON_ZOOM_STEP),
       offset: current.offset,
     }));
   }, [applyState]);
 
   const zoomOut = useCallback(() => {
     applyState((current) => ({
-      scale: Math.max(1, current.scale - 0.25),
+      scale: clampScale(current.scale - BUTTON_ZOOM_STEP),
       offset: current.offset,
     }));
   }, [applyState]);
@@ -122,78 +162,104 @@ function usePanZoom(enabled: boolean) {
 
   useEffect(() => {
     const node = viewportRef.current;
-    if (!node || !enabled) return;
+    if (!node || !enabled || !touchGestures) return;
+
+    const touchDistance = (touches: TouchList) => {
+      if (touches.length < 2) return 0;
+      const dx = touches[0].clientX - touches[1].clientX;
+      const dy = touches[0].clientY - touches[1].clientY;
+      return Math.hypot(dx, dy);
+    };
+
+    const clearTouchGesture = () => {
+      touchPan.current = null;
+      pinch.current = null;
+      setIsDragging(false);
+    };
 
     const onTouchStart = (event: TouchEvent) => {
       if (isHotspotTarget(event.target)) return;
 
       if (event.touches.length === 2) {
-        pinching.current = true;
-        touchPanStart.current = null;
+        touchPan.current = null;
         setIsDragging(false);
-        const dx = event.touches[0].clientX - event.touches[1].clientX;
-        const dy = event.touches[0].clientY - event.touches[1].clientY;
-        lastTouchDistance.current = Math.hypot(dx, dy);
+        pinch.current = {
+          startDistance: touchDistance(event.touches),
+          startScale: stateRef.current.scale,
+        };
         return;
       }
 
-      if (event.touches.length === 1 && stateRef.current.scale > 1) {
+      if (event.touches.length === 1 && stateRef.current.scale > MIN_SCALE) {
         const touch = event.touches[0];
-        touchPanStart.current = {
-          x: touch.clientX,
-          y: touch.clientY,
+        touchPan.current = {
+          startX: touch.clientX,
+          startY: touch.clientY,
           offsetX: stateRef.current.offset.x,
           offsetY: stateRef.current.offset.y,
+          active: false,
         };
-        setIsDragging(true);
       }
     };
 
     const onTouchMove = (event: TouchEvent) => {
-      if (event.touches.length === 2 && lastTouchDistance.current !== null) {
+      if (event.touches.length === 2 && pinch.current) {
         event.preventDefault();
-        pinching.current = true;
-        touchPanStart.current = null;
+        touchPan.current = null;
         setIsDragging(false);
 
-        const dx = event.touches[0].clientX - event.touches[1].clientX;
-        const dy = event.touches[0].clientY - event.touches[1].clientY;
-        const dist = Math.hypot(dx, dy);
-        const delta = dist - lastTouchDistance.current;
-        lastTouchDistance.current = dist;
+        const distance = touchDistance(event.touches);
+        if (pinch.current.startDistance <= 0) return;
 
-        applyState((current) => ({
-          scale: Math.min(4, Math.max(1, current.scale + delta * 0.008)),
-          offset: current.offset,
+        const ratio = distance / pinch.current.startDistance;
+        if (Math.abs(ratio - 1) < PINCH_ACTIVATION_RATIO) return;
+
+        applyState(() => ({
+          scale: clampScale(pinch.current!.startScale * ratio),
+          offset: stateRef.current.offset,
         }));
         return;
       }
 
-      if (
-        event.touches.length === 1 &&
-        touchPanStart.current &&
-        !pinching.current &&
-        stateRef.current.scale > 1
-      ) {
-        event.preventDefault();
-        const touch = event.touches[0];
-        const start = touchPanStart.current;
-
-        applyState((current) => ({
-          scale: current.scale,
-          offset: {
-            x: start.offsetX + (touch.clientX - start.x),
-            y: start.offsetY + (touch.clientY - start.y),
-          },
-        }));
+      const pan = touchPan.current;
+      if (event.touches.length !== 1 || !pan || pinch.current || stateRef.current.scale <= MIN_SCALE) {
+        return;
       }
+
+      const touch = event.touches[0];
+      const deltaX = touch.clientX - pan.startX;
+      const deltaY = touch.clientY - pan.startY;
+
+      if (!pan.active) {
+        if (Math.hypot(deltaX, deltaY) < PAN_ACTIVATION_PX) return;
+        pan.active = true;
+        setIsDragging(true);
+      }
+
+      event.preventDefault();
+      applyState((current) => ({
+        scale: current.scale,
+        offset: {
+          x: pan.offsetX + deltaX,
+          y: pan.offsetY + deltaY,
+        },
+      }));
     };
 
-    const onTouchEnd = () => {
-      lastTouchDistance.current = null;
-      pinching.current = false;
-      touchPanStart.current = null;
-      setIsDragging(false);
+    const onTouchEnd = (event: TouchEvent) => {
+      if (event.touches.length === 0) {
+        clearTouchGesture();
+        if (stateRef.current.scale <= SCALE_SNAP_THRESHOLD) {
+          resetView();
+        }
+        return;
+      }
+
+      if (event.touches.length === 1) {
+        pinch.current = null;
+        touchPan.current = null;
+        setIsDragging(false);
+      }
     };
 
     node.addEventListener("touchstart", onTouchStart, { passive: true });
@@ -207,15 +273,16 @@ function usePanZoom(enabled: boolean) {
       node.removeEventListener("touchend", onTouchEnd);
       node.removeEventListener("touchcancel", onTouchEnd);
     };
-  }, [applyState, enabled]);
+  }, [applyState, enabled, resetView, touchGestures]);
 
   const handlePointerDown = (event: React.PointerEvent) => {
-    if (!enabled || pinching.current || event.pointerType === "touch") return;
+    if (!enabled || event.pointerType === "touch") return;
     if (isHotspotTarget(event.target)) return;
-    if (stateRef.current.scale <= 1) return;
+    if (stateRef.current.scale <= MIN_SCALE) return;
 
     event.currentTarget.setPointerCapture(event.pointerId);
-    setIsDragging(true);
+    pointerDown.current = true;
+    pointerPanActive.current = false;
     dragStart.current = {
       x: event.clientX,
       y: event.clientY,
@@ -225,13 +292,23 @@ function usePanZoom(enabled: boolean) {
   };
 
   const handlePointerMove = (event: React.PointerEvent) => {
-    if (!isDragging) return;
+    if (event.pointerType === "touch" || !pointerDown.current) return;
+    if (stateRef.current.scale <= MIN_SCALE) return;
+
+    const deltaX = event.clientX - dragStart.current.x;
+    const deltaY = event.clientY - dragStart.current.y;
+
+    if (!pointerPanActive.current) {
+      if (Math.hypot(deltaX, deltaY) < PAN_ACTIVATION_PX) return;
+      pointerPanActive.current = true;
+      setIsDragging(true);
+    }
 
     applyState((current) => ({
       scale: current.scale,
       offset: {
-        x: dragStart.current.offsetX + (event.clientX - dragStart.current.x),
-        y: dragStart.current.offsetY + (event.clientY - dragStart.current.y),
+        x: dragStart.current.offsetX + deltaX,
+        y: dragStart.current.offsetY + deltaY,
       },
     }));
   };
@@ -240,6 +317,8 @@ function usePanZoom(enabled: boolean) {
     if (event.currentTarget.hasPointerCapture(event.pointerId)) {
       event.currentTarget.releasePointerCapture(event.pointerId);
     }
+    pointerPanActive.current = false;
+    pointerDown.current = false;
     setIsDragging(false);
   };
 
@@ -247,7 +326,7 @@ function usePanZoom(enabled: boolean) {
     if (!enabled) return;
     event.preventDefault();
     applyState((current) => ({
-      scale: Math.min(4, Math.max(1, current.scale - event.deltaY * 0.001)),
+      scale: clampScale(current.scale - event.deltaY * 0.0015),
       offset: current.offset,
     }));
   };
@@ -256,6 +335,8 @@ function usePanZoom(enabled: boolean) {
     viewportRef,
     state,
     isDragging,
+    canPan: state.scale > MIN_SCALE,
+    touchGestures,
     resetView,
     zoomIn,
     zoomOut,
@@ -305,8 +386,10 @@ function DiagramCanvas({
           fill={selected ? "rgba(255, 210, 0, 0.45)" : "rgba(59, 130, 246, 0.08)"}
           stroke={selected ? "#ffd200" : hasDiagramImage ? "transparent" : "#3b82f6"}
           strokeWidth={selected ? 4 : 3}
-          className="cursor-pointer"
+          className="cursor-pointer touch-manipulation"
           onClick={() => onSelectReference(hotspot.reference)}
+          onTouchStart={(event) => event.stopPropagation()}
+          onPointerDown={(event) => event.stopPropagation()}
           role="button"
           aria-label={`Diagram reference ${hotspot.reference}`}
         />
@@ -358,7 +441,10 @@ function DiagramCanvas({
     <div
       ref={panZoom.viewportRef}
       className={cn("relative overflow-hidden bg-white", className)}
-      style={{ touchAction: "none", ...style }}
+      style={{
+        touchAction: panZoom.touchGestures ? "none" : "pan-y pinch-zoom",
+        ...style,
+      }}
       onWheel={panZoom.handleWheel}
       onPointerDown={panZoom.handlePointerDown}
       onPointerMove={panZoom.handlePointerMove}
@@ -372,8 +458,7 @@ function DiagramCanvas({
           style={{
             transform: `translate3d(${panZoom.state.offset.x}px, ${panZoom.state.offset.y}px, 0) scale(${panZoom.state.scale})`,
             transformOrigin: "center center",
-            transition: panZoom.isDragging ? "none" : "transform 0.12s ease-out",
-            willChange: "transform",
+            willChange: panZoom.isDragging ? "transform" : undefined,
           }}
         >
           <div className="h-full w-full">{diagramContent}</div>
@@ -428,8 +513,8 @@ export function PumpDiagram({
 }: PumpDiagramProps) {
   const [expandedOpen, setExpandedOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const inlinePanZoom = usePanZoom(true);
-  const expandedPanZoom = usePanZoom(expandedOpen);
+  const inlinePanZoom = usePanZoom(true, { touchGestures: false });
+  const expandedPanZoom = usePanZoom(expandedOpen, { touchGestures: true });
   const { resetView: resetInlineView } = inlinePanZoom;
   const { resetView: resetExpandedView } = expandedPanZoom;
 
@@ -477,7 +562,9 @@ export function PumpDiagram({
             <div className="flex shrink-0 items-center justify-between gap-3 border-b border-[var(--border-color)] px-4 py-3">
               <div className="min-w-0">
                 <p className="truncate text-base font-bold">{pumpName} diagram</p>
-                <p className="text-sm text-muted">Pinch to zoom · drag with one finger when zoomed in</p>
+                <p className="text-sm text-muted">
+                  Pinch with two fingers to zoom · drag with one finger to move (when zoomed)
+                </p>
               </div>
               <button
                 type="button"
@@ -527,7 +614,14 @@ export function PumpDiagram({
           onSelectReference={onSelectReference}
           panZoom={inlinePanZoom}
           className="w-full max-h-[36rem]"
-          style={{ aspectRatio, cursor: inlinePanZoom.isDragging ? "grabbing" : "grab" }}
+          style={{
+            aspectRatio,
+            cursor: inlinePanZoom.canPan
+              ? inlinePanZoom.isDragging
+                ? "grabbing"
+                : "grab"
+              : undefined,
+          }}
         />
         {overlay && (
           <div className="pointer-events-none absolute inset-x-2 bottom-2 z-20 sm:inset-x-auto sm:right-3 sm:bottom-3">
@@ -567,11 +661,11 @@ export function PumpDiagram({
         <button
           type="button"
           onClick={openExpanded}
-          className="flex min-h-[3.25rem] items-center justify-center gap-2 rounded-xl border border-[var(--border-color)] bg-[var(--card-bg)] text-base font-medium"
+          className="col-span-2 flex min-h-[3.25rem] items-center justify-center gap-2 rounded-xl border border-[var(--border-color)] bg-[var(--card-bg)] text-base font-medium sm:col-span-1"
           aria-label="Expand diagram"
         >
           <Maximize2 className="h-5 w-5" />
-          <span className="hidden sm:inline">Expand</span>
+          <span>Enlarge</span>
         </button>
       </div>
 
