@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useParams, useRouter, useSearchParams } from "next/navigation";
 import { Bookmark, ExternalLink, FileText, Layers, LineChart, Map } from "lucide-react";
-import { ActionCard } from "@/components/ui/ActionCard";
+import { ActionTile, ActionTileGrid } from "@/components/ui/ActionTile";
 import { Button } from "@/components/ui/Button";
 import { Card, EmptyState, LoadingSpinner } from "@/components/ui/Card";
 import { FilterToggle } from "@/components/ui/FilterToggle";
@@ -259,34 +259,34 @@ export function PumpDetailPage() {
       )}
 
       {!section && (
-        <div className="space-y-3">
-          <ActionCard
+        <ActionTileGrid>
+          <ActionTile
             icon={Map}
             title="View Diagram"
-            description="Tap a numbered reference to find parts"
+            description="Tap diagram refs"
             onClick={() => setSection("diagram")}
           />
           {pumpCurve && (
-            <ActionCard
+            <ActionTile
               icon={LineChart}
-              title="View Pump Curve"
-              description={`Performance chart — ${pumpCurve.seriesLabel}`}
+              title="Pump Curve"
+              description={pumpCurve.seriesLabel}
               onClick={() => setSection("curve")}
             />
           )}
-          <ActionCard
+          <ActionTile
             icon={Layers}
             title="View Parts"
-            description="Search and browse parts for this pump"
+            description="Browse parts list"
             onClick={() => setSection("parts")}
           />
-          <ActionCard
+          <ActionTile
             icon={FileText}
             title="My Notes"
-            description="Record version checks and site findings"
+            description="Site notes"
             onClick={() => setSection("notes")}
           />
-        </div>
+        </ActionTileGrid>
       )}
 
       {section && (

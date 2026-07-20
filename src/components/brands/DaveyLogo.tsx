@@ -7,12 +7,15 @@ import {
 
 interface DaveyLogoProps {
   variant?: "wordmark" | "square";
+  /** Hero trims transparent padding baked into the wordmark asset. */
+  presentation?: "default" | "hero";
   className?: string;
   priority?: boolean;
 }
 
 export function DaveyLogo({
   variant = "wordmark",
+  presentation = "default",
   className,
   priority = false,
 }: DaveyLogoProps) {
@@ -26,6 +29,21 @@ export function DaveyLogo({
         priority={priority}
         className={cn("h-full w-full object-contain", className)}
       />
+    );
+  }
+
+  if (presentation === "hero") {
+    return (
+      <div className={cn("overflow-hidden", className)}>
+        <Image
+          src={DAVEY_LOGO_WORDMARK_PATH}
+          alt="Davey"
+          width={450}
+          height={250}
+          priority={priority}
+          className="h-auto w-full scale-[1.55] object-contain"
+        />
+      </div>
     );
   }
 

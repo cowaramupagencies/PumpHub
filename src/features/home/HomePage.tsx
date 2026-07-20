@@ -2,8 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import Link from "next/link";
-import { Bookmark, Package, Search } from "lucide-react";
-import { ActionCard } from "@/components/ui/ActionCard";
+import { DaveyQuickLinks } from "@/components/navigation/DaveyQuickLinks";
 import { DaveyLogo } from "@/components/brands/DaveyLogo";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { Button } from "@/components/ui/Button";
@@ -18,8 +17,13 @@ export function HomePage() {
 
   return (
     <div className="space-y-7 pb-4">
-      <div className="overflow-hidden rounded-2xl bg-davey-black px-8 py-10 text-center">
-        <DaveyLogo variant="wordmark" priority className="mx-auto w-full max-w-[22rem]" />
+      <div className="overflow-hidden rounded-2xl bg-davey-black px-6 py-4 text-center">
+        <DaveyLogo
+          variant="wordmark"
+          presentation="hero"
+          priority
+          className="mx-auto w-full max-w-[28rem]"
+        />
       </div>
 
       <div>
@@ -40,26 +44,7 @@ export function HomePage() {
         />
       </div>
 
-      <div className="space-y-3">
-        <ActionCard
-          href={`${DAVEY_BASE}/browse`}
-          icon={Package}
-          title="Browse Pumps"
-          description="View available pump models"
-        />
-        <ActionCard
-          href={`${DAVEY_BASE}/search?filter=parts`}
-          icon={Search}
-          title="Find a Part"
-          description="Search by part number or description"
-        />
-        <ActionCard
-          href={`${DAVEY_BASE}/saved`}
-          icon={Bookmark}
-          title="Saved"
-          description="Open saved pumps and parts"
-        />
-      </div>
+      <DaveyQuickLinks />
 
       <section>
         <SectionHeading>Recent Pumps</SectionHeading>

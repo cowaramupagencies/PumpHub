@@ -3,7 +3,7 @@
 import { useSearchParams, useRouter } from "next/navigation";
 import { useState, useEffect, Suspense } from "react";
 import Link from "next/link";
-import { ActionCard } from "@/components/ui/ActionCard";
+import { DaveyQuickLinks } from "@/components/navigation/DaveyQuickLinks";
 import { SearchInput } from "@/components/ui/SearchInput";
 import { FilterToggle } from "@/components/ui/FilterToggle";
 import { Button } from "@/components/ui/Button";
@@ -11,7 +11,6 @@ import { EmptyState, LoadingSpinner, Card } from "@/components/ui/Card";
 import { usePumpSearch } from "@/hooks/usePumpSearch";
 import { DAVEY_BASE } from "@/utils/brands";
 import type { SearchFilter } from "@/types";
-import { Bookmark, Package } from "lucide-react";
 
 function SearchContent() {
   const searchParams = useSearchParams();
@@ -70,19 +69,8 @@ function SearchContent() {
       />
 
       {!hasQuery && (
-        <div className="space-y-3 pt-2">
-          <ActionCard
-            href={`${DAVEY_BASE}/browse`}
-            icon={Package}
-            title="Browse Pumps"
-            description="View available pump models"
-          />
-          <ActionCard
-            href={`${DAVEY_BASE}/saved`}
-            icon={Bookmark}
-            title="View Saved Items"
-            description="Open saved pumps and parts"
-          />
+        <div className="pt-2">
+          <DaveyQuickLinks />
         </div>
       )}
 
