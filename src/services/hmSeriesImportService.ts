@@ -9,6 +9,7 @@ import type {
 } from "@/types";
 import type { DraftPartRecord, HmSeriesImportDraft, ImportHistoryRecord } from "@/types/catalogue-import";
 import { partIdFromNumber } from "@/lib/ricambio/part-id";
+import { buildSeriesCompatibilities } from "@/lib/ricambio/build-compatibilities";
 import { seedBrand, seedCategory } from "@/data/seed/demo-data";
 import { HM_SERIES_CURVE_IMAGE, HM_SERIES_PUMP_IMAGE } from "@/utils/pumps";
 
@@ -24,88 +25,6 @@ function mapAvailability(part: DraftPartRecord): Part["availability"] {
     return "verify";
   }
   return "unknown";
-}
-
-function compatibilityLabel(scope: DraftPartRecord["compatibilityScope"]): string {
-  switch (scope) {
-    case "hm60":
-      return "HM60";
-    case "hm90":
-      return "HM90";
-    case "hm160":
-      return "HM160";
-    case "hm270":
-      return "HM270";
-    case "hm60_hm90":
-      return "HM60 and HM90";
-    case "hm160_hm270":
-      return "HM160 and HM270";
-    case "hm_all":
-      return "HM60, HM90, HM160 and HM270";
-    case "family":
-      return "HM Series — model not confirmed";
-    default:
-      return "Requires verification";
-  }
-}
-
-function buildCompatibilities(
-  partId: string,
-  draftPart: DraftPartRecord,
-  diagramId: string,
-): PartCompatibility[] {
-  const ref = draftPart.diagramReference ?? undefined;
-  const note = compatibilityLabel(draftPart.compatibilityScope);
-  const rows: PartCompatibility[] = [];
-
-  const add = (modelId: string | undefined, idSuffix: string) => {
-    rows.push({
-      id: `compat-${idSuffix}-${partId.replace("part-", "")}`,
-      partId,
-      familyId: FAMILY_ID,
-      modelId,
-      diagramId: ref ? diagramId : undefined,
-      diagramReference: ref,
-      compatibilityNotes: note,
-    });
-  };
-
-  switch (draftPart.compatibilityScope) {
-    case "hm60":
-      add(HM60_ID, "hm60");
-      break;
-    case "hm90":
-      add(HM90_ID, "hm90");
-      break;
-    case "hm160":
-      add(HM160_ID, "hm160");
-      break;
-    case "hm270":
-      add(HM270_ID, "hm270");
-      break;
-    case "hm60_hm90":
-      add(HM60_ID, "hm60");
-      add(HM90_ID, "hm90");
-      break;
-    case "hm160_hm270":
-      add(HM160_ID, "hm160");
-      add(HM270_ID, "hm270");
-      break;
-    case "hm_all":
-      add(HM60_ID, "hm60");
-      add(HM90_ID, "hm90");
-      add(HM160_ID, "hm160");
-      add(HM270_ID, "hm270");
-      break;
-    case "family":
-      add(undefined, "family");
-      break;
-    default:
-      add(undefined, "verify");
-      break;
-  }
-
-  return rows;
 }
 
 export async function approveHmSeriesImport(draft: HmSeriesImportDraft): Promise<ImportHistoryRecord> {
@@ -256,7 +175,7 @@ export async function approveHmSeriesImport(draft: HmSeriesImportDraft): Promise
       },
     });
 
-    compatibilities.push(...buildCompatibilities(partId, draftPart, DIAGRAM_ID));
+    compatibilities.push(...buildSeriesCompatibilities("hm", partId, draftPart));
   }
 
   const partIdByNumber = new Map(parts.map((p) => [p.partNumber, p.id]));

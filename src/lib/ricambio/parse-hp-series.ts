@@ -88,7 +88,7 @@ export function inferHpCompatibilityScope(part: {
   if (has45) return "hp45";
   if (has65) return "hp65";
   if (has85) return "hp85";
-  return "family";
+  return "hp_all";
 }
 
 function parseQuantity(text?: string): number {

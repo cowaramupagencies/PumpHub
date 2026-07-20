@@ -122,7 +122,7 @@ export function inferHmCompatibilityScope(part: {
   if (has90) return "hm90";
   if (has160) return "hm160";
   if (has270) return "hm270";
-  return "family";
+  return "hm_all";
 }
 
 function parseQuantity(text?: string): number {

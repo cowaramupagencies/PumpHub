@@ -1897,126 +1897,126 @@ export const hmSeedParts: Part[] = [
 
 export const hmSeedCompatibilities: PartCompatibility[] = [
   {
-    "id": "compat-hm60-7049",
+    "id": "compat-hm-hm60-7049",
     "partId": "part-7049",
     "familyId": "family-hm",
     "modelId": "model-hm60",
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm60-7050",
+    "id": "compat-hm-hm60-7050",
     "partId": "part-7050",
     "familyId": "family-hm",
     "modelId": "model-hm60",
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm60-7051",
+    "id": "compat-hm-hm60-7051",
     "partId": "part-7051",
     "familyId": "family-hm",
     "modelId": "model-hm60",
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-7051",
+    "id": "compat-hm-hm90-7051",
     "partId": "part-7051",
     "familyId": "family-hm",
     "modelId": "model-hm90",
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-7052",
+    "id": "compat-hm-hm90-7052",
     "partId": "part-7052",
     "familyId": "family-hm",
     "modelId": "model-hm90",
     "compatibilityNotes": "HM90"
   },
   {
-    "id": "compat-hm90-844",
+    "id": "compat-hm-hm90-844",
     "partId": "part-844",
     "familyId": "family-hm",
     "modelId": "model-hm90",
     "compatibilityNotes": "HM90"
   },
   {
-    "id": "compat-hm160-845",
+    "id": "compat-hm-hm160-845",
     "partId": "part-845",
     "familyId": "family-hm",
     "modelId": "model-hm160",
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-851",
+    "id": "compat-hm-hm270-851",
     "partId": "part-851",
     "familyId": "family-hm",
     "modelId": "model-hm270",
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-7054",
+    "id": "compat-hm-hm60-7054",
     "partId": "part-7054",
     "familyId": "family-hm",
     "modelId": "model-hm60",
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm60-7057",
+    "id": "compat-hm-hm60-7057",
     "partId": "part-7057",
     "familyId": "family-hm",
     "modelId": "model-hm60",
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm60-7055",
+    "id": "compat-hm-hm60-7055",
     "partId": "part-7055",
     "familyId": "family-hm",
     "modelId": "model-hm60",
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-7055",
+    "id": "compat-hm-hm90-7055",
     "partId": "part-7055",
     "familyId": "family-hm",
     "modelId": "model-hm90",
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-7053",
+    "id": "compat-hm-hm90-7053",
     "partId": "part-7053",
     "familyId": "family-hm",
     "modelId": "model-hm90",
     "compatibilityNotes": "HM90"
   },
   {
-    "id": "compat-hm90-852",
+    "id": "compat-hm-hm90-852",
     "partId": "part-852",
     "familyId": "family-hm",
     "modelId": "model-hm90",
     "compatibilityNotes": "HM90"
   },
   {
-    "id": "compat-hm160-858",
+    "id": "compat-hm-hm160-858",
     "partId": "part-858",
     "familyId": "family-hm",
     "modelId": "model-hm160",
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-869",
+    "id": "compat-hm-hm270-869",
     "partId": "part-869",
     "familyId": "family-hm",
     "modelId": "model-hm270",
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm270-864",
+    "id": "compat-hm-hm270-864",
     "partId": "part-864",
     "familyId": "family-hm",
     "modelId": "model-hm270",
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-13656-5sp",
+    "id": "compat-hm-hm60-13656-5sp",
     "partId": "part-13656-5sp",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2025,7 +2025,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-13656-5sp",
+    "id": "compat-hm-hm90-13656-5sp",
     "partId": "part-13656-5sp",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2034,7 +2034,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm60-13656-6sp",
+    "id": "compat-hm-hm60-13656-6sp",
     "partId": "part-13656-6sp",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2043,7 +2043,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm160-13656-7sp",
+    "id": "compat-hm-hm160-13656-7sp",
     "partId": "part-13656-7sp",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2052,7 +2052,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-13656-8sp",
+    "id": "compat-hm-hm270-13656-8sp",
     "partId": "part-13656-8sp",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2061,7 +2061,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-400577sp",
+    "id": "compat-hm-hm60-400577sp",
     "partId": "part-400577sp",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2070,7 +2070,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm90-400577sp",
+    "id": "compat-hm-hm90-400577sp",
     "partId": "part-400577sp",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2079,7 +2079,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm160-400577sp",
+    "id": "compat-hm-hm160-400577sp",
     "partId": "part-400577sp",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2088,7 +2088,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm270-400577sp",
+    "id": "compat-hm-hm270-400577sp",
     "partId": "part-400577sp",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2097,7 +2097,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm160-400577sp",
+    "id": "compat-hm-hm160-400577sp",
     "partId": "part-400577sp",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2106,15 +2106,43 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-family-448533",
+    "id": "compat-hm-hm60-448533",
     "partId": "part-448533",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "3",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm60-13661-1",
+    "id": "compat-hm-hm90-448533",
+    "partId": "part-448533",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "3",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-448533",
+    "partId": "part-448533",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "3",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-448533",
+    "partId": "part-448533",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "3",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-13661-1",
     "partId": "part-13661-1",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2123,7 +2151,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-13661-1",
+    "id": "compat-hm-hm90-13661-1",
     "partId": "part-13661-1",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2132,7 +2160,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-13674-1",
+    "id": "compat-hm-hm160-13674-1",
     "partId": "part-13674-1",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2141,7 +2169,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-13670-1",
+    "id": "compat-hm-hm270-13670-1",
     "partId": "part-13670-1",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2150,23 +2178,79 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-family-s34m06168",
+    "id": "compat-hm-hm60-s34m06168",
     "partId": "part-s34m06168",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "5",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-family-33479",
+    "id": "compat-hm-hm90-s34m06168",
+    "partId": "part-s34m06168",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "5",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-s34m06168",
+    "partId": "part-s34m06168",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "5",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-s34m06168",
+    "partId": "part-s34m06168",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "5",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-33479",
     "partId": "part-33479",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "6",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm60-13678sp",
+    "id": "compat-hm-hm90-33479",
+    "partId": "part-33479",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "6",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-33479",
+    "partId": "part-33479",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "6",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-33479",
+    "partId": "part-33479",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "6",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-13678sp",
     "partId": "part-13678sp",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2175,7 +2259,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm90-13676sp",
+    "id": "compat-hm-hm90-13676sp",
     "partId": "part-13676sp",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2184,7 +2268,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM90"
   },
   {
-    "id": "compat-hm160-13672sp",
+    "id": "compat-hm-hm160-13672sp",
     "partId": "part-13672sp",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2193,7 +2277,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-13668sp",
+    "id": "compat-hm-hm270-13668sp",
     "partId": "part-13668sp",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2202,7 +2286,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-136653",
+    "id": "compat-hm-hm60-136653",
     "partId": "part-136653",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2211,7 +2295,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm160-136803",
+    "id": "compat-hm-hm160-136803",
     "partId": "part-136803",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2220,7 +2304,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-136813",
+    "id": "compat-hm-hm270-136813",
     "partId": "part-136813",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2229,7 +2313,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-32912",
+    "id": "compat-hm-hm60-32912",
     "partId": "part-32912",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2238,7 +2322,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-32912",
+    "id": "compat-hm-hm90-32912",
     "partId": "part-32912",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2247,7 +2331,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-32913",
+    "id": "compat-hm-hm160-32913",
     "partId": "part-32913",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2256,7 +2340,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-32914",
+    "id": "compat-hm-hm270-32914",
     "partId": "part-32914",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2265,7 +2349,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-13662-2",
+    "id": "compat-hm-hm60-13662-2",
     "partId": "part-13662-2",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2274,7 +2358,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-13662-2",
+    "id": "compat-hm-hm90-13662-2",
     "partId": "part-13662-2",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2283,7 +2367,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-13673-2",
+    "id": "compat-hm-hm160-13673-2",
     "partId": "part-13673-2",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2292,7 +2376,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-13669-2",
+    "id": "compat-hm-hm270-13669-2",
     "partId": "part-13669-2",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2301,7 +2385,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-13663",
+    "id": "compat-hm-hm60-13663",
     "partId": "part-13663",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2310,7 +2394,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-13663",
+    "id": "compat-hm-hm90-13663",
     "partId": "part-13663",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2319,7 +2403,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-13675",
+    "id": "compat-hm-hm160-13675",
     "partId": "part-13675",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2328,7 +2412,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-13671",
+    "id": "compat-hm-hm270-13671",
     "partId": "part-13671",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2337,7 +2421,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-13696-1",
+    "id": "compat-hm-hm60-13696-1",
     "partId": "part-13696-1",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2346,7 +2430,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-13696-1",
+    "id": "compat-hm-hm90-13696-1",
     "partId": "part-13696-1",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2355,7 +2439,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-13696",
+    "id": "compat-hm-hm160-13696",
     "partId": "part-13696",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2364,7 +2448,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-13696-2",
+    "id": "compat-hm-hm270-13696-2",
     "partId": "part-13696-2",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2373,7 +2457,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-13666",
+    "id": "compat-hm-hm60-13666",
     "partId": "part-13666",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2382,7 +2466,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-13666",
+    "id": "compat-hm-hm90-13666",
     "partId": "part-13666",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2391,7 +2475,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-13693",
+    "id": "compat-hm-hm160-13693",
     "partId": "part-13693",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2400,7 +2484,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160 and HM270"
   },
   {
-    "id": "compat-hm270-13693",
+    "id": "compat-hm-hm270-13693",
     "partId": "part-13693",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2409,31 +2493,115 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160 and HM270"
   },
   {
-    "id": "compat-family-13667sp",
+    "id": "compat-hm-hm60-13667sp",
     "partId": "part-13667sp",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "14",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-family-400558sp",
+    "id": "compat-hm-hm90-13667sp",
+    "partId": "part-13667sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "14",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-13667sp",
+    "partId": "part-13667sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "14",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-13667sp",
+    "partId": "part-13667sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "14",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-400558sp",
     "partId": "part-400558sp",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "15",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-family-13660sp",
+    "id": "compat-hm-hm90-400558sp",
+    "partId": "part-400558sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "15",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-400558sp",
+    "partId": "part-400558sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "15",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-400558sp",
+    "partId": "part-400558sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "15",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-13660sp",
     "partId": "part-13660sp",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "16",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm60-32283sp",
+    "id": "compat-hm-hm90-13660sp",
+    "partId": "part-13660sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "16",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-13660sp",
+    "partId": "part-13660sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "16",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-13660sp",
+    "partId": "part-13660sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "16",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-32283sp",
     "partId": "part-32283sp",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2442,7 +2610,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-32283sp",
+    "id": "compat-hm-hm90-32283sp",
     "partId": "part-32283sp",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2451,7 +2619,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm60-32285sp",
+    "id": "compat-hm-hm60-32285sp",
     "partId": "part-32285sp",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2460,7 +2628,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-32285sp",
+    "id": "compat-hm-hm90-32285sp",
     "partId": "part-32285sp",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2469,7 +2637,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm60-32286sp",
+    "id": "compat-hm-hm60-32286sp",
     "partId": "part-32286sp",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2478,7 +2646,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm90-32287sp",
+    "id": "compat-hm-hm90-32287sp",
     "partId": "part-32287sp",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2487,7 +2655,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM90"
   },
   {
-    "id": "compat-hm160-32314sp",
+    "id": "compat-hm-hm160-32314sp",
     "partId": "part-32314sp",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2496,7 +2664,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-32315",
+    "id": "compat-hm-hm270-32315",
     "partId": "part-32315",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2505,7 +2673,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm270-32288sp",
+    "id": "compat-hm-hm270-32288sp",
     "partId": "part-32288sp",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2514,7 +2682,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-hm60-11733-3",
+    "id": "compat-hm-hm60-11733-3",
     "partId": "part-11733-3",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2523,7 +2691,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-11733-3",
+    "id": "compat-hm-hm90-11733-3",
     "partId": "part-11733-3",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2532,7 +2700,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-11971",
+    "id": "compat-hm-hm90-11971",
     "partId": "part-11971",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2541,7 +2709,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM90"
   },
   {
-    "id": "compat-hm160-11971-1",
+    "id": "compat-hm-hm160-11971-1",
     "partId": "part-11971-1",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2550,7 +2718,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-48035",
+    "id": "compat-hm-hm270-48035",
     "partId": "part-48035",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2559,31 +2727,115 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-family-404132sp",
+    "id": "compat-hm-hm60-404132sp",
     "partId": "part-404132sp",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "17b",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-family-49034m",
+    "id": "compat-hm-hm90-404132sp",
+    "partId": "part-404132sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17b",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-404132sp",
+    "partId": "part-404132sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17b",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-404132sp",
+    "partId": "part-404132sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17b",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-49034m",
     "partId": "part-49034m",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "17c",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-family-49034",
+    "id": "compat-hm-hm90-49034m",
+    "partId": "part-49034m",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17c",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-49034m",
+    "partId": "part-49034m",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17c",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-49034m",
+    "partId": "part-49034m",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17c",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-49034",
     "partId": "part-49034",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "17d",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm160-9544-1",
+    "id": "compat-hm-hm90-49034",
+    "partId": "part-49034",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17d",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-49034",
+    "partId": "part-49034",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17d",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-49034",
+    "partId": "part-49034",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17d",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-9544-1",
     "partId": "part-9544-1",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2592,7 +2844,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160 and HM270"
   },
   {
-    "id": "compat-hm270-9544-1",
+    "id": "compat-hm-hm270-9544-1",
     "partId": "part-9544-1",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2601,15 +2853,43 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160 and HM270"
   },
   {
-    "id": "compat-family-8573-5",
+    "id": "compat-hm-hm60-8573-5",
     "partId": "part-8573-5",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "17e",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm60-32391",
+    "id": "compat-hm-hm90-8573-5",
+    "partId": "part-8573-5",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17e",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-8573-5",
+    "partId": "part-8573-5",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17e",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-8573-5",
+    "partId": "part-8573-5",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "17e",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-32391",
     "partId": "part-32391",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2618,7 +2898,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-32391",
+    "id": "compat-hm-hm90-32391",
     "partId": "part-32391",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2627,7 +2907,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-32392",
+    "id": "compat-hm-hm160-32392",
     "partId": "part-32392",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2636,7 +2916,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-32393",
+    "id": "compat-hm-hm270-32393",
     "partId": "part-32393",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2645,15 +2925,43 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-family-49034f",
+    "id": "compat-hm-hm60-49034f",
     "partId": "part-49034f",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "18a",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm270-13729",
+    "id": "compat-hm-hm90-49034f",
+    "partId": "part-49034f",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18a",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-49034f",
+    "partId": "part-49034f",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18a",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-49034f",
+    "partId": "part-49034f",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18a",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-13729",
     "partId": "part-13729",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2662,23 +2970,79 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-family-47920",
+    "id": "compat-hm-hm60-47920",
     "partId": "part-47920",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "18b",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-family-11591-1",
+    "id": "compat-hm-hm90-47920",
+    "partId": "part-47920",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18b",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-47920",
+    "partId": "part-47920",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18b",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-47920",
+    "partId": "part-47920",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18b",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-11591-1",
     "partId": "part-11591-1",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "18c",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm160-48466",
+    "id": "compat-hm-hm90-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18c",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18c",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18c",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-48466",
     "partId": "part-48466",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2687,7 +3051,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-400622",
+    "id": "compat-hm-hm270-400622",
     "partId": "part-400622",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2696,15 +3060,43 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-family-48492",
+    "id": "compat-hm-hm60-48492",
     "partId": "part-48492",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "18e",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm60-47932",
+    "id": "compat-hm-hm90-48492",
+    "partId": "part-48492",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18e",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-48492",
+    "partId": "part-48492",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18e",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-48492",
+    "partId": "part-48492",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "18e",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-47932",
     "partId": "part-47932",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2713,7 +3105,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-47932",
+    "id": "compat-hm-hm90-47932",
     "partId": "part-47932",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2722,7 +3114,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-48953",
+    "id": "compat-hm-hm160-48953",
     "partId": "part-48953",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2731,7 +3123,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-49184",
+    "id": "compat-hm-hm270-49184",
     "partId": "part-49184",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2740,13 +3132,35 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-verify-49537",
+    "id": "compat-hm-hm60-49537",
     "partId": "part-49537",
     "familyId": "family-hm",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hm60",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
   },
   {
-    "id": "compat-hm60-47914",
+    "id": "compat-hm-hm90-49537",
+    "partId": "part-49537",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm160-49537",
+    "partId": "part-49537",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm270-49537",
+    "partId": "part-49537",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm60-47914",
     "partId": "part-47914",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2755,7 +3169,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm90-47914",
+    "id": "compat-hm-hm90-47914",
     "partId": "part-47914",
     "familyId": "family-hm",
     "modelId": "model-hm90",
@@ -2764,7 +3178,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60 and HM90"
   },
   {
-    "id": "compat-hm160-48952",
+    "id": "compat-hm-hm160-48952",
     "partId": "part-48952",
     "familyId": "family-hm",
     "modelId": "model-hm160",
@@ -2773,7 +3187,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM160"
   },
   {
-    "id": "compat-hm270-403329",
+    "id": "compat-hm-hm270-403329",
     "partId": "part-403329",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2782,15 +3196,43 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-family-32320-1sp",
+    "id": "compat-hm-hm60-32320-1sp",
     "partId": "part-32320-1sp",
     "familyId": "family-hm",
+    "modelId": "model-hm60",
     "diagramId": "diagram-hm",
     "diagramReference": "21",
-    "compatibilityNotes": "HM Series — model not confirmed"
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
   },
   {
-    "id": "compat-hm60-tt45",
+    "id": "compat-hm-hm90-32320-1sp",
+    "partId": "part-32320-1sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "diagramId": "diagram-hm",
+    "diagramReference": "21",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm160-32320-1sp",
+    "partId": "part-32320-1sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "diagramId": "diagram-hm",
+    "diagramReference": "21",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm270-32320-1sp",
+    "partId": "part-32320-1sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "diagramId": "diagram-hm",
+    "diagramReference": "21",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270"
+  },
+  {
+    "id": "compat-hm-hm60-tt45",
     "partId": "part-tt45",
     "familyId": "family-hm",
     "modelId": "model-hm60",
@@ -2799,7 +3241,7 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM60"
   },
   {
-    "id": "compat-hm270-tt70",
+    "id": "compat-hm-hm270-tt70",
     "partId": "part-tt70",
     "familyId": "family-hm",
     "modelId": "model-hm270",
@@ -2808,27 +3250,115 @@ export const hmSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HM270"
   },
   {
-    "id": "compat-verify-33485",
+    "id": "compat-hm-hm60-33485",
     "partId": "part-33485",
     "familyId": "family-hm",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hm60",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
   },
   {
-    "id": "compat-verify-13551sp",
+    "id": "compat-hm-hm90-33485",
+    "partId": "part-33485",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm160-33485",
+    "partId": "part-33485",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm270-33485",
+    "partId": "part-33485",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm60-13551sp",
     "partId": "part-13551sp",
     "familyId": "family-hm",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hm60",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
   },
   {
-    "id": "compat-verify-13648",
+    "id": "compat-hm-hm90-13551sp",
+    "partId": "part-13551sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm160-13551sp",
+    "partId": "part-13551sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm270-13551sp",
+    "partId": "part-13551sp",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm60-13648",
     "partId": "part-13648",
     "familyId": "family-hm",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hm60",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
   },
   {
-    "id": "compat-verify-48724",
+    "id": "compat-hm-hm90-13648",
+    "partId": "part-13648",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm160-13648",
+    "partId": "part-13648",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm270-13648",
+    "partId": "part-13648",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm60-48724",
     "partId": "part-48724",
     "familyId": "family-hm",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hm60",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm90-48724",
+    "partId": "part-48724",
+    "familyId": "family-hm",
+    "modelId": "model-hm90",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm160-48724",
+    "partId": "part-48724",
+    "familyId": "family-hm",
+    "modelId": "model-hm160",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
+  },
+  {
+    "id": "compat-hm-hm270-48724",
+    "partId": "part-48724",
+    "familyId": "family-hm",
+    "modelId": "model-hm270",
+    "compatibilityNotes": "HM60, HM90, HM160 and HM270 — requires verification"
   }
 ];

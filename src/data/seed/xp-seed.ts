@@ -1262,7 +1262,7 @@ export const xpSeedParts: Part[] = [
 
 export const xpSeedCompatibilities: PartCompatibility[] = [
   {
-    "id": "compat-xp25-706",
+    "id": "compat-xp-xp25-706",
     "partId": "part-706",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1271,63 +1271,196 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25"
   },
   {
-    "id": "compat-verify-777",
+    "id": "compat-xp-xp25-777",
     "partId": "part-777",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "1",
-    "compatibilityNotes": "Requires verification"
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-family-740",
+    "id": "compat-xp-xp35-777",
+    "partId": "part-777",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "1",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-777",
+    "partId": "part-777",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "1",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-740",
     "partId": "part-740",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "1",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-11670-20sp",
+    "id": "compat-xp-xp35-740",
+    "partId": "part-740",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "1",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-740",
+    "partId": "part-740",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "1",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11670-20sp",
     "partId": "part-11670-20sp",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "2",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-45446",
+    "id": "compat-xp-xp35-11670-20sp",
+    "partId": "part-11670-20sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "2",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11670-20sp",
+    "partId": "part-11670-20sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "2",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-45446",
     "partId": "part-45446",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "3",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-49108",
+    "id": "compat-xp-xp35-45446",
+    "partId": "part-45446",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "3",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-45446",
+    "partId": "part-45446",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "3",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-49108",
     "partId": "part-49108",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "3",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-48802sp",
+    "id": "compat-xp-xp35-49108",
+    "partId": "part-49108",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "3",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-49108",
+    "partId": "part-49108",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "3",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-48802sp",
     "partId": "part-48802sp",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "4",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-11354bsp",
+    "id": "compat-xp-xp35-48802sp",
+    "partId": "part-48802sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "4",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-48802sp",
+    "partId": "part-48802sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "4",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11354bsp",
     "partId": "part-11354bsp",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "5",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp25-11253-1sp",
+    "id": "compat-xp-xp35-11354bsp",
+    "partId": "part-11354bsp",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "5",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11354bsp",
+    "partId": "part-11354bsp",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "5",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11253-1sp",
     "partId": "part-11253-1sp",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1336,7 +1469,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25"
   },
   {
-    "id": "compat-xp45-11253-3",
+    "id": "compat-xp-xp45-11253-3",
     "partId": "part-11253-3",
     "familyId": "family-xp",
     "modelId": "model-xp45",
@@ -1345,15 +1478,34 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP45"
   },
   {
-    "id": "compat-family-11253-2sp",
+    "id": "compat-xp-xp25-11253-2sp",
     "partId": "part-11253-2sp",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "6",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp25-11254-1",
+    "id": "compat-xp-xp35-11253-2sp",
+    "partId": "part-11253-2sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "6",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11253-2sp",
+    "partId": "part-11253-2sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "6",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11254-1",
     "partId": "part-11254-1",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1362,7 +1514,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25"
   },
   {
-    "id": "compat-xp45-11254-3",
+    "id": "compat-xp-xp45-11254-3",
     "partId": "part-11254-3",
     "familyId": "family-xp",
     "modelId": "model-xp45",
@@ -1371,39 +1523,115 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP45"
   },
   {
-    "id": "compat-family-11254-2",
+    "id": "compat-xp-xp25-11254-2",
     "partId": "part-11254-2",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "7",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-45579",
+    "id": "compat-xp-xp35-11254-2",
+    "partId": "part-11254-2",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "7",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11254-2",
+    "partId": "part-11254-2",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "7",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-45579",
     "partId": "part-45579",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "8",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-30805",
+    "id": "compat-xp-xp35-45579",
+    "partId": "part-45579",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "8",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-45579",
+    "partId": "part-45579",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "8",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-30805",
     "partId": "part-30805",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "9",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-verify-11255-1r",
+    "id": "compat-xp-xp35-30805",
+    "partId": "part-30805",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "9",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-30805",
+    "partId": "part-30805",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "9",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11255-1r",
     "partId": "part-11255-1r",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "10",
-    "compatibilityNotes": "Requires verification"
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-xp45-11255-2",
+    "id": "compat-xp-xp35-11255-1r",
+    "partId": "part-11255-1r",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "10",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-11255-1r",
+    "partId": "part-11255-1r",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "10",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-11255-2",
     "partId": "part-11255-2",
     "familyId": "family-xp",
     "modelId": "model-xp45",
@@ -1412,15 +1640,34 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP45"
   },
   {
-    "id": "compat-family-11256",
+    "id": "compat-xp-xp25-11256",
     "partId": "part-11256",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "11",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp35-31346",
+    "id": "compat-xp-xp35-11256",
+    "partId": "part-11256",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "11",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11256",
+    "partId": "part-11256",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "11",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp35-31346",
     "partId": "part-31346",
     "familyId": "family-xp",
     "modelId": "model-xp35",
@@ -1429,31 +1676,88 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP35"
   },
   {
-    "id": "compat-family-11252-16",
+    "id": "compat-xp-xp25-11252-16",
     "partId": "part-11252-16",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "13",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-11252-17",
+    "id": "compat-xp-xp35-11252-16",
+    "partId": "part-11252-16",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "13",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11252-16",
+    "partId": "part-11252-16",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "13",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11252-17",
     "partId": "part-11252-17",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "13",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-10209-204",
+    "id": "compat-xp-xp35-11252-17",
+    "partId": "part-11252-17",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "13",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11252-17",
+    "partId": "part-11252-17",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "13",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-10209-204",
     "partId": "part-10209-204",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "14",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp25-31491d",
+    "id": "compat-xp-xp35-10209-204",
+    "partId": "part-10209-204",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "14",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-10209-204",
+    "partId": "part-10209-204",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "14",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-31491d",
     "partId": "part-31491d",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1462,7 +1766,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25 and XP35"
   },
   {
-    "id": "compat-xp35-31491d",
+    "id": "compat-xp-xp35-31491d",
     "partId": "part-31491d",
     "familyId": "family-xp",
     "modelId": "model-xp35",
@@ -1471,7 +1775,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25 and XP35"
   },
   {
-    "id": "compat-xp25-31300sp",
+    "id": "compat-xp-xp25-31300sp",
     "partId": "part-31300sp",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1480,7 +1784,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25"
   },
   {
-    "id": "compat-xp25-32029sp",
+    "id": "compat-xp-xp25-32029sp",
     "partId": "part-32029sp",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1489,15 +1793,34 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25"
   },
   {
-    "id": "compat-family-45527",
+    "id": "compat-xp-xp25-45527",
     "partId": "part-45527",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "17",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp25-14828",
+    "id": "compat-xp-xp35-45527",
+    "partId": "part-45527",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "17",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-45527",
+    "partId": "part-45527",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "17",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-14828",
     "partId": "part-14828",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1506,7 +1829,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp35-14828",
+    "id": "compat-xp-xp35-14828",
     "partId": "part-14828",
     "familyId": "family-xp",
     "modelId": "model-xp35",
@@ -1515,7 +1838,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp45-14828",
+    "id": "compat-xp-xp45-14828",
     "partId": "part-14828",
     "familyId": "family-xp",
     "modelId": "model-xp45",
@@ -1524,15 +1847,34 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-43765",
+    "id": "compat-xp-xp25-43765",
     "partId": "part-43765",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "18",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp25-31330sp",
+    "id": "compat-xp-xp35-43765",
+    "partId": "part-43765",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "18",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-43765",
+    "partId": "part-43765",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "18",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-31330sp",
     "partId": "part-31330sp",
     "familyId": "family-xp",
     "modelId": "model-xp25",
@@ -1541,7 +1883,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25 and XP35"
   },
   {
-    "id": "compat-xp35-31330sp",
+    "id": "compat-xp-xp35-31330sp",
     "partId": "part-31330sp",
     "familyId": "family-xp",
     "modelId": "model-xp35",
@@ -1550,7 +1892,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP25 and XP35"
   },
   {
-    "id": "compat-xp35-31982sp",
+    "id": "compat-xp-xp35-31982sp",
     "partId": "part-31982sp",
     "familyId": "family-xp",
     "modelId": "model-xp35",
@@ -1559,47 +1901,142 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP35"
   },
   {
-    "id": "compat-family-45523",
+    "id": "compat-xp-xp25-45523",
     "partId": "part-45523",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "20",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-11591-1",
+    "id": "compat-xp-xp35-45523",
+    "partId": "part-45523",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "20",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-45523",
+    "partId": "part-45523",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "20",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11591-1",
     "partId": "part-11591-1",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "21",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-31372sp",
+    "id": "compat-xp-xp35-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "21",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "21",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-31372sp",
     "partId": "part-31372sp",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "22",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-11392-10",
+    "id": "compat-xp-xp35-31372sp",
+    "partId": "part-31372sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "22",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-31372sp",
+    "partId": "part-31372sp",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "22",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-11392-10",
     "partId": "part-11392-10",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "23",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-31269",
+    "id": "compat-xp-xp35-11392-10",
+    "partId": "part-11392-10",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "23",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-11392-10",
+    "partId": "part-11392-10",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "23",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-31269",
     "partId": "part-31269",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "24",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-xp35-31492",
+    "id": "compat-xp-xp35-31269",
+    "partId": "part-31269",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "24",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-31269",
+    "partId": "part-31269",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "24",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp35-31492",
     "partId": "part-31492",
     "familyId": "family-xp",
     "modelId": "model-xp35",
@@ -1608,7 +2045,7 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP35 and XP45"
   },
   {
-    "id": "compat-xp45-31492",
+    "id": "compat-xp-xp45-31492",
     "partId": "part-31492",
     "familyId": "family-xp",
     "modelId": "model-xp45",
@@ -1617,103 +2054,348 @@ export const xpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XP35 and XP45"
   },
   {
-    "id": "compat-family-43061",
+    "id": "compat-xp-xp25-43061",
     "partId": "part-43061",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "26",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-401487",
+    "id": "compat-xp-xp35-43061",
+    "partId": "part-43061",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "26",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-43061",
+    "partId": "part-43061",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "26",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-401487",
     "partId": "part-401487",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "26",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-pc15xj",
+    "id": "compat-xp-xp35-401487",
+    "partId": "part-401487",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "26",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-401487",
+    "partId": "part-401487",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "26",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-pc15xj",
     "partId": "part-pc15xj",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "27",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-44992",
+    "id": "compat-xp-xp35-pc15xj",
+    "partId": "part-pc15xj",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "27",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-pc15xj",
+    "partId": "part-pc15xj",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "27",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-44992",
     "partId": "part-44992",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "28",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-family-tt45",
+    "id": "compat-xp-xp35-44992",
+    "partId": "part-44992",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "28",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-44992",
+    "partId": "part-44992",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "28",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-tt45",
     "partId": "part-tt45",
     "familyId": "family-xp",
+    "modelId": "model-xp25",
     "diagramId": "diagram-xp",
     "diagramReference": "29",
-    "compatibilityNotes": "XP Series — model not confirmed"
+    "compatibilityNotes": "XP25, XP35 and XP45"
   },
   {
-    "id": "compat-verify-32323",
+    "id": "compat-xp-xp35-tt45",
+    "partId": "part-tt45",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "diagramId": "diagram-xp",
+    "diagramReference": "29",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp45-tt45",
+    "partId": "part-tt45",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "diagramId": "diagram-xp",
+    "diagramReference": "29",
+    "compatibilityNotes": "XP25, XP35 and XP45"
+  },
+  {
+    "id": "compat-xp-xp25-32323",
     "partId": "part-32323",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-32693",
+    "id": "compat-xp-xp35-32323",
+    "partId": "part-32323",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-32323",
+    "partId": "part-32323",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-32693",
     "partId": "part-32693",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-32694",
+    "id": "compat-xp-xp35-32693",
+    "partId": "part-32693",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-32693",
+    "partId": "part-32693",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-32694",
     "partId": "part-32694",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-32518",
+    "id": "compat-xp-xp35-32694",
+    "partId": "part-32694",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-32694",
+    "partId": "part-32694",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-32518",
     "partId": "part-32518",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-32519",
+    "id": "compat-xp-xp35-32518",
+    "partId": "part-32518",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-32518",
+    "partId": "part-32518",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-32519",
     "partId": "part-32519",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-32574",
+    "id": "compat-xp-xp35-32519",
+    "partId": "part-32519",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-32519",
+    "partId": "part-32519",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-32574",
     "partId": "part-32574",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-32754",
+    "id": "compat-xp-xp35-32574",
+    "partId": "part-32574",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-32574",
+    "partId": "part-32574",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-32754",
     "partId": "part-32754",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-48871",
+    "id": "compat-xp-xp35-32754",
+    "partId": "part-32754",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-32754",
+    "partId": "part-32754",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-48871",
     "partId": "part-48871",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-24002c",
+    "id": "compat-xp-xp35-48871",
+    "partId": "part-48871",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-48871",
+    "partId": "part-48871",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-24002c",
     "partId": "part-24002c",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   },
   {
-    "id": "compat-verify-24008p",
+    "id": "compat-xp-xp35-24002c",
+    "partId": "part-24002c",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-24002c",
+    "partId": "part-24002c",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp25-24008p",
     "partId": "part-24008p",
     "familyId": "family-xp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xp25",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp35-24008p",
+    "partId": "part-24008p",
+    "familyId": "family-xp",
+    "modelId": "model-xp35",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
+  },
+  {
+    "id": "compat-xp-xp45-24008p",
+    "partId": "part-24008p",
+    "familyId": "family-xp",
+    "modelId": "model-xp45",
+    "compatibilityNotes": "XP25, XP35 and XP45 — requires verification"
   }
 ];

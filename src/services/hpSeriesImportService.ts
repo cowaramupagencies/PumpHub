@@ -9,6 +9,7 @@ import type {
 } from "@/types";
 import type { DraftPartRecord, HpSeriesImportDraft, ImportHistoryRecord } from "@/types/catalogue-import";
 import { partIdFromNumber } from "@/lib/ricambio/part-id";
+import { buildSeriesCompatibilities } from "@/lib/ricambio/build-compatibilities";
 import { seedBrand, seedCategory } from "@/data/seed/demo-data";
 import { HP_SERIES_CURVE_IMAGE, HP_SERIES_PUMP_IMAGE } from "@/utils/pumps";
 
@@ -23,78 +24,6 @@ function mapAvailability(part: DraftPartRecord): Part["availability"] {
     return "verify";
   }
   return "unknown";
-}
-
-function compatibilityLabel(scope: DraftPartRecord["compatibilityScope"]): string {
-  switch (scope) {
-    case "hp45":
-      return "HP45";
-    case "hp65":
-      return "HP65";
-    case "hp85":
-      return "HP85";
-    case "hp45_hp65":
-      return "HP45 and HP65";
-    case "hp_all":
-    case "both":
-      return "HP45, HP65 and HP85";
-    case "family":
-      return "HP Series — model not confirmed";
-    default:
-      return "Requires verification";
-  }
-}
-
-function buildCompatibilities(
-  partId: string,
-  draftPart: DraftPartRecord,
-  diagramId: string,
-): PartCompatibility[] {
-  const ref = draftPart.diagramReference ?? undefined;
-  const note = compatibilityLabel(draftPart.compatibilityScope);
-  const rows: PartCompatibility[] = [];
-
-  const add = (modelId: string | undefined, idSuffix: string) => {
-    rows.push({
-      id: `compat-${idSuffix}-${partId.replace("part-", "")}`,
-      partId,
-      familyId: FAMILY_ID,
-      modelId,
-      diagramId: ref ? diagramId : undefined,
-      diagramReference: ref,
-      compatibilityNotes: note,
-    });
-  };
-
-  switch (draftPart.compatibilityScope) {
-    case "hp45":
-      add(HP45_ID, "hp45");
-      break;
-    case "hp65":
-      add(HP65_ID, "hp65");
-      break;
-    case "hp85":
-      add(HP85_ID, "hp85");
-      break;
-    case "hp45_hp65":
-      add(HP45_ID, "hp45");
-      add(HP65_ID, "hp65");
-      break;
-    case "hp_all":
-    case "both":
-      add(HP45_ID, "hp45");
-      add(HP65_ID, "hp65");
-      add(HP85_ID, "hp85");
-      break;
-    case "family":
-      add(undefined, "family");
-      break;
-    default:
-      add(undefined, "verify");
-      break;
-  }
-
-  return rows;
 }
 
 export async function approveHpSeriesImport(draft: HpSeriesImportDraft): Promise<ImportHistoryRecord> {
@@ -228,7 +157,7 @@ export async function approveHpSeriesImport(draft: HpSeriesImportDraft): Promise
       },
     });
 
-    compatibilities.push(...buildCompatibilities(partId, draftPart, DIAGRAM_ID));
+    compatibilities.push(...buildSeriesCompatibilities("hp", partId, draftPart));
   }
 
   const partIdByNumber = new Map(parts.map((p) => [p.partNumber, p.id]));

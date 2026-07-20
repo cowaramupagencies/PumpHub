@@ -18,10 +18,8 @@ export function HomePage() {
 
   return (
     <div className="space-y-7 pb-4">
-      <div className="overflow-hidden rounded-2xl bg-davey-black px-6 py-5 text-center">
-        <div className="mx-auto w-2/3">
-          <DaveyLogo variant="wordmark" priority />
-        </div>
+      <div className="overflow-hidden rounded-2xl bg-davey-black px-8 py-10 text-center">
+        <DaveyLogo variant="wordmark" priority className="mx-auto w-full max-w-[22rem]" />
       </div>
 
       <div>

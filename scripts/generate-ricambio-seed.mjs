@@ -56,6 +56,11 @@ function partIdFromNumber(partNumber) {
   return idFromNumber(partNumber);
 }
 
+function buildSeriesCompatibilitiesForSeed(series, partId, draftPart) {
+  const { buildSeriesCompatibilities } = loadTsModule("src/lib/ricambio/build-compatibilities.ts");
+  return buildSeriesCompatibilities(series, partId, draftPart);
+}
+
 const FAMILY_ID = {
   hs: "family-hs",
   hp: "family-hp",
@@ -71,221 +76,6 @@ const DIAGRAM_ID = {
   xj: "diagram-xj",
   xp: "diagram-xp",
 };
-
-function compatNote(scope, series) {
-  const notes = {
-    hs: {
-      hs50: "HS50",
-      hs60: "HS60",
-      both: "HS50 and HS60",
-      family: "HS Series — model not confirmed",
-      verify: "Requires verification",
-    },
-    hp: {
-      hp45: "HP45",
-      hp65: "HP65",
-      hp85: "HP85",
-      hp45_hp65: "HP45 and HP65",
-      hp_all: "HP45, HP65 and HP85",
-      both: "HP45, HP65 and HP85",
-      family: "HP Series — model not confirmed",
-      verify: "Requires verification",
-    },
-    hm: {
-      hm60: "HM60",
-      hm90: "HM90",
-      hm160: "HM160",
-      hm270: "HM270",
-      hm60_hm90: "HM60 and HM90",
-      hm160_hm270: "HM160 and HM270",
-      hm_all: "HM60, HM90, HM160 and HM270",
-      family: "HM Series — model not confirmed",
-      verify: "Requires verification",
-    },
-    xj: {
-      xj50: "XJ50",
-      xj70: "XJ70",
-      xj90: "XJ90",
-      xj50_xj70: "XJ50 and XJ70",
-      xj_all: "XJ50, XJ70 and XJ90",
-      both: "XJ50, XJ70 and XJ90",
-      family: "XJ Series — model not confirmed",
-      verify: "Requires verification",
-    },
-    xp: {
-      xp25: "XP25",
-      xp35: "XP35",
-      xp45: "XP45",
-      xp25_xp35: "XP25 and XP35",
-      xp35_xp45: "XP35 and XP45",
-      xp_all: "XP25, XP35 and XP45",
-      family: "XP Series — model not confirmed",
-      verify: "Requires verification",
-    },
-  };
-  return notes[series][scope] ?? "Requires verification";
-}
-
-function compatRows(series, partId, draftPart) {
-  const ref = draftPart.diagramReference ?? undefined;
-  const note = compatNote(draftPart.compatibilityScope, series);
-  const familyId = FAMILY_ID[series];
-  const diagramId = DIAGRAM_ID[series];
-  const rows = [];
-  const add = (modelId, suffix) => {
-    rows.push({
-      id: `compat-${suffix}-${partId.replace("part-", "")}`,
-      partId,
-      familyId,
-      modelId,
-      diagramId: ref ? diagramId : undefined,
-      diagramReference: ref,
-      compatibilityNotes: note,
-    });
-  };
-
-  const M = {
-    hs: {
-      hs50: "model-hs50",
-      hs60: "model-hs60",
-    },
-    hp: {
-      hp45: "model-hp45",
-      hp65: "model-hp65",
-      hp85: "model-hp85",
-    },
-    hm: {
-      hm60: "model-hm60",
-      hm90: "model-hm90",
-      hm160: "model-hm160",
-      hm270: "model-hm270",
-    },
-    xj: {
-      xj50: "model-xj50",
-      xj70: "model-xj70",
-      xj90: "model-xj90",
-    },
-    xp: {
-      xp25: "model-xp25",
-      xp35: "model-xp35",
-      xp45: "model-xp45",
-    },
-  }[series];
-
-  switch (draftPart.compatibilityScope) {
-    case "hs50":
-      add(M.hs50, "hs50");
-      break;
-    case "hs60":
-      add(M.hs60, "hs60");
-      break;
-    case "both":
-      if (series === "hs") {
-        add(M.hs50, "hs50");
-        add(M.hs60, "hs60");
-      } else if (series === "hp") {
-        add(M.hp45, "hp45");
-        add(M.hp65, "hp65");
-        add(M.hp85, "hp85");
-      } else if (series === "xj") {
-        add(M.xj50, "xj50");
-        add(M.xj70, "xj70");
-        add(M.xj90, "xj90");
-      }
-      break;
-    case "hp45":
-      add(M.hp45, "hp45");
-      break;
-    case "hp65":
-      add(M.hp65, "hp65");
-      break;
-    case "hp85":
-      add(M.hp85, "hp85");
-      break;
-    case "hp45_hp65":
-      add(M.hp45, "hp45");
-      add(M.hp65, "hp65");
-      break;
-    case "hp_all":
-      add(M.hp45, "hp45");
-      add(M.hp65, "hp65");
-      add(M.hp85, "hp85");
-      break;
-    case "hm60":
-      add(M.hm60, "hm60");
-      break;
-    case "hm90":
-      add(M.hm90, "hm90");
-      break;
-    case "hm160":
-      add(M.hm160, "hm160");
-      break;
-    case "hm270":
-      add(M.hm270, "hm270");
-      break;
-    case "hm60_hm90":
-      add(M.hm60, "hm60");
-      add(M.hm90, "hm90");
-      break;
-    case "hm160_hm270":
-      add(M.hm160, "hm160");
-      add(M.hm270, "hm270");
-      break;
-    case "hm_all":
-      add(M.hm60, "hm60");
-      add(M.hm90, "hm90");
-      add(M.hm160, "hm160");
-      add(M.hm270, "hm270");
-      break;
-    case "xj50":
-      add(M.xj50, "xj50");
-      break;
-    case "xj70":
-      add(M.xj70, "xj70");
-      break;
-    case "xj90":
-      add(M.xj90, "xj90");
-      break;
-    case "xj50_xj70":
-      add(M.xj50, "xj50");
-      add(M.xj70, "xj70");
-      break;
-    case "xj_all":
-      add(M.xj50, "xj50");
-      add(M.xj70, "xj70");
-      add(M.xj90, "xj90");
-      break;
-    case "xp25":
-      add(M.xp25, "xp25");
-      break;
-    case "xp35":
-      add(M.xp35, "xp35");
-      break;
-    case "xp45":
-      add(M.xp45, "xp45");
-      break;
-    case "xp25_xp35":
-      add(M.xp25, "xp25");
-      add(M.xp35, "xp35");
-      break;
-    case "xp35_xp45":
-      add(M.xp35, "xp35");
-      add(M.xp45, "xp45");
-      break;
-    case "xp_all":
-      add(M.xp25, "xp25");
-      add(M.xp35, "xp35");
-      add(M.xp45, "xp45");
-      break;
-    case "family":
-      add(undefined, "family");
-      break;
-    default:
-      add(undefined, "verify");
-      break;
-  }
-  return rows;
-}
 
 const SERIES = {
   hs: {
@@ -731,7 +521,7 @@ function generateSeries(key) {
   }));
 
   const compatibilities = draftParts.flatMap((draftPart) =>
-    compatRows(key, partIdFromNumber(draftPart.partNumber), draftPart),
+    buildSeriesCompatibilitiesForSeed(key, partIdFromNumber(draftPart.partNumber), draftPart),
   );
 
   const partIdByNumber = new Map(parts.map((p) => [p.partNumber, p.id]));

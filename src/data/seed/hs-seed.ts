@@ -968,7 +968,7 @@ export const hsSeedParts: Part[] = [
 
 export const hsSeedCompatibilities: PartCompatibility[] = [
   {
-    "id": "compat-hs50-781",
+    "id": "compat-hs-hs50-781",
     "partId": "part-781",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -977,7 +977,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-781",
+    "id": "compat-hs-hs60-781",
     "partId": "part-781",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -986,7 +986,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-782",
+    "id": "compat-hs-hs60-782",
     "partId": "part-782",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -995,7 +995,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS60"
   },
   {
-    "id": "compat-hs50-31618",
+    "id": "compat-hs-hs50-31618",
     "partId": "part-31618",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1004,7 +1004,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-31618",
+    "id": "compat-hs-hs60-31618",
     "partId": "part-31618",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1013,7 +1013,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-12551",
+    "id": "compat-hs-hs50-12551",
     "partId": "part-12551",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1022,7 +1022,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12551",
+    "id": "compat-hs-hs60-12551",
     "partId": "part-12551",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1031,7 +1031,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-43403",
+    "id": "compat-hs-hs50-43403",
     "partId": "part-43403",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1040,7 +1040,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-43403",
+    "id": "compat-hs-hs60-43403",
     "partId": "part-43403",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1049,7 +1049,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-49771",
+    "id": "compat-hs-hs50-49771",
     "partId": "part-49771",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1058,7 +1058,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-49771",
+    "id": "compat-hs-hs60-49771",
     "partId": "part-49771",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1067,7 +1067,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-40019",
+    "id": "compat-hs-hs50-40019",
     "partId": "part-40019",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1076,7 +1076,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-40019",
+    "id": "compat-hs-hs60-40019",
     "partId": "part-40019",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1085,7 +1085,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-401573",
+    "id": "compat-hs-hs50-401573",
     "partId": "part-401573",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1094,7 +1094,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-401573",
+    "id": "compat-hs-hs60-401573",
     "partId": "part-401573",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1103,7 +1103,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-12538sp",
+    "id": "compat-hs-hs50-12538sp",
     "partId": "part-12538sp",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1112,7 +1112,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12538sp",
+    "id": "compat-hs-hs60-12538sp",
     "partId": "part-12538sp",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1121,7 +1121,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-12545",
+    "id": "compat-hs-hs50-12545",
     "partId": "part-12545",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1130,7 +1130,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50"
   },
   {
-    "id": "compat-hs60-12559",
+    "id": "compat-hs-hs60-12559",
     "partId": "part-12559",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1139,7 +1139,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS60"
   },
   {
-    "id": "compat-hs50-12548-10",
+    "id": "compat-hs-hs50-12548-10",
     "partId": "part-12548-10",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1148,7 +1148,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12548-10",
+    "id": "compat-hs-hs60-12548-10",
     "partId": "part-12548-10",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1157,7 +1157,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-32015",
+    "id": "compat-hs-hs50-32015",
     "partId": "part-32015",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1166,7 +1166,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-32015",
+    "id": "compat-hs-hs60-32015",
     "partId": "part-32015",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1175,7 +1175,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-12543-10",
+    "id": "compat-hs-hs50-12543-10",
     "partId": "part-12543-10",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1184,7 +1184,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12543-10",
+    "id": "compat-hs-hs60-12543-10",
     "partId": "part-12543-10",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1193,7 +1193,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-12541-10",
+    "id": "compat-hs-hs50-12541-10",
     "partId": "part-12541-10",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1202,7 +1202,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12541-10",
+    "id": "compat-hs-hs60-12541-10",
     "partId": "part-12541-10",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1211,7 +1211,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-13197",
+    "id": "compat-hs-hs50-13197",
     "partId": "part-13197",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1220,7 +1220,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-13197",
+    "id": "compat-hs-hs60-13197",
     "partId": "part-13197",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1229,7 +1229,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-12544-30",
+    "id": "compat-hs-hs50-12544-30",
     "partId": "part-12544-30",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1238,7 +1238,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12544-30",
+    "id": "compat-hs-hs60-12544-30",
     "partId": "part-12544-30",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1247,7 +1247,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-12695",
+    "id": "compat-hs-hs50-12695",
     "partId": "part-12695",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1256,7 +1256,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12695",
+    "id": "compat-hs-hs60-12695",
     "partId": "part-12695",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1265,7 +1265,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-s34m06208",
+    "id": "compat-hs-hs50-s34m06208",
     "partId": "part-s34m06208",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1274,7 +1274,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-s34m06208",
+    "id": "compat-hs-hs60-s34m06208",
     "partId": "part-s34m06208",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1283,7 +1283,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-31623",
+    "id": "compat-hs-hs50-31623",
     "partId": "part-31623",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1292,7 +1292,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-31623",
+    "id": "compat-hs-hs60-31623",
     "partId": "part-31623",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1301,7 +1301,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs50-11091",
+    "id": "compat-hs-hs50-11091",
     "partId": "part-11091",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1310,7 +1310,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-11091",
+    "id": "compat-hs-hs60-11091",
     "partId": "part-11091",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1319,15 +1319,25 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-verify-31573",
+    "id": "compat-hs-hs50-31573",
     "partId": "part-31573",
     "familyId": "family-hs",
+    "modelId": "model-hs50",
     "diagramId": "diagram-hs",
     "diagramReference": "10",
-    "compatibilityNotes": "Requires verification"
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-hs50-12665sp",
+    "id": "compat-hs-hs60-31573",
+    "partId": "part-31573",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "diagramId": "diagram-hs",
+    "diagramReference": "10",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-12665sp",
     "partId": "part-12665sp",
     "familyId": "family-hs",
     "modelId": "model-hs50",
@@ -1336,7 +1346,7 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-hs60-12665sp",
+    "id": "compat-hs-hs60-12665sp",
     "partId": "part-12665sp",
     "familyId": "family-hs",
     "modelId": "model-hs60",
@@ -1345,75 +1355,165 @@ export const hsSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HS50 and HS60"
   },
   {
-    "id": "compat-verify-12618d",
+    "id": "compat-hs-hs50-12618d",
     "partId": "part-12618d",
     "familyId": "family-hs",
+    "modelId": "model-hs50",
     "diagramId": "diagram-hs",
     "diagramReference": "12",
-    "compatibilityNotes": "Requires verification"
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-32320-1sp",
+    "id": "compat-hs-hs60-12618d",
+    "partId": "part-12618d",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "diagramId": "diagram-hs",
+    "diagramReference": "12",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-32320-1sp",
     "partId": "part-32320-1sp",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-11392-10",
+    "id": "compat-hs-hs60-32320-1sp",
+    "partId": "part-32320-1sp",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-11392-10",
     "partId": "part-11392-10",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-11591-1",
+    "id": "compat-hs-hs60-11392-10",
+    "partId": "part-11392-10",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-11591-1",
     "partId": "part-11591-1",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-31610-300",
+    "id": "compat-hs-hs60-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-31610-300",
     "partId": "part-31610-300",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-pcsj22",
+    "id": "compat-hs-hs60-31610-300",
+    "partId": "part-31610-300",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-pcsj22",
     "partId": "part-pcsj22",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-tt45",
+    "id": "compat-hs-hs60-pcsj22",
+    "partId": "part-pcsj22",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-tt45",
     "partId": "part-tt45",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-tt70",
+    "id": "compat-hs-hs60-tt45",
+    "partId": "part-tt45",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-tt70",
     "partId": "part-tt70",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-32323",
+    "id": "compat-hs-hs60-tt70",
+    "partId": "part-tt70",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-32323",
     "partId": "part-32323",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-401487",
+    "id": "compat-hs-hs60-32323",
+    "partId": "part-32323",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-401487",
     "partId": "part-401487",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-verify-32960",
+    "id": "compat-hs-hs60-401487",
+    "partId": "part-401487",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-32960",
     "partId": "part-32960",
     "familyId": "family-hs",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hs50",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
   },
   {
-    "id": "compat-hs50-32578",
+    "id": "compat-hs-hs60-32960",
+    "partId": "part-32960",
+    "familyId": "family-hs",
+    "modelId": "model-hs60",
+    "compatibilityNotes": "HS50 and HS60 — requires verification"
+  },
+  {
+    "id": "compat-hs-hs50-32578",
     "partId": "part-32578",
     "familyId": "family-hs",
     "modelId": "model-hs50",

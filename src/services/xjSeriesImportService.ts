@@ -9,6 +9,7 @@ import type {
 } from "@/types";
 import type { DraftPartRecord, ImportHistoryRecord, XjSeriesImportDraft } from "@/types/catalogue-import";
 import { partIdFromNumber } from "@/lib/ricambio/part-id";
+import { buildSeriesCompatibilities } from "@/lib/ricambio/build-compatibilities";
 import { seedBrand, seedCategory } from "@/data/seed/demo-data";
 import {
   XJ50_CURVE_IMAGE,
@@ -28,78 +29,6 @@ function mapAvailability(part: DraftPartRecord): Part["availability"] {
     return "verify";
   }
   return "unknown";
-}
-
-function compatibilityLabel(scope: DraftPartRecord["compatibilityScope"]): string {
-  switch (scope) {
-    case "xj50":
-      return "XJ50";
-    case "xj70":
-      return "XJ70";
-    case "xj90":
-      return "XJ90";
-    case "xj50_xj70":
-      return "XJ50 and XJ70";
-    case "xj_all":
-    case "both":
-      return "XJ50, XJ70 and XJ90";
-    case "family":
-      return "XJ Series — model not confirmed";
-    default:
-      return "Requires verification";
-  }
-}
-
-function buildCompatibilities(
-  partId: string,
-  draftPart: DraftPartRecord,
-  diagramId: string,
-): PartCompatibility[] {
-  const ref = draftPart.diagramReference ?? undefined;
-  const note = compatibilityLabel(draftPart.compatibilityScope);
-  const rows: PartCompatibility[] = [];
-
-  const add = (modelId: string | undefined, idSuffix: string) => {
-    rows.push({
-      id: `compat-${idSuffix}-${partId.replace("part-", "")}`,
-      partId,
-      familyId: FAMILY_ID,
-      modelId,
-      diagramId: ref ? diagramId : undefined,
-      diagramReference: ref,
-      compatibilityNotes: note,
-    });
-  };
-
-  switch (draftPart.compatibilityScope) {
-    case "xj50":
-      add(XJ50_ID, "xj50");
-      break;
-    case "xj70":
-      add(XJ70_ID, "xj70");
-      break;
-    case "xj90":
-      add(XJ90_ID, "xj90");
-      break;
-    case "xj50_xj70":
-      add(XJ50_ID, "xj50");
-      add(XJ70_ID, "xj70");
-      break;
-    case "xj_all":
-    case "both":
-      add(XJ50_ID, "xj50");
-      add(XJ70_ID, "xj70");
-      add(XJ90_ID, "xj90");
-      break;
-    case "family":
-      add(undefined, "family");
-      break;
-    default:
-      add(undefined, "verify");
-      break;
-  }
-
-  return rows;
 }
 
 export async function approveXjSeriesImport(draft: XjSeriesImportDraft): Promise<ImportHistoryRecord> {
@@ -230,7 +159,7 @@ export async function approveXjSeriesImport(draft: XjSeriesImportDraft): Promise
       },
     });
 
-    compatibilities.push(...buildCompatibilities(partId, draftPart, DIAGRAM_ID));
+    compatibilities.push(...buildSeriesCompatibilities("xj", partId, draftPart));
   }
 
   const partIdByNumber = new Map(parts.map((p) => [p.partNumber, p.id]));

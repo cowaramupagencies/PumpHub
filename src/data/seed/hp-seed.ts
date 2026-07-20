@@ -901,7 +901,7 @@ export const hpSeedParts: Part[] = [
 
 export const hpSeedCompatibilities: PartCompatibility[] = [
   {
-    "id": "compat-hp45-7000",
+    "id": "compat-hp-hp45-7000",
     "partId": "part-7000",
     "familyId": "family-hp",
     "modelId": "model-hp45",
@@ -910,7 +910,7 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP45 and HP65"
   },
   {
-    "id": "compat-hp65-7000",
+    "id": "compat-hp-hp65-7000",
     "partId": "part-7000",
     "familyId": "family-hp",
     "modelId": "model-hp65",
@@ -919,7 +919,7 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP45 and HP65"
   },
   {
-    "id": "compat-hp85-7001",
+    "id": "compat-hp-hp85-7001",
     "partId": "part-7001",
     "familyId": "family-hp",
     "modelId": "model-hp85",
@@ -928,7 +928,7 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP85"
   },
   {
-    "id": "compat-hp45-7064",
+    "id": "compat-hp-hp45-7064",
     "partId": "part-7064",
     "familyId": "family-hp",
     "modelId": "model-hp45",
@@ -937,7 +937,7 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP45 and HP65"
   },
   {
-    "id": "compat-hp65-7064",
+    "id": "compat-hp-hp65-7064",
     "partId": "part-7064",
     "familyId": "family-hp",
     "modelId": "model-hp65",
@@ -946,7 +946,7 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP45 and HP65"
   },
   {
-    "id": "compat-hp85-7065",
+    "id": "compat-hp-hp85-7065",
     "partId": "part-7065",
     "familyId": "family-hp",
     "modelId": "model-hp85",
@@ -955,47 +955,142 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP85"
   },
   {
-    "id": "compat-family-14406-20",
+    "id": "compat-hp-hp45-14406-20",
     "partId": "part-14406-20",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "2",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-12252sp",
+    "id": "compat-hp-hp65-14406-20",
+    "partId": "part-14406-20",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "2",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-14406-20",
+    "partId": "part-14406-20",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "2",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-12252sp",
     "partId": "part-12252sp",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "3",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-12252-1sp",
+    "id": "compat-hp-hp65-12252sp",
+    "partId": "part-12252sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "3",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-12252sp",
+    "partId": "part-12252sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "3",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-12252-1sp",
     "partId": "part-12252-1sp",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "3",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-48802sp",
+    "id": "compat-hp-hp65-12252-1sp",
+    "partId": "part-12252-1sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "3",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-12252-1sp",
+    "partId": "part-12252-1sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "3",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-48802sp",
     "partId": "part-48802sp",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "4",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-11448",
+    "id": "compat-hp-hp65-48802sp",
+    "partId": "part-48802sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "4",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-48802sp",
+    "partId": "part-48802sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "4",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-11448",
     "partId": "part-11448",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "5",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-hp45-12889sp",
+    "id": "compat-hp-hp65-11448",
+    "partId": "part-11448",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "5",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-11448",
+    "partId": "part-11448",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "5",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-12889sp",
     "partId": "part-12889sp",
     "familyId": "family-hp",
     "modelId": "model-hp45",
@@ -1004,7 +1099,7 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP45"
   },
   {
-    "id": "compat-hp65-12890sp",
+    "id": "compat-hp-hp65-12890sp",
     "partId": "part-12890sp",
     "familyId": "family-hp",
     "modelId": "model-hp65",
@@ -1013,7 +1108,7 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP65"
   },
   {
-    "id": "compat-hp85-12891sp",
+    "id": "compat-hp-hp85-12891sp",
     "partId": "part-12891sp",
     "familyId": "family-hp",
     "modelId": "model-hp85",
@@ -1022,193 +1117,651 @@ export const hpSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "HP85"
   },
   {
-    "id": "compat-family-12548-10",
+    "id": "compat-hp-hp45-12548-10",
     "partId": "part-12548-10",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "7",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-128066",
+    "id": "compat-hp-hp65-12548-10",
+    "partId": "part-12548-10",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "7",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-12548-10",
+    "partId": "part-12548-10",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "7",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-128066",
     "partId": "part-128066",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "8",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-10963-10",
+    "id": "compat-hp-hp65-128066",
+    "partId": "part-128066",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "8",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-128066",
+    "partId": "part-128066",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "8",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-10963-10",
     "partId": "part-10963-10",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "9",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-12883-1",
+    "id": "compat-hp-hp65-10963-10",
+    "partId": "part-10963-10",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "9",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-10963-10",
+    "partId": "part-10963-10",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "9",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-12883-1",
     "partId": "part-12883-1",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "10",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-491076",
+    "id": "compat-hp-hp65-12883-1",
+    "partId": "part-12883-1",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "10",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-12883-1",
+    "partId": "part-12883-1",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "10",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-491076",
     "partId": "part-491076",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "11",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-40021",
+    "id": "compat-hp-hp65-491076",
+    "partId": "part-491076",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "11",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-491076",
+    "partId": "part-491076",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "11",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-40021",
     "partId": "part-40021",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "12",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-42998",
+    "id": "compat-hp-hp65-40021",
+    "partId": "part-40021",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "12",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-40021",
+    "partId": "part-40021",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "12",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-42998",
     "partId": "part-42998",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "13",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-12797-1",
+    "id": "compat-hp-hp65-42998",
+    "partId": "part-42998",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "13",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-42998",
+    "partId": "part-42998",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "13",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-12797-1",
     "partId": "part-12797-1",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "14",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-12782d",
+    "id": "compat-hp-hp65-12797-1",
+    "partId": "part-12797-1",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "14",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-12797-1",
+    "partId": "part-12797-1",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "14",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-12782d",
     "partId": "part-12782d",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "15",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-11091",
+    "id": "compat-hp-hp65-12782d",
+    "partId": "part-12782d",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "15",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-12782d",
+    "partId": "part-12782d",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "15",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-11091",
     "partId": "part-11091",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "16",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-45031",
+    "id": "compat-hp-hp65-11091",
+    "partId": "part-11091",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "16",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-11091",
+    "partId": "part-11091",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "16",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-45031",
     "partId": "part-45031",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "17",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-11682",
+    "id": "compat-hp-hp65-45031",
+    "partId": "part-45031",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "17",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-45031",
+    "partId": "part-45031",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "17",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-11682",
     "partId": "part-11682",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "18",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-11682-1",
+    "id": "compat-hp-hp65-11682",
+    "partId": "part-11682",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "18",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-11682",
+    "partId": "part-11682",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "18",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-11682-1",
     "partId": "part-11682-1",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "18",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-31269",
+    "id": "compat-hp-hp65-11682-1",
+    "partId": "part-11682-1",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "18",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-11682-1",
+    "partId": "part-11682-1",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "18",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-31269",
     "partId": "part-31269",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "19",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-32320-1sp",
+    "id": "compat-hp-hp65-31269",
+    "partId": "part-31269",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "19",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-31269",
+    "partId": "part-31269",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "19",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-32320-1sp",
     "partId": "part-32320-1sp",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "20",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-401487",
+    "id": "compat-hp-hp65-32320-1sp",
+    "partId": "part-32320-1sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "20",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-32320-1sp",
+    "partId": "part-32320-1sp",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "20",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-401487",
     "partId": "part-401487",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "21",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-family-tt45",
+    "id": "compat-hp-hp65-401487",
+    "partId": "part-401487",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "21",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-401487",
+    "partId": "part-401487",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "21",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-tt45",
     "partId": "part-tt45",
     "familyId": "family-hp",
+    "modelId": "model-hp45",
     "diagramId": "diagram-hp",
     "diagramReference": "22",
-    "compatibilityNotes": "HP Series — model not confirmed"
+    "compatibilityNotes": "HP45, HP65 and HP85"
   },
   {
-    "id": "compat-verify-32323",
+    "id": "compat-hp-hp65-tt45",
+    "partId": "part-tt45",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "diagramId": "diagram-hp",
+    "diagramReference": "22",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp85-tt45",
+    "partId": "part-tt45",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "diagramId": "diagram-hp",
+    "diagramReference": "22",
+    "compatibilityNotes": "HP45, HP65 and HP85"
+  },
+  {
+    "id": "compat-hp-hp45-32323",
     "partId": "part-32323",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-32693",
+    "id": "compat-hp-hp65-32323",
+    "partId": "part-32323",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-32323",
+    "partId": "part-32323",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-32693",
     "partId": "part-32693",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-32694",
+    "id": "compat-hp-hp65-32693",
+    "partId": "part-32693",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-32693",
+    "partId": "part-32693",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-32694",
     "partId": "part-32694",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-w35m10026",
+    "id": "compat-hp-hp65-32694",
+    "partId": "part-32694",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-32694",
+    "partId": "part-32694",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-w35m10026",
     "partId": "part-w35m10026",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-32753",
+    "id": "compat-hp-hp65-w35m10026",
+    "partId": "part-w35m10026",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-w35m10026",
+    "partId": "part-w35m10026",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-32753",
     "partId": "part-32753",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-32579",
+    "id": "compat-hp-hp65-32753",
+    "partId": "part-32753",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-32753",
+    "partId": "part-32753",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-32579",
     "partId": "part-32579",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-pcsj15",
+    "id": "compat-hp-hp65-32579",
+    "partId": "part-32579",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-32579",
+    "partId": "part-32579",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-pcsj15",
     "partId": "part-pcsj15",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-32832",
+    "id": "compat-hp-hp65-pcsj15",
+    "partId": "part-pcsj15",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-pcsj15",
+    "partId": "part-pcsj15",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-32832",
     "partId": "part-32832",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   },
   {
-    "id": "compat-verify-32909",
+    "id": "compat-hp-hp65-32832",
+    "partId": "part-32832",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-32832",
+    "partId": "part-32832",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp45-32909",
     "partId": "part-32909",
     "familyId": "family-hp",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-hp45",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp65-32909",
+    "partId": "part-32909",
+    "familyId": "family-hp",
+    "modelId": "model-hp65",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
+  },
+  {
+    "id": "compat-hp-hp85-32909",
+    "partId": "part-32909",
+    "familyId": "family-hp",
+    "modelId": "model-hp85",
+    "compatibilityNotes": "HP45, HP65 and HP85 — requires verification"
   }
 ];

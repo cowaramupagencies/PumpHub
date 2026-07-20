@@ -2,13 +2,11 @@
 
 import { useEffect } from "react";
 import { useParams, useRouter } from "next/navigation";
-import Link from "next/link";
-import { ChevronRight } from "lucide-react";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { Button } from "@/components/ui/Button";
 import { Card, LoadingSpinner } from "@/components/ui/Card";
 import { PumpFamilyTile } from "@/components/pumps/PumpFamilyTile";
-import { PumpImage } from "@/components/pumps/PumpImage";
+import { PumpModelTile } from "@/components/pumps/PumpModelTile";
 import { useDbLiveQuery } from "@/hooks/useDatabase";
 import { pumpRepository } from "@/data/repositories/pumpRepository";
 import { getDb } from "@/data/database/db";
@@ -95,28 +93,18 @@ export function BrowsePumpsPage() {
           onBack={() => router.push(`${DAVEY_BASE}/browse`)}
         />
 
-        <div className="space-y-3">
-          {(models ?? []).map((model) => (
-            <Link key={model.id} href={`${DAVEY_BASE}/pumps/${model.slug}`}>
-              <Button fullWidth variant="ghost" className="h-auto justify-between gap-3 py-3 text-left">
-                <div className="flex min-w-0 flex-1 items-center gap-3">
-                  <PumpImage
-                    slug={model.slug}
-                    name={model.name}
-                    imageUrl={model.imageUrl}
-                    familySlug={activeFamily.slug}
-                    size="sm"
-                  />
-                  <div className="min-w-0">
-                    <span className="block text-xl font-bold">{model.name}</span>
-                    {model.modelCode && (
-                      <span className="block text-sm font-normal text-muted">{model.modelCode}</span>
-                    )}
-                  </div>
-                </div>
-                <ChevronRight className="h-6 w-6 shrink-0" />
-              </Button>
-            </Link>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
+          {(models ?? []).map((model, index) => (
+            <PumpModelTile
+              key={model.id}
+              slug={model.slug}
+              name={model.name}
+              modelCode={model.modelCode}
+              href={`${DAVEY_BASE}/pumps/${model.slug}`}
+              familySlug={activeFamily.slug}
+              imageUrl={model.imageUrl}
+              priority={index < 3}
+            />
           ))}
         </div>
 

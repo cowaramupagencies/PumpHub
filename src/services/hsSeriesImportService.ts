@@ -9,6 +9,7 @@ import type {
 } from "@/types";
 import type { DraftPartRecord, HsSeriesImportDraft, ImportHistoryRecord } from "@/types/catalogue-import";
 import { partIdFromNumber } from "@/lib/ricambio/part-id";
+import { buildSeriesCompatibilities } from "@/lib/ricambio/build-compatibilities";
 import { seedBrand, seedCategory } from "@/data/seed/demo-data";
 import { HS_SERIES_CURVE_IMAGE } from "@/utils/pumps";
 
@@ -22,64 +23,6 @@ function mapAvailability(part: DraftPartRecord): Part["availability"] {
     return "verify";
   }
   return "unknown";
-}
-
-function compatibilityLabel(scope: DraftPartRecord["compatibilityScope"]): string {
-  switch (scope) {
-    case "hs50":
-      return "HS50";
-    case "hs60":
-      return "HS60";
-    case "both":
-      return "HS50 and HS60";
-    case "family":
-      return "HS Series — model not confirmed";
-    default:
-      return "Requires verification";
-  }
-}
-
-function buildCompatibilities(
-  partId: string,
-  draftPart: DraftPartRecord,
-  diagramId: string,
-): PartCompatibility[] {
-  const ref = draftPart.diagramReference ?? undefined;
-  const note = compatibilityLabel(draftPart.compatibilityScope);
-  const rows: PartCompatibility[] = [];
-
-  const add = (modelId: string | undefined, idSuffix: string) => {
-    rows.push({
-      id: `compat-${idSuffix}-${partId.replace("part-", "")}`,
-      partId,
-      familyId: FAMILY_ID,
-      modelId,
-      diagramId: ref ? diagramId : undefined,
-      diagramReference: ref,
-      compatibilityNotes: note,
-    });
-  };
-
-  switch (draftPart.compatibilityScope) {
-    case "hs50":
-      add(HS50_ID, "hs50");
-      break;
-    case "hs60":
-      add(HS60_ID, "hs60");
-      break;
-    case "both":
-      add(HS50_ID, "hs50");
-      add(HS60_ID, "hs60");
-      break;
-    case "family":
-      add(undefined, "family");
-      break;
-    default:
-      add(undefined, "verify");
-      break;
-  }
-
-  return rows;
 }
 
 export async function approveHsSeriesImport(draft: HsSeriesImportDraft): Promise<ImportHistoryRecord> {
@@ -200,7 +143,7 @@ export async function approveHsSeriesImport(draft: HsSeriesImportDraft): Promise
     };
 
     parts.push(part);
-    compatibilities.push(...buildCompatibilities(partId, draftPart, DIAGRAM_ID));
+    compatibilities.push(...buildSeriesCompatibilities("hs", partId, draftPart));
   }
 
   const partIdByNumber = new Map(parts.map((p) => [p.partNumber, p.id]));

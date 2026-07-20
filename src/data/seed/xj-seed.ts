@@ -1153,23 +1153,61 @@ export const xjSeedParts: Part[] = [
 
 export const xjSeedCompatibilities: PartCompatibility[] = [
   {
-    "id": "compat-family-766",
+    "id": "compat-xj-xj50-766",
     "partId": "part-766",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "1",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-767",
+    "id": "compat-xj-xj70-766",
+    "partId": "part-766",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "1",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-766",
+    "partId": "part-766",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "1",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-767",
     "partId": "part-767",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "1",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj50-744",
+    "id": "compat-xj-xj70-767",
+    "partId": "part-767",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "1",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-767",
+    "partId": "part-767",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "1",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-744",
     "partId": "part-744",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1178,7 +1216,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50"
   },
   {
-    "id": "compat-xj70-720",
+    "id": "compat-xj-xj70-720",
     "partId": "part-720",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1187,7 +1225,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ70"
   },
   {
-    "id": "compat-xj90-7060",
+    "id": "compat-xj-xj90-7060",
     "partId": "part-7060",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1196,7 +1234,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ90"
   },
   {
-    "id": "compat-xj50-11620-3sp",
+    "id": "compat-xj-xj50-11620-3sp",
     "partId": "part-11620-3sp",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1205,7 +1243,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj70-11620-3sp",
+    "id": "compat-xj-xj70-11620-3sp",
     "partId": "part-11620-3sp",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1214,7 +1252,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj90-11620-3sp",
+    "id": "compat-xj-xj90-11620-3sp",
     "partId": "part-11620-3sp",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1223,47 +1261,142 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-32767",
+    "id": "compat-xj-xj50-32767",
     "partId": "part-32767",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "3",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-11196",
+    "id": "compat-xj-xj70-32767",
+    "partId": "part-32767",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-32767",
+    "partId": "part-32767",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-11196",
     "partId": "part-11196",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "3a",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-430645",
+    "id": "compat-xj-xj70-11196",
+    "partId": "part-11196",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3a",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-11196",
+    "partId": "part-11196",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3a",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-430645",
     "partId": "part-430645",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "3b",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-30736",
+    "id": "compat-xj-xj70-430645",
+    "partId": "part-430645",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3b",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-430645",
+    "partId": "part-430645",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3b",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-30736",
     "partId": "part-30736",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "3c",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-43062",
+    "id": "compat-xj-xj70-30736",
+    "partId": "part-30736",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3c",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-30736",
+    "partId": "part-30736",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3c",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-43062",
     "partId": "part-43062",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "3d",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj50-9859sp",
+    "id": "compat-xj-xj70-43062",
+    "partId": "part-43062",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3d",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-43062",
+    "partId": "part-43062",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "3d",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-9859sp",
     "partId": "part-9859sp",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1272,7 +1405,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50"
   },
   {
-    "id": "compat-xj70-9856-5sp",
+    "id": "compat-xj-xj70-9856-5sp",
     "partId": "part-9856-5sp",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1281,7 +1414,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ70"
   },
   {
-    "id": "compat-xj90-9856sp",
+    "id": "compat-xj-xj90-9856sp",
     "partId": "part-9856sp",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1290,7 +1423,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ90"
   },
   {
-    "id": "compat-xj50-31302sp",
+    "id": "compat-xj-xj50-31302sp",
     "partId": "part-31302sp",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1299,7 +1432,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50"
   },
   {
-    "id": "compat-xj70-31303sp",
+    "id": "compat-xj-xj70-31303sp",
     "partId": "part-31303sp",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1308,7 +1441,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ70"
   },
   {
-    "id": "compat-xj90-31321sp",
+    "id": "compat-xj-xj90-31321sp",
     "partId": "part-31321sp",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1317,31 +1450,88 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ90"
   },
   {
-    "id": "compat-family-11591-1",
+    "id": "compat-xj-xj50-11591-1",
     "partId": "part-11591-1",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "6",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-31283",
+    "id": "compat-xj-xj70-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "6",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-11591-1",
+    "partId": "part-11591-1",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "6",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-31283",
     "partId": "part-31283",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "7",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-30805",
+    "id": "compat-xj-xj70-31283",
+    "partId": "part-31283",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "7",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-31283",
+    "partId": "part-31283",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "7",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-30805",
     "partId": "part-30805",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "8",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj50-43060",
+    "id": "compat-xj-xj70-30805",
+    "partId": "part-30805",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "8",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-30805",
+    "partId": "part-30805",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "8",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-43060",
     "partId": "part-43060",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1350,7 +1540,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj70-43060",
+    "id": "compat-xj-xj70-43060",
     "partId": "part-43060",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1359,7 +1549,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj90-43060",
+    "id": "compat-xj-xj90-43060",
     "partId": "part-43060",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1368,23 +1558,61 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-43067",
+    "id": "compat-xj-xj50-43067",
     "partId": "part-43067",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "9",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-9636sp",
+    "id": "compat-xj-xj70-43067",
+    "partId": "part-43067",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "9",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-43067",
+    "partId": "part-43067",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "9",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-9636sp",
     "partId": "part-9636sp",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "10",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj50-8923-3sp",
+    "id": "compat-xj-xj70-9636sp",
+    "partId": "part-9636sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "10",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-9636sp",
+    "partId": "part-9636sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "10",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-8923-3sp",
     "partId": "part-8923-3sp",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1393,7 +1621,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50 and XJ70"
   },
   {
-    "id": "compat-xj70-8923-3sp",
+    "id": "compat-xj-xj70-8923-3sp",
     "partId": "part-8923-3sp",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1402,7 +1630,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50 and XJ70"
   },
   {
-    "id": "compat-xj90-9103-3sp",
+    "id": "compat-xj-xj90-9103-3sp",
     "partId": "part-9103-3sp",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1411,7 +1639,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ90"
   },
   {
-    "id": "compat-xj50-8816-3",
+    "id": "compat-xj-xj50-8816-3",
     "partId": "part-8816-3",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1420,7 +1648,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50"
   },
   {
-    "id": "compat-xj70-8816-6",
+    "id": "compat-xj-xj70-8816-6",
     "partId": "part-8816-6",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1429,7 +1657,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ70"
   },
   {
-    "id": "compat-xj90-8816-5",
+    "id": "compat-xj-xj90-8816-5",
     "partId": "part-8816-5",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1438,23 +1666,61 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ90"
   },
   {
-    "id": "compat-family-11231-106",
+    "id": "compat-xj-xj50-11231-106",
     "partId": "part-11231-106",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "13",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-43067",
+    "id": "compat-xj-xj70-11231-106",
+    "partId": "part-11231-106",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "13",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-11231-106",
+    "partId": "part-11231-106",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "13",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-43067",
     "partId": "part-43067",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "14",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj50-8818-4",
+    "id": "compat-xj-xj70-43067",
+    "partId": "part-43067",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "14",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-43067",
+    "partId": "part-43067",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "14",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-8818-4",
     "partId": "part-8818-4",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1463,7 +1729,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50"
   },
   {
-    "id": "compat-xj70-9952-36",
+    "id": "compat-xj-xj70-9952-36",
     "partId": "part-9952-36",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1472,7 +1738,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ70"
   },
   {
-    "id": "compat-xj90-9952-41",
+    "id": "compat-xj-xj90-9952-41",
     "partId": "part-9952-41",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1481,23 +1747,61 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ90"
   },
   {
-    "id": "compat-family-40010",
+    "id": "compat-xj-xj50-40010",
     "partId": "part-40010",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "16",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-8927",
+    "id": "compat-xj-xj70-40010",
+    "partId": "part-40010",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "16",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-40010",
+    "partId": "part-40010",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "16",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-8927",
     "partId": "part-8927",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "17",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj50-8922-3",
+    "id": "compat-xj-xj70-8927",
+    "partId": "part-8927",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "17",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-8927",
+    "partId": "part-8927",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "17",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-8922-3",
     "partId": "part-8922-3",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1506,7 +1810,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50 and XJ70"
   },
   {
-    "id": "compat-xj70-8922-3",
+    "id": "compat-xj-xj70-8922-3",
     "partId": "part-8922-3",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1515,7 +1819,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50 and XJ70"
   },
   {
-    "id": "compat-xj50-8922-1",
+    "id": "compat-xj-xj50-8922-1",
     "partId": "part-8922-1",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1524,7 +1828,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj70-8922-1",
+    "id": "compat-xj-xj70-8922-1",
     "partId": "part-8922-1",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1533,7 +1837,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj90-8922-1",
+    "id": "compat-xj-xj90-8922-1",
     "partId": "part-8922-1",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1542,63 +1846,196 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-11521-106",
+    "id": "compat-xj-xj50-11521-106",
     "partId": "part-11521-106",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "19",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-b03m0835sp",
+    "id": "compat-xj-xj70-11521-106",
+    "partId": "part-11521-106",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "19",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-11521-106",
+    "partId": "part-11521-106",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "19",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-b03m0835sp",
     "partId": "part-b03m0835sp",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "19",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-491076",
+    "id": "compat-xj-xj70-b03m0835sp",
+    "partId": "part-b03m0835sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "19",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-b03m0835sp",
+    "partId": "part-b03m0835sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "19",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-491076",
     "partId": "part-491076",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "19",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-96376",
+    "id": "compat-xj-xj70-491076",
+    "partId": "part-491076",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "19",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-491076",
+    "partId": "part-491076",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "19",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-96376",
     "partId": "part-96376",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "20",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-9953-10sp",
+    "id": "compat-xj-xj70-96376",
+    "partId": "part-96376",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "20",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-96376",
+    "partId": "part-96376",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "20",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-9953-10sp",
     "partId": "part-9953-10sp",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "21",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-pc15xj",
+    "id": "compat-xj-xj70-9953-10sp",
+    "partId": "part-9953-10sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "21",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-9953-10sp",
+    "partId": "part-9953-10sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "21",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-pc15xj",
     "partId": "part-pc15xj",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "22",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-family-tt45",
+    "id": "compat-xj-xj70-pc15xj",
+    "partId": "part-pc15xj",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "22",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-pc15xj",
+    "partId": "part-pc15xj",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "22",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj50-tt45",
     "partId": "part-tt45",
     "familyId": "family-xj",
+    "modelId": "model-xj50",
     "diagramId": "diagram-xj",
     "diagramReference": "23",
-    "compatibilityNotes": "XJ Series — model not confirmed"
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj70-tt70",
+    "id": "compat-xj-xj70-tt45",
+    "partId": "part-tt45",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "diagramId": "diagram-xj",
+    "diagramReference": "23",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj90-tt45",
+    "partId": "part-tt45",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "diagramId": "diagram-xj",
+    "diagramReference": "23",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90"
+  },
+  {
+    "id": "compat-xj-xj70-tt70",
     "partId": "part-tt70",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1607,7 +2044,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ70"
   },
   {
-    "id": "compat-xj50-13551sp",
+    "id": "compat-xj-xj50-13551sp",
     "partId": "part-13551sp",
     "familyId": "family-xj",
     "modelId": "model-xj50",
@@ -1616,7 +2053,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj70-13551sp",
+    "id": "compat-xj-xj70-13551sp",
     "partId": "part-13551sp",
     "familyId": "family-xj",
     "modelId": "model-xj70",
@@ -1625,7 +2062,7 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-xj90-13551sp",
+    "id": "compat-xj-xj90-13551sp",
     "partId": "part-13551sp",
     "familyId": "family-xj",
     "modelId": "model-xj90",
@@ -1634,45 +2071,150 @@ export const xjSeedCompatibilities: PartCompatibility[] = [
     "compatibilityNotes": "XJ50, XJ70 and XJ90"
   },
   {
-    "id": "compat-verify-96154",
+    "id": "compat-xj-xj50-96154",
     "partId": "part-96154",
     "familyId": "family-xj",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xj50",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
   },
   {
-    "id": "compat-verify-8890-2sp",
+    "id": "compat-xj-xj70-96154",
+    "partId": "part-96154",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj90-96154",
+    "partId": "part-96154",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj50-8890-2sp",
     "partId": "part-8890-2sp",
     "familyId": "family-xj",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xj50",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
   },
   {
-    "id": "compat-verify-32323",
+    "id": "compat-xj-xj70-8890-2sp",
+    "partId": "part-8890-2sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj90-8890-2sp",
+    "partId": "part-8890-2sp",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj50-32323",
     "partId": "part-32323",
     "familyId": "family-xj",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xj50",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
   },
   {
-    "id": "compat-verify-43061",
+    "id": "compat-xj-xj70-32323",
+    "partId": "part-32323",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj90-32323",
+    "partId": "part-32323",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj50-43061",
     "partId": "part-43061",
     "familyId": "family-xj",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xj50",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
   },
   {
-    "id": "compat-verify-401487",
+    "id": "compat-xj-xj70-43061",
+    "partId": "part-43061",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj90-43061",
+    "partId": "part-43061",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj50-401487",
     "partId": "part-401487",
     "familyId": "family-xj",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xj50",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
   },
   {
-    "id": "compat-verify-32693",
+    "id": "compat-xj-xj70-401487",
+    "partId": "part-401487",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj90-401487",
+    "partId": "part-401487",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj50-32693",
     "partId": "part-32693",
     "familyId": "family-xj",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xj50",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
   },
   {
-    "id": "compat-verify-32694",
+    "id": "compat-xj-xj70-32693",
+    "partId": "part-32693",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj90-32693",
+    "partId": "part-32693",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj50-32694",
     "partId": "part-32694",
     "familyId": "family-xj",
-    "compatibilityNotes": "Requires verification"
+    "modelId": "model-xj50",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj70-32694",
+    "partId": "part-32694",
+    "familyId": "family-xj",
+    "modelId": "model-xj70",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
+  },
+  {
+    "id": "compat-xj-xj90-32694",
+    "partId": "part-32694",
+    "familyId": "family-xj",
+    "modelId": "model-xj90",
+    "compatibilityNotes": "XJ50, XJ70 and XJ90 — requires verification"
   }
 ];

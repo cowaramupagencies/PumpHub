@@ -91,7 +91,7 @@ export function inferXjCompatibilityScope(part: {
   if (has50 && !has70 && !has90) return "xj50";
   if (has70 && !has50 && !has90) return "xj70";
   if (has90 && !has50 && !has70) return "xj90";
-  return "family";
+  return "xj_all";
 }
 
 function parseQuantity(text?: string): number {

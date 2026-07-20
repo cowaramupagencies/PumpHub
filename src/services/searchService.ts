@@ -95,18 +95,32 @@ export async function searchCatalog(
 
       if (score > 0) {
         const compats = compatByPart.get(part.id) ?? [];
-        const primaryCompat = compats[0];
-        const model = primaryCompat?.modelId ? modelMap.get(primaryCompat.modelId) : undefined;
-        const family = primaryCompat ? familyMap.get(primaryCompat.familyId) : undefined;
+        const familyNames = [
+          ...new Set(
+            compats
+              .map((c) => familyMap.get(c.familyId)?.name)
+              .filter((name): name is string => Boolean(name)),
+          ),
+        ];
+        const modelNames = [
+          ...new Set(
+            compats
+              .map((c) => (c.modelId ? modelMap.get(c.modelId)?.name : undefined))
+              .filter((name): name is string => Boolean(name)),
+          ),
+        ];
+        const diagramRefs = [
+          ...new Set(compats.map((c) => c.diagramReference).filter((ref): ref is string => Boolean(ref))),
+        ];
 
         results.push({
           type: "part",
           id: part.id,
           partNumber: part.partNumber,
           description: part.description,
-          pumpModel: model?.name,
-          family: family?.name,
-          diagramReference: primaryCompat?.diagramReference,
+          pumpModel: modelNames.length > 0 ? modelNames.join(", ") : undefined,
+          family: familyNames.length > 0 ? familyNames.join(", ") : undefined,
+          diagramReference: diagramRefs.length === 1 ? diagramRefs[0] : undefined,
           score,
         } satisfies SearchResultPart);
       }

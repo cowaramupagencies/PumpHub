@@ -43,9 +43,13 @@ import {
   hmSeedModels,
   hmSeedParts,
 } from "@/data/seed/hm-seed";
-import type { Brand, Category } from "@/types";
+import type { Brand, Category, Part } from "@/types";
 
-export const SEED_VERSION = 12;
+export const SEED_VERSION = 13;
+
+function dedupePartsById(parts: Part[]): Part[] {
+  return [...new Map(parts.map((part) => [part.id, part])).values()];
+}
 
 export const seedBrand: Brand = {
   id: "brand-davey",
@@ -102,13 +106,15 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     ...xjSeedHotspots,
     ...xpSeedHotspots,
   ]);
-  await db.parts.bulkPut([
-    ...hsSeedParts,
-    ...hpSeedParts,
-    ...hmSeedParts,
-    ...xjSeedParts,
-    ...xpSeedParts,
-  ]);
+  await db.parts.bulkPut(
+    dedupePartsById([
+      ...hsSeedParts,
+      ...hpSeedParts,
+      ...hmSeedParts,
+      ...xjSeedParts,
+      ...xpSeedParts,
+    ]),
+  );
   await db.partCompatibilities.bulkPut([
     ...hsSeedCompatibilities,
     ...hpSeedCompatibilities,

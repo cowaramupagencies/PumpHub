@@ -9,6 +9,7 @@ import type {
 } from "@/types";
 import type { DraftPartRecord, ImportHistoryRecord, XpSeriesImportDraft } from "@/types/catalogue-import";
 import { partIdFromNumber } from "@/lib/ricambio/part-id";
+import { buildSeriesCompatibilities } from "@/lib/ricambio/build-compatibilities";
 import { seedBrand, seedCategory } from "@/data/seed/demo-data";
 import {
   XP25_CURVE_IMAGE,
@@ -28,84 +29,6 @@ function mapAvailability(part: DraftPartRecord): Part["availability"] {
     return "verify";
   }
   return "unknown";
-}
-
-function compatibilityLabel(scope: DraftPartRecord["compatibilityScope"]): string {
-  switch (scope) {
-    case "xp25":
-      return "XP25";
-    case "xp35":
-      return "XP35";
-    case "xp45":
-      return "XP45";
-    case "xp25_xp35":
-      return "XP25 and XP35";
-    case "xp35_xp45":
-      return "XP35 and XP45";
-    case "xp_all":
-    case "both":
-      return "XP25, XP35 and XP45";
-    case "family":
-      return "XP Series — model not confirmed";
-    default:
-      return "Requires verification";
-  }
-}
-
-function buildCompatibilities(
-  partId: string,
-  draftPart: DraftPartRecord,
-  diagramId: string,
-): PartCompatibility[] {
-  const ref = draftPart.diagramReference ?? undefined;
-  const note = compatibilityLabel(draftPart.compatibilityScope);
-  const rows: PartCompatibility[] = [];
-
-  const add = (modelId: string | undefined, idSuffix: string) => {
-    rows.push({
-      id: `compat-${idSuffix}-${partId.replace("part-", "")}`,
-      partId,
-      familyId: FAMILY_ID,
-      modelId,
-      diagramId: ref ? diagramId : undefined,
-      diagramReference: ref,
-      compatibilityNotes: note,
-    });
-  };
-
-  switch (draftPart.compatibilityScope) {
-    case "xp25":
-      add(XP25_ID, "xp25");
-      break;
-    case "xp35":
-      add(XP35_ID, "xp35");
-      break;
-    case "xp45":
-      add(XP45_ID, "xp45");
-      break;
-    case "xp25_xp35":
-      add(XP25_ID, "xp25");
-      add(XP35_ID, "xp35");
-      break;
-    case "xp35_xp45":
-      add(XP35_ID, "xp35");
-      add(XP45_ID, "xp45");
-      break;
-    case "xp_all":
-    case "both":
-      add(XP25_ID, "xp25");
-      add(XP35_ID, "xp35");
-      add(XP45_ID, "xp45");
-      break;
-    case "family":
-      add(undefined, "family");
-      break;
-    default:
-      add(undefined, "verify");
-      break;
-  }
-
-  return rows;
 }
 
 export async function approveXpSeriesImport(draft: XpSeriesImportDraft): Promise<ImportHistoryRecord> {
@@ -236,7 +159,7 @@ export async function approveXpSeriesImport(draft: XpSeriesImportDraft): Promise
       },
     });
 
-    compatibilities.push(...buildCompatibilities(partId, draftPart, DIAGRAM_ID));
+    compatibilities.push(...buildSeriesCompatibilities("xp", partId, draftPart));
   }
 
   const partIdByNumber = new Map(parts.map((p) => [p.partNumber, p.id]));

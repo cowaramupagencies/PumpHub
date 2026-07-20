@@ -103,7 +103,7 @@ export function inferXpCompatibilityScope(part: {
   if (has25 && !has35 && !has45) return "xp25";
   if (has35 && !has25 && !has45) return "xp35";
   if (has45 && !has25 && !has35) return "xp45";
-  return "family";
+  return "xp_all";
 }
 
 function parseQuantity(text?: string): number {
