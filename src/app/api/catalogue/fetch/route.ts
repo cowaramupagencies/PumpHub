@@ -10,6 +10,7 @@ import { createImportDraft as createHpDraft, parseHpSeriesHtml } from "@/lib/ric
 import { createImportDraft as createHmDraft, parseHmSeriesHtml } from "@/lib/ricambio/parse-hm-series";
 import { createImportDraft as createXjDraft, parseXjSeriesHtml } from "@/lib/ricambio/parse-xj-series";
 import { createImportDraft as createXpDraft, parseXpSeriesHtml } from "@/lib/ricambio/parse-xp-series";
+import { createImportDraft as createSdwDraft, parseSdwSeriesHtml } from "@/lib/ricambio/parse-sdw-series";
 import { processRicambioDiagram } from "@/lib/ricambio/process-ricambio-diagram";
 
 export const runtime = "nodejs";
@@ -44,6 +45,10 @@ const FAMILY_CONFIG: Record<
   xp: {
     parse: parseXpSeriesHtml,
     createDraft: createXpDraft,
+  },
+  sdw: {
+    parse: parseSdwSeriesHtml,
+    createDraft: createSdwDraft,
   },
 };
 

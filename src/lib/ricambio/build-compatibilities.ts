@@ -138,7 +138,6 @@ function scopeModelKeys(
   scope: DraftPartRecord["compatibilityScope"] | undefined,
 ): string[] {
   const all = ALL_MODEL_KEYS[series];
-  const M = MODEL_ID[series];
 
   if (!scope || scope === "family" || scope === "verify") {
     return all;

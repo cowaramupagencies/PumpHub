@@ -2,6 +2,7 @@ import type {
   DraftHotspotRecord,
   DraftPartRecord,
   ImportParseReport,
+  SdwSeriesImportDraft,
 } from "@/types/catalogue-import";
 import {
   SDW_SERIES_DIAGRAM_HEIGHT,
@@ -239,5 +240,26 @@ export function getBundledSdwDraft(): RicambioDraftPayload {
     ...raw,
     ...payload,
     hotspots: raw.hotspots ?? payload.hotspots,
+  };
+}
+
+export function createImportDraft(
+  payload: RicambioDraftPayload,
+  id = "draft-sdw-series",
+): SdwSeriesImportDraft {
+  return {
+    id,
+    familyId: "family-shallow-well",
+    status: "draft",
+    sourceUrl: payload.sourceUrl ?? SDW_SERIES_SOURCE_URL,
+    diagramSourceUrl: payload.diagramSourceUrl,
+    diagramLocalPath: payload.diagramLocalPath,
+    diagramWidth: payload.diagramWidth ?? DIAGRAM_WIDTH,
+    diagramHeight: payload.diagramHeight ?? DIAGRAM_HEIGHT,
+    cataloguePageTitle: payload.cataloguePageTitle,
+    importedAt: payload.importedAt ?? new Date().toISOString(),
+    parts: payload.parts,
+    hotspots: payload.hotspots ?? [],
+    parseReport: buildParseReport(payload),
   };
 }

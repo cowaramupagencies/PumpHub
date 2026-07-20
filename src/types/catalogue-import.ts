@@ -146,12 +146,29 @@ export interface XpSeriesImportDraft {
   parseReport?: ImportParseReport;
 }
 
+export interface SdwSeriesImportDraft {
+  id: string;
+  familyId: string;
+  status: "draft" | "approved" | "failed";
+  sourceUrl: string;
+  diagramSourceUrl?: string;
+  diagramLocalPath?: string;
+  diagramWidth: number;
+  diagramHeight: number;
+  cataloguePageTitle?: string;
+  importedAt: string;
+  parts: DraftPartRecord[];
+  hotspots: DraftHotspotRecord[];
+  parseReport?: ImportParseReport;
+}
+
 export type SeriesImportDraft =
   | HsSeriesImportDraft
   | HpSeriesImportDraft
   | HmSeriesImportDraft
   | XjSeriesImportDraft
-  | XpSeriesImportDraft;
+  | XpSeriesImportDraft
+  | SdwSeriesImportDraft;
 
 export interface HsSeriesImportDraft {
   id: string;
