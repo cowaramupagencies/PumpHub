@@ -1,0 +1,19 @@
+UPLOAD TO GITHUB
+================
+
+If using Git (recommended): click CANCEL if you see node_modules in the commit.
+Only ~180 source files should be committed. .gitignore excludes the rest.
+
+If uploading manually: skip the entire DONT UPLOAD/ folder.
+
+Never upload / commit:
+  node_modules/   ← at project root, ~23,000 npm files (run npm install after clone)
+  DONT UPLOAD/    ← build cache and temp files
+
+Upload everything else (~180 files):
+  src/  public/  scripts/
+  package.json  package-lock.json  README.md
+  next.config.ts  tsconfig.json  vitest.config.ts
+  eslint.config.mjs  postcss.config.mjs  .gitignore
+
+After cloning, run: npm install && npm run dev

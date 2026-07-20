@@ -1,0 +1,1419 @@
+{
+  "sourceUrl": "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_248&PRF=4&PRNDS=CE_247&PRC=|R|CE_1|CE_111|CE_247|CE_248&MP1=CE_248&MP=CE_248.cex#CE_248",
+  "diagramSourceUrl": "https://davey.ricambio.net/ce/001/CE_248_1.SVG",
+  "diagramLocalPath": "/diagrams/hm-series.svg",
+  "diagramWidth": 730,
+  "diagramHeight": 1000,
+  "cataloguePageTitle": "HM Series",
+  "parts": [
+    {
+      "diagramReference": null,
+      "partNumber": "7049",
+      "description": "Motor - 0.6kW 240V",
+      "sourceCompatibilityText": "HM60-06",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1164,55",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "7050",
+      "description": "Motor - 0.72kW 240V",
+      "sourceCompatibilityText": "HM60-08",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1209,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "7051",
+      "description": "Service motor - 1kW 240V 1 phase",
+      "sourceCompatibilityText": "HM60-10, HM90-11",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1231,82",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "7052",
+      "description": "Motor - 0.78kW 240V",
+      "sourceCompatibilityText": "HM90-08",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1176,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "844",
+      "description": "Motor - 1.3kW 240V",
+      "sourceCompatibilityText": "HM90-13",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1009,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "845",
+      "description": "Motor - 1.8kW 240V",
+      "sourceCompatibilityText": "HM160-15, HM160-19",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1119,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "851",
+      "description": "Motor - 2.5kW 240V",
+      "sourceCompatibilityText": "HM270-25",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1255,45",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "7054",
+      "description": "Motor - 0.6kW 415V",
+      "sourceCompatibilityText": "HM60-06/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "7057",
+      "description": "Motor - 0.72kW 415V",
+      "sourceCompatibilityText": "HM60-08/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "7055",
+      "description": "Service motor - 1.1kW 415V 3 phase",
+      "sourceCompatibilityText": "HM60-10/3, HM90-11/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "7053",
+      "description": "Motor - 0.78kW 415V",
+      "sourceCompatibilityText": "HM90-08/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "852",
+      "description": "Motor - 1.3kW 415V",
+      "sourceCompatibilityText": "HM90-13/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "858",
+      "description": "Motor - 1.8kW 415V",
+      "sourceCompatibilityText": "HM160-15/3, HM160-19/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1009,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "869",
+      "description": "Motor - 1.9kW 415V",
+      "sourceCompatibilityText": "HM270-19/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1119,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "864",
+      "description": "Motor - 2.5kW 415V",
+      "sourceCompatibilityText": "HM270-25/3",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1164,55",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "13656-5SP",
+      "description": "Casing - Front",
+      "sourceCompatibilityText": "HM60-06, HM90-08",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "226,36",
+      "illustrated": true,
+      "zoomRect": "64,388,236,612,'15'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "13656-6SP",
+      "description": "Casing - Front",
+      "sourceCompatibilityText": "HM60-08, 60-10, 90-11, 90-13",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "226,36",
+      "illustrated": true,
+      "zoomRect": "64,388,236,612,'16'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "13656-7SP",
+      "description": "Casing - Front",
+      "sourceCompatibilityText": "HM160",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "267,27",
+      "illustrated": true,
+      "zoomRect": "64,388,236,612,'17'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "13656-8SP",
+      "description": "Casing - Front",
+      "sourceCompatibilityText": "HM270",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "300,00",
+      "illustrated": true,
+      "zoomRect": "64,388,236,612,'18'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "400577SP",
+      "description": "Drain Plug & O-ring",
+      "sourceCompatibilityText": "HM60, HM90 & HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "3",
+      "sourcePriceText": "27,27",
+      "illustrated": true,
+      "zoomRect": "78,394,280,606,'19'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "400577SP",
+      "description": "Drain Plug & O-ring",
+      "sourceCompatibilityText": "HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "27,27",
+      "illustrated": true,
+      "zoomRect": "78,394,280,606,'20'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "448533",
+      "description": "O-ring - Casing",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "49,82",
+      "illustrated": true,
+      "zoomRect": "117,386,397,614,'21'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "13661-1",
+      "description": "Stage body - 1st stage",
+      "sourceCompatibilityText": "HM60 & HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "71,82",
+      "illustrated": true,
+      "zoomRect": "136,386,452,614,'22'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "13674-1",
+      "description": "Stage body - 1st stage",
+      "sourceCompatibilityText": "HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "85,45",
+      "illustrated": true,
+      "zoomRect": "136,386,452,614,'23'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "13670-1",
+      "description": "Stage body - 1st stage",
+      "sourceCompatibilityText": "HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "148,18",
+      "illustrated": true,
+      "zoomRect": "136,386,452,614,'24'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "S34M06168",
+      "description": "Screw - Casing (Pack of 8)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "23,64",
+      "illustrated": true,
+      "zoomRect": "80,466,284,534,'25'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "33479",
+      "description": "Impeller Nut Assembly",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "8,82",
+      "illustrated": true,
+      "zoomRect": "120,454,410,546,'26'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "13678SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "HM60 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "65,45",
+      "illustrated": true,
+      "zoomRect": "158,458,522,542,'27'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "13676SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "65,45",
+      "illustrated": true,
+      "zoomRect": "158,458,522,542,'28'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "13672SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "72,73",
+      "illustrated": true,
+      "zoomRect": "158,458,522,542,'29'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "13668SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "93,64",
+      "illustrated": true,
+      "zoomRect": "158,458,522,542,'30'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "136653",
+      "description": "Spacer - Impeller",
+      "sourceCompatibilityText": "HM60 & HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "14,64",
+      "illustrated": true,
+      "zoomRect": "160,396,524,604,'31'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "136803",
+      "description": "Spacer - Impeller",
+      "sourceCompatibilityText": "HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "14,64",
+      "illustrated": true,
+      "zoomRect": "160,396,524,604,'32'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "136813",
+      "description": "Spacer - Impeller",
+      "sourceCompatibilityText": "HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "24,82",
+      "illustrated": true,
+      "zoomRect": "160,396,524,604,'33'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "32912",
+      "description": "Stage Body - 2nd stage with valve assy",
+      "sourceCompatibilityText": "HM60 & HM90 Series",
+      "sourceNoteText": "A",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "110,00",
+      "illustrated": true,
+      "zoomRect": "184,386,546,614,'34'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "32913",
+      "description": "Stage Body - 2nd stage with valve assy",
+      "sourceCompatibilityText": "HM160 Series",
+      "sourceNoteText": "A",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "149,09",
+      "illustrated": true,
+      "zoomRect": "184,386,546,614,'35'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "32914",
+      "description": "Stage Body - 2nd stage with valve assy",
+      "sourceCompatibilityText": "HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "166,36",
+      "illustrated": true,
+      "zoomRect": "184,386,546,614,'36'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "13662-2",
+      "description": "Stage body - Inner stages",
+      "sourceCompatibilityText": "HM60 & HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "101,82",
+      "illustrated": true,
+      "zoomRect": "227,386,503,614,'37'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "13673-2",
+      "description": "Stage body - Inner stages",
+      "sourceCompatibilityText": "HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "105,45",
+      "illustrated": true,
+      "zoomRect": "227,386,503,614,'38'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "13669-2",
+      "description": "Stage body - Inner stages",
+      "sourceCompatibilityText": "HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "118,18",
+      "illustrated": true,
+      "zoomRect": "227,386,503,614,'39'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "13663",
+      "description": "Stage body - Final",
+      "sourceCompatibilityText": "HM60 & HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "91,82",
+      "illustrated": true,
+      "zoomRect": "270,386,460,614,'40'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "13675",
+      "description": "Stage body - Final",
+      "sourceCompatibilityText": "HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "120,00",
+      "illustrated": true,
+      "zoomRect": "270,386,460,614,'41'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "13671",
+      "description": "Stage body - Final",
+      "sourceCompatibilityText": "HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "136,36",
+      "illustrated": true,
+      "zoomRect": "270,386,460,614,'42'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "13696-1",
+      "description": "Spacer - Destage",
+      "sourceCompatibilityText": "HM60-08, 60-10 & HM90-11",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "9,09",
+      "illustrated": true,
+      "zoomRect": "264,452,466,548,'43'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "13696",
+      "description": "Spacer - Destage",
+      "sourceCompatibilityText": "HM160-15",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,00",
+      "illustrated": true,
+      "zoomRect": "264,452,466,548,'44'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "13696-2",
+      "description": "Spacer - Destage",
+      "sourceCompatibilityText": "HM270-19",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "13,64",
+      "illustrated": true,
+      "zoomRect": "264,452,466,548,'45'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "13666",
+      "description": "Washer - Cup",
+      "sourceCompatibilityText": "HM60 & HM90 Series",
+      "sourceNoteText": "B",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "6,36",
+      "illustrated": true,
+      "zoomRect": "304,466,426,534,'46'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "13693",
+      "description": "Washer - Cup",
+      "sourceCompatibilityText": "HM160 & HM270 Series",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "6,36",
+      "illustrated": true,
+      "zoomRect": "304,466,426,534,'47'"
+    },
+    {
+      "diagramReference": "14",
+      "partNumber": "13667SP",
+      "description": "Clip spring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "7,27",
+      "illustrated": true,
+      "zoomRect": "307,407,423,593,'48'"
+    },
+    {
+      "diagramReference": "15",
+      "partNumber": "400558SP",
+      "description": "Seal - Mechanical",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "148,18",
+      "illustrated": true,
+      "zoomRect": "314,451,416,549,'49'"
+    },
+    {
+      "diagramReference": "16",
+      "partNumber": "13660SP",
+      "description": "Backplate",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "29,09",
+      "illustrated": true,
+      "zoomRect": "326,388,404,612,'50'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "32283SP",
+      "description": "Pressure switch assy 10A 250-400kPa",
+      "sourceCompatibilityText": "HM60-06P,HM90-08P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "252,73",
+      "illustrated": true,
+      "zoomRect": "25,284,123,716,'51'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "32285SP",
+      "description": "Pressure switch assy 10A 300-500kPa",
+      "sourceCompatibilityText": "HM60-08P,HM90-11P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "252,73",
+      "illustrated": true,
+      "zoomRect": "25,284,123,716,'52'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "32286SP",
+      "description": "Pressure switch assy 10A 350-620kPa",
+      "sourceCompatibilityText": "HM60-10P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "252,73",
+      "illustrated": true,
+      "zoomRect": "25,284,123,716,'53'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "32287SP",
+      "description": "Pressure switch assy 10A 350-620kPa",
+      "sourceCompatibilityText": "HM90-13P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "252,73",
+      "illustrated": true,
+      "zoomRect": "25,284,123,716,'54'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "32314SP",
+      "description": "Pressure switch assy 10A 300-500kPa",
+      "sourceCompatibilityText": "HM160-15P,HM160-19P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "226,36",
+      "illustrated": true,
+      "zoomRect": "25,284,123,716,'55'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "32315",
+      "description": "Pressure switch assy 10A 200-300kPa",
+      "sourceCompatibilityText": "HM270-19P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "249,09",
+      "illustrated": true,
+      "zoomRect": "25,284,123,716,'56'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "32288SP",
+      "description": "Pressure switch assy 15A 250-400kPa",
+      "sourceCompatibilityText": "HM270-25P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "252,73",
+      "illustrated": true,
+      "zoomRect": "25,284,123,716,'57'"
+    },
+    {
+      "diagramReference": "17a",
+      "partNumber": "11733-3",
+      "description": "Loom HM60 Series & up to HM90-11P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "23,64",
+      "illustrated": true,
+      "zoomRect": "68,213,272,685,'58'"
+    },
+    {
+      "diagramReference": "17a",
+      "partNumber": "11971",
+      "description": "Loom - P/switch assy",
+      "sourceCompatibilityText": "HM90-13P & HM270-19P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "68,213,272,685,'59'"
+    },
+    {
+      "diagramReference": "17a",
+      "partNumber": "11971-1",
+      "description": "Loom - P/switch",
+      "sourceCompatibilityText": "HM160-15P/160-19P & 270-25P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "46,36",
+      "illustrated": true,
+      "zoomRect": "68,213,272,685,'60'"
+    },
+    {
+      "diagramReference": "17b",
+      "partNumber": "48035",
+      "description": "Switch - Pressure 210-330 kPa HM270-19P only",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "98,212,364,684,'61'"
+    },
+    {
+      "diagramReference": "17b",
+      "partNumber": "404132SP",
+      "description": "Pressure Switch 260-450kpa, 38-65psi",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "91,82",
+      "illustrated": true,
+      "zoomRect": "98,212,364,684,'62'"
+    },
+    {
+      "diagramReference": "17c",
+      "partNumber": "49034M",
+      "description": "Union - 1/4\" male",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "118,212,424,684,'63'"
+    },
+    {
+      "diagramReference": "17d",
+      "partNumber": "49034",
+      "description": "Union",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "28,18",
+      "illustrated": true,
+      "zoomRect": "136,213,476,685,'64'"
+    },
+    {
+      "diagramReference": "17e",
+      "partNumber": "9544-1",
+      "description": "Lead & 3 Pin Plug - 4850 HM160 series & HM270-25P",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "96,351,364,649,'65'"
+    },
+    {
+      "diagramReference": "17e",
+      "partNumber": "8573-5",
+      "description": "Lead & 3 Pin Plug - Sqd P/swtch All other models not specified",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "45,45",
+      "illustrated": true,
+      "zoomRect": "96,351,364,649,'66'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "32391",
+      "description": "Tee piece assy HM60 & HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "191,82",
+      "illustrated": true,
+      "zoomRect": "252,258,478,742,'67'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "32392",
+      "description": "Tee piece assy HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "191,82",
+      "illustrated": true,
+      "zoomRect": "252,258,478,742,'68'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "32393",
+      "description": "Tee piece assy HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "191,82",
+      "illustrated": true,
+      "zoomRect": "252,258,478,742,'69'"
+    },
+    {
+      "diagramReference": "18a",
+      "partNumber": "49034F",
+      "description": "Union - 1/4\" brass F",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "185,213,545,685,'70'"
+    },
+    {
+      "diagramReference": "18b",
+      "partNumber": "13729",
+      "description": "Connector HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "125,45",
+      "illustrated": true,
+      "zoomRect": "204,212,526,684,'71'"
+    },
+    {
+      "diagramReference": "18b",
+      "partNumber": "47920",
+      "description": "Connector - 5 way bronze",
+      "sourceCompatibilityText": "All other models not specified",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,91",
+      "illustrated": true,
+      "zoomRect": "204,212,526,684,'72'"
+    },
+    {
+      "diagramReference": "18c",
+      "partNumber": "11591-1",
+      "description": "Plug & O-ring - Priming",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,91",
+      "illustrated": true,
+      "zoomRect": "226,214,504,690,'73'"
+    },
+    {
+      "diagramReference": "18d",
+      "partNumber": "48466",
+      "description": "Reducer - 1\" F - 1.25\" M HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "54,55",
+      "illustrated": true,
+      "zoomRect": "194,300,536,700,'74'"
+    },
+    {
+      "diagramReference": "18d",
+      "partNumber": "400622",
+      "description": "Reducing bush HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "19,09",
+      "illustrated": true,
+      "zoomRect": "194,300,536,700,'75'"
+    },
+    {
+      "diagramReference": "18e",
+      "partNumber": "48492",
+      "description": "Gauge - Backmount 1000kpa",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "80,91",
+      "illustrated": true,
+      "zoomRect": "214,300,516,700,'76'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "47932",
+      "description": "Nipple - Hex 11/4\" x11/4\" BSPM HM60 & HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "13,64",
+      "illustrated": true,
+      "zoomRect": "196,322,534,678,'77'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "48953",
+      "description": "Nipple - Hex 1.5\" (suction) HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "196,322,534,678,'78'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "49184",
+      "description": "Nipple - 50mm brass HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "196,322,534,678,'79'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "49537",
+      "description": "Nipple - 1/4\" x 1/4\" BSPT brass",
+      "sourceCompatibilityText": "HM270 Series - Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "47914",
+      "description": "Checkvalve 1.25\" (suction) HM60 & HM90 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "80,91",
+      "illustrated": true,
+      "zoomRect": "218,324,512,676,'81'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "48952",
+      "description": "Checkvalve - 1.5\" (suction) HM160 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "132,73",
+      "illustrated": true,
+      "zoomRect": "218,324,512,676,'82'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "403329",
+      "description": "Checkvalve 2\" F/F",
+      "sourceCompatibilityText": "HM270 Series",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "264,91",
+      "illustrated": true,
+      "zoomRect": "218,324,512,676,'83'"
+    },
+    {
+      "diagramReference": "21",
+      "partNumber": "32320-1SP",
+      "description": "Coupling Assy",
+      "sourceCompatibilityText": "Torrium models only",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,91",
+      "illustrated": true,
+      "zoomRect": "309,358,421,642,'84'"
+    },
+    {
+      "diagramReference": "22",
+      "partNumber": "TT45",
+      "description": "Torrium 2 - 450kPa Max",
+      "sourceCompatibilityText": "HM60-06T, 90-08T, 160-15T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": true,
+      "zoomRect": "279,262,451,738,'85'"
+    },
+    {
+      "diagramReference": "22",
+      "partNumber": "TT70",
+      "description": "Torrium 2 - 700kPa",
+      "sourceCompatibilityText": "All other models excluding HM270",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": true,
+      "zoomRect": "279,262,451,738,'86'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "33485",
+      "description": "Seal Kit",
+      "sourceCompatibilityText": "Incl Casing Oring, Mech Seal & Drainplug Orings",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "159,82",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "13551SP",
+      "description": "Adaptor - Dynajet (Torrium) XJ50T XJ70T XJ90T",
+      "sourceCompatibilityText": "HM160 Torrium models",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "29,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "13648",
+      "description": "Slinger - Water",
+      "sourceCompatibilityText": "HM60 models, HM90-08 & HM90-11",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "19,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "48724",
+      "description": "Overload - Thermal",
+      "sourceCompatibilityText": "HM60-10",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "54,55",
+      "illustrated": false,
+      "zoomRect": null
+    }
+  ],
+  "hotspots": [
+    {
+      "reference": "1",
+      "x": 0.1733150684931507,
+      "y": 0.77722,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13656-5SP",
+        "13656-6SP",
+        "13656-7SP",
+        "13656-8SP"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.21412328767123287,
+      "y": 0.7888200000000001,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "400577SP"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.3205890410958904,
+      "y": 0.77062,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "448533"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.37156164383561646,
+      "y": 0.77062,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13661-1",
+        "13674-1",
+        "13670-1"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.21753424657534248,
+      "y": 0.93257,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "S34M06168"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.33073972602739726,
+      "y": 0.90695,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "33479"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.4337945205479452,
+      "y": 0.91686,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13678SP",
+        "13676SP",
+        "13672SP",
+        "13668SP"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.5561369863013699,
+      "y": 0.91605,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13678SP",
+        "13676SP",
+        "13672SP",
+        "13668SP"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.6761780821917809,
+      "y": 0.91605,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13678SP",
+        "13676SP",
+        "13672SP",
+        "13668SP"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.43720547945205485,
+      "y": 0.79212,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "136653",
+        "136803",
+        "136813"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.5595479452054795,
+      "y": 0.79293,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "136653",
+        "136803",
+        "136813"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.6761780821917809,
+      "y": 0.79293,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "136653",
+        "136803",
+        "136813"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.504054794520548,
+      "y": 0.7714200000000001,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "32912",
+        "32913",
+        "32914"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.6217808219178083,
+      "y": 0.7723000000000001,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13662-2",
+        "13673-2",
+        "13669-2"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.7384109589041097,
+      "y": 0.7714200000000001,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13663",
+        "13675",
+        "13671"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.7248356164383561,
+      "y": 0.90452,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13696-1",
+        "13696",
+        "13696-2"
+      ]
+    },
+    {
+      "reference": "13",
+      "x": 0.8336027397260274,
+      "y": 0.93096,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13666",
+        "13693"
+      ]
+    },
+    {
+      "reference": "14",
+      "x": 0.8415479452054795,
+      "y": 0.81357,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13667SP"
+      ]
+    },
+    {
+      "reference": "15",
+      "x": 0.8618630136986303,
+      "y": 0.90203,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "400558SP"
+      ]
+    },
+    {
+      "reference": "16",
+      "x": 0.8947260273972603,
+      "y": 0.77641,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13660SP"
+      ]
+    },
+    {
+      "reference": "17",
+      "x": 0.06915068493150685,
+      "y": 0.56813,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "32283SP",
+        "32285SP",
+        "32286SP",
+        "32287SP",
+        "32314SP",
+        "32315",
+        "32288SP",
+        "11733-3",
+        "11971",
+        "11971-1",
+        "48035",
+        "404132SP",
+        "49034M",
+        "49034",
+        "9544-1",
+        "8573-5"
+      ]
+    },
+    {
+      "reference": "17a",
+      "x": 0.18578082191780823,
+      "y": 0.426,
+      "width": 0.04745205479452055,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "11733-3",
+        "11971",
+        "11971-1"
+      ]
+    },
+    {
+      "reference": "17b",
+      "x": 0.2685068493150685,
+      "y": 0.42519000000000007,
+      "width": 0.047287671232876714,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "48035",
+        "404132SP"
+      ]
+    },
+    {
+      "reference": "17c",
+      "x": 0.3239178082191781,
+      "y": 0.42519000000000007,
+      "width": 0.04745205479452055,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "49034M"
+      ]
+    },
+    {
+      "reference": "17d",
+      "x": 0.37154794520547946,
+      "y": 0.426,
+      "width": 0.047287671232876714,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "49034"
+      ]
+    },
+    {
+      "reference": "17e",
+      "x": 0.26213698630136983,
+      "y": 0.7017700000000001,
+      "width": 0.052630136986301375,
+      "height": 0.02684,
+      "partNumbers": [
+        "9544-1",
+        "8573-5"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.6886438356164384,
+      "y": 0.51689,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "32391",
+        "32392",
+        "32393",
+        "49034F",
+        "13729",
+        "47920",
+        "11591-1",
+        "48466",
+        "400622",
+        "48492"
+      ]
+    },
+    {
+      "reference": "18a",
+      "x": 0.5063698630136987,
+      "y": 0.426,
+      "width": 0.047287671232876714,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "49034F"
+      ]
+    },
+    {
+      "reference": "18b",
+      "x": 0.5595479452054795,
+      "y": 0.42519000000000007,
+      "width": 0.047287671232876714,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "13729",
+        "47920"
+      ]
+    },
+    {
+      "reference": "18c",
+      "x": 0.6173561643835617,
+      "y": 0.42849,
+      "width": 0.047287671232876714,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "11591-1"
+      ]
+    },
+    {
+      "reference": "18d",
+      "x": 0.5335068493150685,
+      "y": 0.60036,
+      "width": 0.047287671232876714,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "48466",
+        "400622"
+      ]
+    },
+    {
+      "reference": "18e",
+      "x": 0.5856027397260274,
+      "y": 0.60036,
+      "width": 0.04745205479452055,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "48492"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.5368356164383562,
+      "y": 0.645,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "47932",
+        "48953",
+        "49184"
+      ]
+    },
+    {
+      "reference": "20",
+      "x": 0.5991643835616439,
+      "y": 0.64662,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "47914",
+        "48952",
+        "403329"
+      ]
+    },
+    {
+      "reference": "21",
+      "x": 0.8460684931506849,
+      "y": 0.71688,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "32320-1SP"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.7735890410958904,
+      "y": 0.68714,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "TT45",
+        "TT70"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.7645342465753425,
+      "y": 0.5235,
+      "width": 0.03158904109589041,
+      "height": 0.023059999999999997,
+      "partNumbers": [
+        "TT45",
+        "TT70"
+      ]
+    }
+  ]
+}

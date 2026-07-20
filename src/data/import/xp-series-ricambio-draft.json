@@ -1,0 +1,914 @@
+{
+  "sourceUrl": "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_182&PRF=4&PRNDS=CE_179&PRC=|R|CE_1|CE_111|CE_179|CE_182&MP1=CE_182&MP=CE_182.cex#CE_182",
+  "diagramSourceUrl": "https://davey.ricambio.net/ce/001/CE_182_1.SVG",
+  "diagramLocalPath": "/diagrams/xp-series.svg",
+  "diagramWidth": 800,
+  "diagramHeight": 922,
+  "cataloguePageTitle": "XP Series",
+  "parts": [
+    {
+      "diagramReference": "1",
+      "partNumber": "706",
+      "description": "Motor - 0.35kW 220/1/50",
+      "sourceCompatibilityText": "72111, XP25P2",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "417,27",
+      "illustrated": true,
+      "zoomRect": "138,393,440,529,'0'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "777",
+      "description": "Motor - 0.58kW 240/1/50",
+      "sourceCompatibilityText": "72151PC",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "138,393,440,529,'1'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "740",
+      "description": "Motor - 0.58kW 220/1/50",
+      "sourceCompatibilityText": "All other models not specified",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "459,09",
+      "illustrated": true,
+      "zoomRect": "138,393,440,529,'2'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "11670-20SP",
+      "description": "Casing Assy - Rear c/w oring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "120,00",
+      "illustrated": true,
+      "zoomRect": "170,397,536,525,'3'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "45446",
+      "description": "O-ring",
+      "sourceCompatibilityText": "Pre S/No 03084",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "183,396,577,526,'4'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "49108",
+      "description": "O-ring - Encapsulated rear casing Post S/No 03084",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "183,396,577,526,'5'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "48802SP",
+      "description": "Seal - Mechanical 1/2\"",
+      "sourceNoteText": "A",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "191,397,601,525,'6'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "11354BSP",
+      "description": "Impeller",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "68,18",
+      "illustrated": true,
+      "zoomRect": "208,397,592,525,'7'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "11253-1SP",
+      "description": "Venturi - Coverplate 72111",
+      "sourceCompatibilityText": "XP25P2",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "68,18",
+      "illustrated": true,
+      "zoomRect": "246,398,554,524,'8'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "11253-3",
+      "description": "Venturi - Coverplate XP450T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "68,18",
+      "illustrated": true,
+      "zoomRect": "246,398,554,524,'9'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "11253-2SP",
+      "description": "Venturi - Coverplate All other models not specified",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "68,18",
+      "illustrated": true,
+      "zoomRect": "246,398,554,524,'10'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "11254-1",
+      "description": "Jet - White 72111",
+      "sourceCompatibilityText": "XP25P2",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "31,82",
+      "illustrated": true,
+      "zoomRect": "256,398,544,524,'11'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "11254-3",
+      "description": "Jet XP450T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "31,82",
+      "illustrated": true,
+      "zoomRect": "256,398,544,524,'12'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "11254-2",
+      "description": "Jet - Black All other models not specified",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "31,82",
+      "illustrated": true,
+      "zoomRect": "256,398,544,524,'13'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "45579",
+      "description": "O-ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": "266,398,534,524,'14'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "30805",
+      "description": "Checkvalve Assy",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "278,398,522,524,'15'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "11255-1R",
+      "description": "Cap - Accumulator 72151PC 72161 72171",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "225,348,575,574,'16'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "11255-2",
+      "description": "Accumulator cap XP450T",
+      "sourceCompatibilityText": "XP25P2, XP35P8",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "225,348,575,574,'17'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "11256",
+      "description": "Diaphragm 72111 72181",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "50,00",
+      "illustrated": true,
+      "zoomRect": "271,350,529,572,'18'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "31346",
+      "description": "Cap - Accumulator assy XP350T 72111 72181",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "282,350,518,572,'19'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "11252-16",
+      "description": "Casing - Front",
+      "sourceCompatibilityText": "72111, 72181",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "141,82",
+      "illustrated": true,
+      "zoomRect": "212,382,588,540,'20'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "11252-17",
+      "description": "Casing - Front",
+      "sourceCompatibilityText": "All other models not specified",
+      "sourceNoteText": "E",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "141,82",
+      "illustrated": true,
+      "zoomRect": "212,382,588,540,'21'"
+    },
+    {
+      "diagramReference": "14",
+      "partNumber": "10209-204",
+      "description": "Screw - Front case 44mm (pk4)",
+      "sourceNoteText": "B",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "27,27",
+      "illustrated": true,
+      "zoomRect": "211,325,589,597,'22'"
+    },
+    {
+      "diagramReference": "15",
+      "partNumber": "31491D",
+      "description": "Kit - Connection P/switch",
+      "sourceCompatibilityText": "72111, 72161, 72171, XP25P2",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "251,287,549,635,'23'"
+    },
+    {
+      "diagramReference": "16",
+      "partNumber": "31300SP",
+      "description": "Switch - Pressure 140-280kPa 72111",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "100,91",
+      "illustrated": true,
+      "zoomRect": "252,303,548,619,'24'"
+    },
+    {
+      "diagramReference": "16",
+      "partNumber": "32029SP",
+      "description": "Pressure Switch Assy - 140-280 LOP 72111/LOP only Vertical",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "96,36",
+      "illustrated": true,
+      "zoomRect": "252,303,548,619,'25'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "45527",
+      "description": "Tee piece - 1\"",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "45,45",
+      "illustrated": true,
+      "zoomRect": "288,254,512,668,'26'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "14828",
+      "description": "Tee Piece - Brass",
+      "sourceCompatibilityText": "XP25P2, XP25P8, XP35P8, XP45P8",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "52,73",
+      "illustrated": true,
+      "zoomRect": "288,254,512,668,'27'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "43765",
+      "description": "Elbow - (brass)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,00",
+      "illustrated": true,
+      "zoomRect": "278,256,522,666,'28'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "31330SP",
+      "description": "Switch - Pressure 140-280kPa 72101 72171 72161",
+      "sourceCompatibilityText": "XP25P2, XP35P8",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "100,91",
+      "illustrated": true,
+      "zoomRect": "242,280,558,642,'29'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "31982SP",
+      "description": "P/switch Assy LOP 140-280kPa 72101/LOP only Horizontal",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "192,73",
+      "illustrated": true,
+      "zoomRect": "242,280,558,642,'30'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "45523",
+      "description": "Checkvalve",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "130,256,416,666,'31'"
+    },
+    {
+      "diagramReference": "21",
+      "partNumber": "11591-1",
+      "description": "Plug & O-ring - Priming",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,91",
+      "illustrated": true,
+      "zoomRect": "72,258,246,664,'32'"
+    },
+    {
+      "diagramReference": "22",
+      "partNumber": "31372SP",
+      "description": "Hydrascan - Adjustable",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "72,272,246,650,'33'"
+    },
+    {
+      "diagramReference": "23",
+      "partNumber": "11392-10",
+      "description": "Flow kohn",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "76,295,256,627,'34'"
+    },
+    {
+      "diagramReference": "24",
+      "partNumber": "31269",
+      "description": "Cap & O-ring - Blanking",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "78,323,264,599,'35'"
+    },
+    {
+      "diagramReference": "25",
+      "partNumber": "31492",
+      "description": "Kit - Adaptor XP350T XP450T 72181",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "144,323,460,599,'36'"
+    },
+    {
+      "diagramReference": "26",
+      "partNumber": "43061",
+      "description": "O-ring - Torrium Pre S/N 08114",
+      "sourceCompatibilityText": "(Thin O-ring)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": true,
+      "zoomRect": "144,307,458,615,'37'"
+    },
+    {
+      "diagramReference": "26",
+      "partNumber": "401487",
+      "description": "O-ring - Torrium Post S/N 08114",
+      "sourceCompatibilityText": "(Thick O-ring)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": true,
+      "zoomRect": "144,307,458,615,'38'"
+    },
+    {
+      "diagramReference": "27",
+      "partNumber": "PC15XJ",
+      "description": "Press Control",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "362,73",
+      "illustrated": true,
+      "zoomRect": "202,188,598,592,'39'"
+    },
+    {
+      "diagramReference": "28",
+      "partNumber": "44992",
+      "description": "Socket - 1\"",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "16,36",
+      "illustrated": true,
+      "zoomRect": "168,320,530,602,'40'"
+    },
+    {
+      "diagramReference": "29",
+      "partNumber": "TT45",
+      "description": "Torrium 2 - 450kPa Max",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": true,
+      "zoomRect": "164,184,520,578,'41'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32323",
+      "description": "Checkvalve Assy - Torrium",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32693",
+      "description": "Checkvalve Assy - Torrium 2",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32694",
+      "description": "Priming Cap Assy - Torrium 2",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "31,82",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32518",
+      "description": "Plate - Orifice 72101/LOP only Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32519",
+      "description": "Plate - Orifice 72111/LOP only Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32574",
+      "description": "Flange Assy - Presscontrol",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "29,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32754",
+      "description": "Seal Kit",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "75,45",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "48871",
+      "description": "Reducing Bush - XP25P2-1 Only - Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "14,55",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "24002C",
+      "description": "Tank - 2lt Silver",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "24008P",
+      "description": "Pressure Tank - 8L",
+      "sourceCompatibilityText": "XP25P2, XP25P8",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "114,55",
+      "illustrated": false,
+      "zoomRect": null
+    }
+  ],
+  "hotspots": [
+    {
+      "reference": "1",
+      "x": 0.3443875,
+      "y": 0.8522234273318872,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "706",
+        "777",
+        "740"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.4242875,
+      "y": 0.8611930585683298,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11670-20SP"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.4578125,
+      "y": 0.8601409978308027,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "45446",
+        "49108"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.4779625,
+      "y": 0.8606616052060738,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "48802SP"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.5193875,
+      "y": 0.8611930585683298,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11354BSP"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.6163125,
+      "y": 0.8622451193058568,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11253-1SP",
+        "11253-3",
+        "11253-2SP"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.6382874999999999,
+      "y": 0.8617136659436009,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11254-1",
+        "11254-3",
+        "11254-2"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.6633000000000001,
+      "y": 0.8617136659436009,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "45579"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.6956125,
+      "y": 0.8617136659436009,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "30805"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.56265,
+      "y": 0.7537201735357918,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11255-1R",
+        "11255-2"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.6772875,
+      "y": 0.759587852494577,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11256"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.7041250000000001,
+      "y": 0.758470715835141,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31346"
+      ]
+    },
+    {
+      "reference": "13",
+      "x": 0.5291250000000001,
+      "y": 0.8278741865509762,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11252-16",
+        "11252-17"
+      ]
+    },
+    {
+      "reference": "14",
+      "x": 0.5279,
+      "y": 0.7045010845986985,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "10209-204"
+      ]
+    },
+    {
+      "reference": "15",
+      "x": 0.629775,
+      "y": 0.7018546637744035,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31491D"
+      ]
+    },
+    {
+      "reference": "15",
+      "x": 0.6273375,
+      "y": 0.6229501084598699,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31491D"
+      ]
+    },
+    {
+      "reference": "16",
+      "x": 0.629775,
+      "y": 0.6568655097613882,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31300SP",
+        "32029SP"
+      ]
+    },
+    {
+      "reference": "17",
+      "x": 0.7181875000000001,
+      "y": 0.5499132321041215,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "45527",
+        "14828"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.696825,
+      "y": 0.5562472885032538,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "43765"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.6035499999999999,
+      "y": 0.6071149674620392,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31330SP",
+        "31982SP"
+      ]
+    },
+    {
+      "reference": "20",
+      "x": 0.32363749999999997,
+      "y": 0.5567787418655098,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "45523"
+      ]
+    },
+    {
+      "reference": "21",
+      "x": 0.1809375,
+      "y": 0.5594793926247289,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11591-1"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.1809375,
+      "y": 0.5891106290672452,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31372SP"
+      ]
+    },
+    {
+      "reference": "23",
+      "x": 0.19075,
+      "y": 0.6399023861171367,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "11392-10"
+      ]
+    },
+    {
+      "reference": "24",
+      "x": 0.19682499999999997,
+      "y": 0.7008026030368765,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31269"
+      ]
+    },
+    {
+      "reference": "24",
+      "x": 0.24623749999999997,
+      "y": 0.4747722342733189,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31269"
+      ]
+    },
+    {
+      "reference": "25",
+      "x": 0.3596625,
+      "y": 0.7002711496746205,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31492"
+      ]
+    },
+    {
+      "reference": "25",
+      "x": 0.4096125,
+      "y": 0.47582429501084594,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "31492"
+      ]
+    },
+    {
+      "reference": "26",
+      "x": 0.358375,
+      "y": 0.6658351409978309,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "43061",
+        "401487"
+      ]
+    },
+    {
+      "reference": "26",
+      "x": 0.4096125,
+      "y": 0.43980477223427333,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "43061",
+        "401487"
+      ]
+    },
+    {
+      "reference": "27",
+      "x": 0.5047125,
+      "y": 0.40806941431670285,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "PC15XJ"
+      ]
+    },
+    {
+      "reference": "28",
+      "x": 0.5066125,
+      "y": 0.4652060737527115,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "44992"
+      ]
+    },
+    {
+      "reference": "28",
+      "x": 0.41942500000000005,
+      "y": 0.6955206073752712,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "44992"
+      ]
+    },
+    {
+      "reference": "29",
+      "x": 0.410225,
+      "y": 0.39850325379609547,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "TT45"
+      ]
+    },
+    {
+      "reference": "29",
+      "x": 0.5474375,
+      "y": 0.606594360086768,
+      "width": 0.017325,
+      "height": 0.015032537960954447,
+      "partNumbers": [
+        "TT45"
+      ]
+    }
+  ]
+}

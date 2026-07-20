@@ -1,0 +1,706 @@
+{
+  "sourceUrl": "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_190&PRF=4&PRNDS=CE_179&PRC=|R|CE_1|CE_111|CE_179|CE_190&MP1=CE_190&MP=CE_190.cex#CE_190",
+  "diagramSourceUrl": "https://davey.ricambio.net/ce/001/CE_190_1.SVG",
+  "diagramLocalPath": "/diagrams/hs-series.svg",
+  "diagramWidth": 800,
+  "diagramHeight": 528,
+  "cataloguePageTitle": "HS Series",
+  "parts": [
+    {
+      "diagramReference": "1",
+      "partNumber": "781",
+      "description": "Motor - 0.58kW 240/1/50",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "604,55",
+      "illustrated": true,
+      "zoomRect": "86,124,292,404,'0'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "782",
+      "description": "Motor - 0.80kW 240/1/50",
+      "sourceCompatibilityText": "HS60-08-1 model only",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "628,18",
+      "illustrated": true,
+      "zoomRect": "86,124,292,404,'1'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "31618",
+      "description": "Kit - Seal HS",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "90,00",
+      "illustrated": true,
+      "zoomRect": "146,124,472,404,'2'"
+    },
+    {
+      "diagramReference": "2a",
+      "partNumber": "12551",
+      "description": "Slinger",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": true,
+      "zoomRect": "130,141,426,387,'3'"
+    },
+    {
+      "diagramReference": "2b",
+      "partNumber": "43403",
+      "description": "O-ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "150,141,484,387,'4'"
+    },
+    {
+      "diagramReference": "2c",
+      "partNumber": "49771SP",
+      "description": "Seal - Mechanical 5/8\"",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "65,45",
+      "illustrated": true,
+      "zoomRect": "161,141,517,387,'5'"
+    },
+    {
+      "diagramReference": "2d",
+      "partNumber": "40019",
+      "description": "O-ring",
+      "sourceCompatibilityText": "1st Stage body",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "282,141,518,387,'6'"
+    },
+    {
+      "diagramReference": "2e",
+      "partNumber": "401573",
+      "description": "Nut - Half",
+      "sourceNoteText": "A",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "4,55",
+      "illustrated": true,
+      "zoomRect": "282,218,518,310,'7'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "12538SP",
+      "description": "Backplate",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "58,18",
+      "illustrated": true,
+      "zoomRect": "142,242,460,286,'8'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "12545SP",
+      "description": "Impeller - HS50 50Hz",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "94,55",
+      "illustrated": true,
+      "zoomRect": "161,242,519,286,'9'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "12559SP",
+      "description": "Impeller - HS60 50Hz",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "0",
+      "sourcePriceText": "94,55",
+      "illustrated": true,
+      "zoomRect": "161,242,519,286,'10'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "12548-10",
+      "description": "Ring - Wear",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "19,09",
+      "illustrated": true,
+      "zoomRect": "170,242,544,286,'11'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "32015SP",
+      "description": "Diffuser kit - HS",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "203,64",
+      "illustrated": true,
+      "zoomRect": "218,124,582,404,'12'"
+    },
+    {
+      "diagramReference": "6a",
+      "partNumber": "12543-10",
+      "description": "Stage body - Final stage HS",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "78,18",
+      "illustrated": true,
+      "zoomRect": "170,141,546,387,'13'"
+    },
+    {
+      "diagramReference": "6b",
+      "partNumber": "12541-10",
+      "description": "Stage body - 2nd stage HS",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "78,18",
+      "illustrated": true,
+      "zoomRect": "196,141,604,387,'14'"
+    },
+    {
+      "diagramReference": "6c",
+      "partNumber": "13197",
+      "description": "Baffle return vane",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "3",
+      "sourcePriceText": "19,09",
+      "illustrated": true,
+      "zoomRect": "180,141,572,387,'15'"
+    },
+    {
+      "diagramReference": "6d",
+      "partNumber": "12544-30",
+      "description": "Stage body - 1st stage",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "45,45",
+      "illustrated": true,
+      "zoomRect": "264,141,536,387,'16'"
+    },
+    {
+      "diagramReference": "6e",
+      "partNumber": "12695",
+      "description": "Valve - Priming",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,00",
+      "illustrated": true,
+      "zoomRect": "262,242,538,286,'17'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "S34M06208",
+      "description": "Screw - Casing (pk8)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "27,27",
+      "illustrated": true,
+      "zoomRect": "293,242,507,286,'18'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "31623SP",
+      "description": "Casing - Front Assy HS",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "230,91",
+      "illustrated": true,
+      "zoomRect": "306,124,494,404,'19'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "11091-1",
+      "description": "Priming Plug & O-ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "22,73",
+      "illustrated": true,
+      "zoomRect": "332,124,468,404,'20'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "31573",
+      "description": "Checkvalve Assy - HS",
+      "sourceCompatibilityText": "Optional extra on -2",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "348,124,452,404,'21'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "12665SP",
+      "description": "Support - Foot/tape",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": "347,207,453,321,'22'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "12618D",
+      "description": "Spacer - 3 stage only",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "223,218,577,310,'23'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32320-1SP",
+      "description": "Coupling Assy",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "B",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,91",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "11392-10",
+      "description": "Flow kohn",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "11591-1",
+      "description": "Plug & O-ring - Priming",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,91",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "31610-300",
+      "description": "Hydrascan CL - Plug & Play Not Illustrated",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "PCSJ22",
+      "description": "Pressure controller - 2.2 bar Plug & Play",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "362,73",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "TT45",
+      "description": "Torrium 2 - 450kPa Max",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "TT70",
+      "description": "Torrium 2 - 700kPa",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32323",
+      "description": "Checkvalve Assy - Torrium",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "401487",
+      "description": "O-ring - Torrium Post S/N 08114",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32960",
+      "description": "HS Strengthening Kit",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "21,82",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32578",
+      "description": "Wet End Kit - HS50-06L",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "581,82",
+      "illustrated": false,
+      "zoomRect": null
+    }
+  ],
+  "hotspots": [
+    {
+      "reference": "1",
+      "x": 0.2150875,
+      "y": 0.47136363636363643,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "781",
+        "782"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.3652375,
+      "y": 0.47136363636363643,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "31618",
+        "12551",
+        "43403",
+        "49771SP",
+        "40019",
+        "401573"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.7048375,
+      "y": 0.47136363636363643,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "31618",
+        "12551",
+        "43403",
+        "49771SP",
+        "40019",
+        "401573"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.7048375,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "31618",
+        "12551",
+        "43403",
+        "49771SP",
+        "40019",
+        "401573"
+      ]
+    },
+    {
+      "reference": "2a",
+      "x": 0.326025,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12551"
+      ]
+    },
+    {
+      "reference": "2b",
+      "x": 0.3750875,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "43403"
+      ]
+    },
+    {
+      "reference": "2c",
+      "x": 0.40254999999999996,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "49771SP"
+      ]
+    },
+    {
+      "reference": "2d",
+      "x": 0.7048375,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "40019"
+      ]
+    },
+    {
+      "reference": "2e",
+      "x": 0.7048375,
+      "y": 0.8264204545454544,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "401573"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.35506249999999995,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12538SP"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.4032125,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12545SP",
+        "12559SP"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.46046249999999994,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12545SP",
+        "12559SP"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.52035,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12545SP",
+        "12559SP"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.4243875,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12548-10"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.48246249999999996,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12548-10"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.5432625,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12548-10"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.54385,
+      "y": 0.47136363636363643,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "32015SP",
+        "12543-10",
+        "12541-10",
+        "13197",
+        "12544-30",
+        "12695"
+      ]
+    },
+    {
+      "reference": "6a",
+      "x": 0.426125,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12543-10"
+      ]
+    },
+    {
+      "reference": "6b",
+      "x": 0.48891249999999997,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12541-10"
+      ]
+    },
+    {
+      "reference": "6b",
+      "x": 0.5488124999999999,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12541-10"
+      ]
+    },
+    {
+      "reference": "6c",
+      "x": 0.4490375,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "13197"
+      ]
+    },
+    {
+      "reference": "6c",
+      "x": 0.5105124999999999,
+      "y": 0.535151515151515,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "13197"
+      ]
+    },
+    {
+      "reference": "6c",
+      "x": 0.5718125,
+      "y": 0.535151515151515,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "13197"
+      ]
+    },
+    {
+      "reference": "6d",
+      "x": 0.66165,
+      "y": 0.5352840909090909,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12544-30"
+      ]
+    },
+    {
+      "reference": "6e",
+      "x": 0.6537875,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12695"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.7323,
+      "y": 0.9143939393939393,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "S34M06208"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.7666249999999999,
+      "y": 0.47136363636363643,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "31623SP"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.829425,
+      "y": 0.47136363636363643,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "11091-1"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.8687125,
+      "y": 0.47136363636363643,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "31573"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.8678874999999999,
+      "y": 0.7844318181818181,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12665SP"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.5571625,
+      "y": 0.8235416666666666,
+      "width": 0.021175000000000003,
+      "height": 0.03208333333333334,
+      "partNumbers": [
+        "12618D"
+      ]
+    }
+  ]
+}

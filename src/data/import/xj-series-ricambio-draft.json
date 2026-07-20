@@ -1,0 +1,839 @@
+{
+  "sourceUrl": "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_197&PRF=4&PRNDS=CE_179&PRC=|R|CE_1|CE_111|CE_179|CE_197&MP1=CE_197&MP=CE_197.cex#CE_197",
+  "diagramSourceUrl": "https://davey.ricambio.net/ce/001/CE_197_1.SVG",
+  "diagramLocalPath": "/diagrams/xj-series.svg",
+  "diagramWidth": 800,
+  "diagramHeight": 636,
+  "cataloguePageTitle": "XJ Series",
+  "parts": [
+    {
+      "diagramReference": "1",
+      "partNumber": "766",
+      "description": "Motor - 0.58kW 240/1/50",
+      "sourceCompatibilityText": "72501PC",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "482,73",
+      "illustrated": true,
+      "zoomRect": "44,178,160,458,'0'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "767",
+      "description": "Motor - 0.80kW 240/1/50",
+      "sourceCompatibilityText": "72701PC",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "44,178,160,458,'1'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "744",
+      "description": "Motor - 0.58kW 220/1/50",
+      "sourceCompatibilityText": "XJ50, XJ50T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "459,09",
+      "illustrated": true,
+      "zoomRect": "44,178,160,458,'2'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "720",
+      "description": "Motor - 0.80kW 220/1/50",
+      "sourceCompatibilityText": "XJ70, XJ70T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "521,82",
+      "illustrated": true,
+      "zoomRect": "44,178,160,458,'3'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "7060",
+      "description": "Motor - 1.1kW 1ph",
+      "sourceCompatibilityText": "XJ90, XJ90T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "814,55",
+      "illustrated": true,
+      "zoomRect": "44,178,160,458,'4'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "11620-3SP",
+      "description": "Adaptor",
+      "sourceCompatibilityText": "Suits All",
+      "sourceNoteText": "E",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "183,64",
+      "illustrated": true,
+      "zoomRect": "146,183,466,453,'5'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "32767",
+      "description": "Seal Kit",
+      "sourceNoteText": "A",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "97,27",
+      "illustrated": true,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "3a",
+      "partNumber": "11196",
+      "description": "Sleeve - Painted brass",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "168,183,534,453,'7'"
+    },
+    {
+      "diagramReference": "3b",
+      "partNumber": "430645",
+      "description": "O-ring - Pack of 5",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,00",
+      "illustrated": true,
+      "zoomRect": "178,183,560,453,'8'"
+    },
+    {
+      "diagramReference": "3c",
+      "partNumber": "30736",
+      "description": "Seal - Mechanical",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "68,18",
+      "illustrated": true,
+      "zoomRect": "186,183,584,453,'9'"
+    },
+    {
+      "diagramReference": "3d",
+      "partNumber": "43062",
+      "description": "O-ring - Casing",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "22,73",
+      "illustrated": true,
+      "zoomRect": "200,183,600,453,'10'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "9859SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "XJ50 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "103,64",
+      "illustrated": true,
+      "zoomRect": "214,232,586,404,'11'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "9856-5SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "XJ70 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "103,64",
+      "illustrated": true,
+      "zoomRect": "214,232,586,404,'12'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "9856SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "XJ90 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "133,64",
+      "illustrated": true,
+      "zoomRect": "214,232,586,404,'13'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "31302SP",
+      "description": "Switch - Pressure 180-390kPa",
+      "sourceCompatibilityText": "XJ50",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "100,91",
+      "illustrated": true,
+      "zoomRect": "226,183,574,453,'14'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "31303SP",
+      "description": "Switch - Pressure 210-420 kPa",
+      "sourceCompatibilityText": "XJ70",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "100,91",
+      "illustrated": true,
+      "zoomRect": "226,183,574,453,'15'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "31321SP",
+      "description": "Switch - Pressure 210-350kPa",
+      "sourceCompatibilityText": "XJ90",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "96,36",
+      "illustrated": true,
+      "zoomRect": "226,183,574,453,'16'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "11591-1",
+      "description": "Plug & O-ring - Priming",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,91",
+      "illustrated": true,
+      "zoomRect": "248,183,552,453,'17'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "31283",
+      "description": "Kit - Tee piece assy",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "68,18",
+      "illustrated": true,
+      "zoomRect": "286,192,514,444,'18'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "30805",
+      "description": "Checkvalve Assy",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "301,192,499,444,'19'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "43060",
+      "description": "O-ring",
+      "sourceCompatibilityText": "XJ50T, XJ70T, XJ90T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": "282,204,518,432,'20'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "43067",
+      "description": "O-ring",
+      "sourceCompatibilityText": "All other models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": "282,204,518,432,'21'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "9636SP",
+      "description": "Screw & O-ring - Airbleed",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "16,36",
+      "illustrated": true,
+      "zoomRect": "352,214,448,422,'22'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "8923-3SP",
+      "description": "Cover - Entry deluxe foot",
+      "sourceCompatibilityText": "XJ50 & XJ70 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "78,18",
+      "illustrated": true,
+      "zoomRect": "352,238,448,398,'23'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "9103-3SP",
+      "description": "Port - Inlet",
+      "sourceCompatibilityText": "XJ90, XJ90T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "73,64",
+      "illustrated": true,
+      "zoomRect": "352,238,448,398,'24'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "8816-3",
+      "description": "Jet - White",
+      "sourceCompatibilityText": "XJ50 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "348,297,452,339,'25'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "8816-6",
+      "description": "Jet - Red",
+      "sourceCompatibilityText": "XJ70 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "348,297,452,339,'26'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "8816-5",
+      "description": "Jet - Green",
+      "sourceCompatibilityText": "XJ90 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "348,297,452,339,'27'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "11231-106",
+      "description": "Screw - (pk6)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "37,27",
+      "illustrated": true,
+      "zoomRect": "340,297,460,339,'28'"
+    },
+    {
+      "diagramReference": "14",
+      "partNumber": "43067",
+      "description": "O-ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "15",
+      "partNumber": "8818-4",
+      "description": "Venturi - Yellow",
+      "sourceCompatibilityText": "XJ50 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "320,297,480,339,'30'"
+    },
+    {
+      "diagramReference": "15",
+      "partNumber": "9952-36",
+      "description": "Venturi - Green",
+      "sourceCompatibilityText": "XJ70 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "320,297,480,339,'31'"
+    },
+    {
+      "diagramReference": "15",
+      "partNumber": "9952-41",
+      "description": "Venturi - Black",
+      "sourceCompatibilityText": "XJ90 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "320,297,480,339,'32'"
+    },
+    {
+      "diagramReference": "16",
+      "partNumber": "40010",
+      "description": "O-ring - Venturi/coverplate",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": "312,297,488,339,'33'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "8927",
+      "description": "Gasket - Suction cover",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "304,297,496,339,'34'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "8922-3",
+      "description": "Body - Pump c/w priming port",
+      "sourceCompatibilityText": "72501PC, 72701PC, XJ50T, XJ70T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "195,45",
+      "illustrated": true,
+      "zoomRect": "292,297,508,339,'35'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "8922-1",
+      "description": "Body - Pump",
+      "sourceCompatibilityText": "XJ50, XJ70, XJ90/T",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "195,45",
+      "illustrated": true,
+      "zoomRect": "292,297,508,339,'36'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "11521-106",
+      "description": "Screw - (pk6)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "284,297,516,339,'37'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "B03M0835SP",
+      "description": "Bolt (pk6) suits Adaptor 11620-3SP",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "21,82",
+      "illustrated": true,
+      "zoomRect": "284,297,516,339,'38'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "491076",
+      "description": "Nut - M8 purlin s/s (pk6)",
+      "sourceCompatibilityText": "Suits Adaptor 11620-3SP",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "284,297,516,339,'39'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "96376",
+      "description": "Screw - (pk6)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "14,55",
+      "illustrated": true,
+      "zoomRect": "246,297,554,339,'40'"
+    },
+    {
+      "diagramReference": "21",
+      "partNumber": "9953-10SP",
+      "description": "Coverplate",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "65,45",
+      "illustrated": true,
+      "zoomRect": "230,232,570,404,'41'"
+    },
+    {
+      "diagramReference": "22",
+      "partNumber": "PC15XJ",
+      "description": "Press Control",
+      "sourceCompatibilityText": "72501PC, 72701PC",
+      "sourceNoteText": "B",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "362,73",
+      "illustrated": true,
+      "zoomRect": "219,168,581,468,'42'"
+    },
+    {
+      "diagramReference": "23",
+      "partNumber": "TT45",
+      "description": "Torrium 2 - 450kPa Max",
+      "sourceCompatibilityText": "XJ50T, XJ90T",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": true,
+      "zoomRect": "210,156,590,480,'43'"
+    },
+    {
+      "diagramReference": "23",
+      "partNumber": "TT70",
+      "description": "Torrium 2 - 700kPa",
+      "sourceCompatibilityText": "XJ70T",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": true,
+      "zoomRect": "210,156,590,480,'44'"
+    },
+    {
+      "diagramReference": "24",
+      "partNumber": "13551SP",
+      "description": "Adaptor - Dynajet (Torrium) XJ50T XJ70T XJ90T",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "29,09",
+      "illustrated": true,
+      "zoomRect": "352,192,448,444,'45'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "96154",
+      "description": "Screw - (pk4)",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "8890-2SP",
+      "description": "Plug & O-ring - Priming",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32323",
+      "description": "Checkvalve Assy - Torrium",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "43061",
+      "description": "O-ring - Torrium Pre S/N 08114",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "401487",
+      "description": "O-ring - Torrium Post S/N 08114",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32693",
+      "description": "Checkvalve Assy - Torrium 2",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32694",
+      "description": "Priming Cap Assy - Torrium 2",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "31,82",
+      "illustrated": false,
+      "zoomRect": null
+    }
+  ],
+  "hotspots": [
+    {
+      "reference": "1",
+      "x": 0.10895000000000002,
+      "y": 0.5610377358490566,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "766",
+        "767",
+        "744",
+        "720",
+        "7060"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.36393749999999997,
+      "y": 0.574685534591195,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "11620-3SP"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.4197874999999999,
+      "y": 0.574685534591195,
+      "width": 0.09931249999999998,
+      "height": 0.023238993710691783,
+      "partNumbers": [
+        "32767",
+        "11196",
+        "430645",
+        "30736",
+        "43062"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.534,
+      "y": 0.7290566037735849,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "9859SP",
+        "9856-5SP",
+        "9856SP"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.564025,
+      "y": 0.574685534591195,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "31302SP",
+        "31303SP",
+        "31321SP"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.6214999999999999,
+      "y": 0.574685534591195,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "11591-1"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.7157250000000001,
+      "y": 0.6031132075471699,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "31283"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.7523875,
+      "y": 0.6031132075471699,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "30805"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.706575,
+      "y": 0.6409119496855346,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "43060",
+        "43067"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.8790749999999999,
+      "y": 0.6724056603773585,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "9636SP"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.8790749999999999,
+      "y": 0.7480031446540881,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "8923-3SP",
+        "9103-3SP"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.868225,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "8816-3",
+        "8816-6",
+        "8816-5"
+      ]
+    },
+    {
+      "reference": "13",
+      "x": 0.848225,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "11231-106"
+      ]
+    },
+    {
+      "reference": "15",
+      "x": 0.8007125,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "8818-4",
+        "9952-36",
+        "9952-41"
+      ]
+    },
+    {
+      "reference": "16",
+      "x": 0.781525,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "40010"
+      ]
+    },
+    {
+      "reference": "17",
+      "x": 0.7615375,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "8927"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.7307000000000001,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "8922-3",
+        "8922-1"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.7082,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "11521-106",
+        "B03M0835SP",
+        "491076"
+      ]
+    },
+    {
+      "reference": "20",
+      "x": 0.6131625,
+      "y": 0.9338679245283019,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "96376"
+      ]
+    },
+    {
+      "reference": "21",
+      "x": 0.5756875,
+      "y": 0.7280345911949686,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "9953-10SP"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.54735,
+      "y": 0.5263836477987421,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "PC15XJ"
+      ]
+    },
+    {
+      "reference": "23",
+      "x": 0.52485,
+      "y": 0.4896069182389937,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "TT45",
+        "TT70"
+      ]
+    },
+    {
+      "reference": "23",
+      "x": 0.8790749999999999,
+      "y": 0.5274056603773585,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "TT45",
+        "TT70"
+      ]
+    },
+    {
+      "reference": "24",
+      "x": 0.8790749999999999,
+      "y": 0.6031132075471699,
+      "width": 0.01845,
+      "height": 0.023238993710691824,
+      "partNumbers": [
+        "13551SP"
+      ]
+    }
+  ]
+}

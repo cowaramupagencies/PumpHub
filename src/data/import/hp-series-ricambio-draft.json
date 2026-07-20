@@ -1,0 +1,629 @@
+{
+  "sourceUrl": "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_188&PRF=4&PRNDS=CE_179&PRC=|R|CE_1|CE_111|CE_179|CE_188&MP1=CE_188&MP=CE_188.cex#CE_188",
+  "diagramSourceUrl": "https://davey.ricambio.net/ce/001/CE_188_1.SVG",
+  "diagramLocalPath": "/diagrams/hp-series.svg",
+  "diagramWidth": 800,
+  "diagramHeight": 917,
+  "cataloguePageTitle": "HP Series",
+  "parts": [
+    {
+      "diagramReference": "1",
+      "partNumber": "7000",
+      "description": "Motor - 0.58kW 220/1/50",
+      "sourceCompatibilityText": "HP45T-0/-1, PC-0, HP65T-0-1, PC-0",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "459,09",
+      "illustrated": true,
+      "zoomRect": "165,206,547,668,'0'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "7001",
+      "description": "Motor - 0.80kW 220/1/50",
+      "sourceCompatibilityText": "HP85-08T-0/-1",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "521,82",
+      "illustrated": true,
+      "zoomRect": "165,206,547,668,'1'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "7064",
+      "description": "Motor - 0.58kW 220/1/50",
+      "sourceCompatibilityText": "HP45-05T-2, PC-1 & HP65-06T-2, PC-1",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "459,09",
+      "illustrated": true,
+      "zoomRect": "165,206,547,668,'2'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "7065",
+      "description": "Motor - 0.80kW 220/1/50",
+      "sourceCompatibilityText": "HP85-08T-2",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "521,82",
+      "illustrated": true,
+      "zoomRect": "165,206,547,668,'3'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "14406-20",
+      "description": "Yoke",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "64,55",
+      "illustrated": true,
+      "zoomRect": "58,432,222,485,'4'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "12252SP",
+      "description": "Casing Assy & Spacers",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "84,278,302,639,'5'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "12252-1SP",
+      "description": "Casing Assy incl Yoke",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "298,18",
+      "illustrated": true,
+      "zoomRect": "84,278,302,639,'6'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "48802SP",
+      "description": "Seal - Mechanical 1/2\"",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "111,298,383,619,'7'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "11448",
+      "description": "Diffuser",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "54,55",
+      "illustrated": true,
+      "zoomRect": "116,426,398,491,'8'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "12889SP",
+      "description": "Impeller HP45-05",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "94,55",
+      "illustrated": true,
+      "zoomRect": "131,298,443,619,'9'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "12890SP",
+      "description": "Impeller",
+      "sourceCompatibilityText": "HP65-06",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "94,55",
+      "illustrated": true,
+      "zoomRect": "131,298,443,619,'10'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "12891SP",
+      "description": "Impeller HP85-08",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "94,55",
+      "illustrated": true,
+      "zoomRect": "131,298,443,619,'11'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "12548-10",
+      "description": "Ring - Wear",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "19,09",
+      "illustrated": true,
+      "zoomRect": "144,406,486,511,'12'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "128066",
+      "description": "Spacer - 2 stage (pk6)",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "152,288,506,629,'13'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "10963-10",
+      "description": "Blanking Ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "9,09",
+      "illustrated": true,
+      "zoomRect": "166,426,546,491,'14'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "12883-1",
+      "description": "Diffuser Assy",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "180,294,588,623,'15'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "491076",
+      "description": "Nut - M8 purlin s/s (pk6)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "228,409,572,508,'16'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "40021",
+      "description": "O-ring - Diffuser",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "18,18",
+      "illustrated": true,
+      "zoomRect": "222,298,578,619,'17'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "42998",
+      "description": "O-ring - Casing",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "2",
+      "sourcePriceText": "23,64",
+      "illustrated": true,
+      "zoomRect": "262,290,538,627,'18'"
+    },
+    {
+      "diagramReference": "14",
+      "partNumber": "12797-1",
+      "description": "Ring adaptor",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "37,27",
+      "illustrated": true,
+      "zoomRect": "260,434,540,483,'19'"
+    },
+    {
+      "diagramReference": "15",
+      "partNumber": "12782D",
+      "description": "Cover - Suction",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "105,45",
+      "illustrated": true,
+      "zoomRect": "293,434,507,483,'20'"
+    },
+    {
+      "diagramReference": "16",
+      "partNumber": "11091-1",
+      "description": "Priming Plug & O-ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "22,73",
+      "illustrated": true,
+      "zoomRect": "304,288,496,629,'21'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "45031",
+      "description": "Cap screw & nut",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "324,432,476,485,'22'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "11682",
+      "description": "V Band Assy - Hvy Duty 7.5",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "73,64",
+      "illustrated": true,
+      "zoomRect": "338,286,462,631,'23'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "11682-1",
+      "description": "V Band Assy - Hvy Duty 10",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "73,64",
+      "illustrated": true,
+      "zoomRect": "338,286,462,631,'24'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "31269",
+      "description": "Cap & O-ring - Blanking",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "272,227,528,690,'25'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "32320-1SP",
+      "description": "Coupling Assy",
+      "sourceNoteText": "B",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,91",
+      "illustrated": true,
+      "zoomRect": "331,260,469,657,'26'"
+    },
+    {
+      "diagramReference": "21",
+      "partNumber": "401487",
+      "description": "O-ring - Torrium Post S/N 08114",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": true,
+      "zoomRect": "290,213,510,691,'27'"
+    },
+    {
+      "diagramReference": "22",
+      "partNumber": "TT45",
+      "description": "Torrium 2 - 450kPa Max",
+      "sourceNoteText": "A",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": true,
+      "zoomRect": "216,228,584,689,'28'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32323",
+      "description": "Checkvalve Assy - Torrium",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32693",
+      "description": "Checkvalve Assy - Torrium 2",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,36",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32694",
+      "description": "Priming Cap Assy - Torrium 2",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "31,82",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "W35M10026",
+      "description": "Washer - s/s (pk6)",
+      "sourceCompatibilityText": "HP45-05 models only",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32753",
+      "description": "Seal Kit HP Series",
+      "sourceNoteText": "E",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "88,18",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32579",
+      "description": "Wet End Kit - HP45-05 Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "237,27",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "PCSJ15",
+      "description": "Pressure controller - 1.5 bar silver",
+      "sourceCompatibilityText": "Not Illustrated",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "362,73",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32832",
+      "description": "HP45 & HP65 Upgrade Kit",
+      "sourceNoteText": "F",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "284,55",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "32909",
+      "description": "HP85 Upgrade Kit",
+      "sourceNoteText": "F",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "320,91",
+      "illustrated": false,
+      "zoomRect": null
+    }
+  ],
+  "hotspots": [
+    {
+      "reference": "1",
+      "x": 0.4127625,
+      "y": 0.44840785169029446,
+      "width": 0.0318,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "7000",
+        "7001",
+        "7064",
+        "7065"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.143225,
+      "y": 0.9416139585605234,
+      "width": 0.031575,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "14406-20"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.208825,
+      "y": 0.6060850599781897,
+      "width": 0.0318,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "12252SP",
+        "12252-1SP"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.2771,
+      "y": 0.6489531079607415,
+      "width": 0.0318,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "48802SP"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.290225,
+      "y": 0.9280370774263904,
+      "width": 0.031575,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "11448"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.3273625,
+      "y": 0.6505016357688114,
+      "width": 0.031575,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "12889SP",
+        "12890SP",
+        "12891SP"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.3618375,
+      "y": 0.8865321701199564,
+      "width": 0.0318,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "12548-10"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.3791875,
+      "y": 0.6293565976008724,
+      "width": 0.031575,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "128066"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.41366249999999993,
+      "y": 0.9280370774263904,
+      "width": 0.0318,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "10963-10"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.44835,
+      "y": 0.6406106870229007,
+      "width": 0.031575,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "12883-1"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.5684375,
+      "y": 0.8917775354416576,
+      "width": 0.0318,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "491076"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.5537624999999999,
+      "y": 0.6512758996728463,
+      "width": 0.031575,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "40021"
+      ]
+    },
+    {
+      "reference": "13",
+      "x": 0.6549625,
+      "y": 0.632464558342421,
+      "width": 0.031575,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "42998"
+      ]
+    },
+    {
+      "reference": "14",
+      "x": 0.6505124999999999,
+      "y": 0.9468593238822246,
+      "width": 0.0318,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "12797-1"
+      ]
+    },
+    {
+      "reference": "15",
+      "x": 0.7319,
+      "y": 0.9468593238822246,
+      "width": 0.031575,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "12782D"
+      ]
+    },
+    {
+      "reference": "16",
+      "x": 0.7612625,
+      "y": 0.6270338058887678,
+      "width": 0.031575,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "11091-1"
+      ]
+    },
+    {
+      "reference": "17",
+      "x": 0.8112999999999999,
+      "y": 0.9429770992366412,
+      "width": 0.0318,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "45031"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.8442125,
+      "y": 0.6225736095965103,
+      "width": 0.031575,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "11682",
+        "11682-1"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.6807500000000001,
+      "y": 0.4951472191930207,
+      "width": 0.0318,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "31269"
+      ]
+    },
+    {
+      "reference": "20",
+      "x": 0.8277499999999999,
+      "y": 0.5682660850599782,
+      "width": 0.0318,
+      "height": 0.027742639040348967,
+      "partNumbers": [
+        "32320-1SP"
+      ]
+    },
+    {
+      "reference": "21",
+      "x": 0.725675,
+      "y": 0.4650817884405671,
+      "width": 0.0318,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "401487"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.5381999999999999,
+      "y": 0.49748091603053435,
+      "width": 0.0318,
+      "height": 0.027546346782988007,
+      "partNumbers": [
+        "TT45"
+      ]
+    }
+  ]
+}
