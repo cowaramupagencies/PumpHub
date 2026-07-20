@@ -43,9 +43,17 @@ import {
   hmSeedModels,
   hmSeedParts,
 } from "@/data/seed/hm-seed";
+import {
+  sdwSeedCompatibilities,
+  sdwSeedDiagram,
+  sdwSeedFamily,
+  sdwSeedHotspots,
+  sdwSeedModels,
+  sdwSeedParts,
+} from "@/data/seed/sdw-seed";
 import type { Brand, Category, Part } from "@/types";
 
-export const SEED_VERSION = 13;
+export const SEED_VERSION = 14;
 
 function dedupePartsById(parts: Part[]): Part[] {
   return [...new Map(parts.map((part) => [part.id, part])).values()];
@@ -88,6 +96,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     hmSeedFamily,
     xjSeedFamily,
     xpSeedFamily,
+    sdwSeedFamily,
     ...extendedSeedFamilies,
   ]);
   await db.pumpModels.bulkPut([
@@ -96,15 +105,24 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     ...hmSeedModels,
     ...xjSeedModels,
     ...xpSeedModels,
+    ...sdwSeedModels,
     ...extendedSeedModels,
   ]);
-  await db.diagrams.bulkPut([hsSeedDiagram, hpSeedDiagram, hmSeedDiagram, xjSeedDiagram, xpSeedDiagram]);
+  await db.diagrams.bulkPut([
+    hsSeedDiagram,
+    hpSeedDiagram,
+    hmSeedDiagram,
+    xjSeedDiagram,
+    xpSeedDiagram,
+    sdwSeedDiagram,
+  ]);
   await db.diagramHotspots.bulkPut([
     ...hsSeedHotspots,
     ...hpSeedHotspots,
     ...hmSeedHotspots,
     ...xjSeedHotspots,
     ...xpSeedHotspots,
+    ...sdwSeedHotspots,
   ]);
   await db.parts.bulkPut(
     dedupePartsById([
@@ -113,6 +131,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
       ...hmSeedParts,
       ...xjSeedParts,
       ...xpSeedParts,
+      ...sdwSeedParts,
     ]),
   );
   await db.partCompatibilities.bulkPut([
@@ -121,6 +140,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     ...hmSeedCompatibilities,
     ...xjSeedCompatibilities,
     ...xpSeedCompatibilities,
+    ...sdwSeedCompatibilities,
   ]);
   await db.appSettings.put({ id: "app", theme: "system", textSize: "standard" });
 }

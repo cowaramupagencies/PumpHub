@@ -345,6 +345,7 @@ export function PumpDetailPage() {
           imageUrl={pumpCurve.imageUrl}
           seriesLabel={pumpCurve.seriesLabel}
           seriesName={pumpCurve.seriesName}
+          isDocument={pumpCurve.isDocument}
         />
       )}
 

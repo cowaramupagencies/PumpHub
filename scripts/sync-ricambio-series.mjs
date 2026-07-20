@@ -77,7 +77,7 @@ async function fetchText(url) {
 async function syncSeries(key) {
   const config = RICAMBIO_SERIES[key];
   if (!config) {
-    throw new Error(`Unknown series "${key}". Use hs, hp, hm, xj, or xp.`);
+    throw new Error(`Unknown series "${key}". Use hs, hp, hm, xj, xp, or sdw.`);
   }
 
   console.log(`\nSyncing ${config.title} (${config.catalogueId})…`);
@@ -103,7 +103,7 @@ async function syncSeries(key) {
 }
 
 const keys = process.argv.slice(2);
-const targets = keys.length > 0 ? keys : ["hs", "hp", "hm", "xj", "xp"];
+const targets = keys.length > 0 ? keys : ["hs", "hp", "hm", "xj", "xp", "sdw"];
 
 for (const key of targets) {
   await syncSeries(key);

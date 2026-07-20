@@ -1,4 +1,4 @@
-export type RicambioSeriesKey = "hs" | "hp" | "hm" | "xj" | "xp";
+export type RicambioSeriesKey = "hs" | "hp" | "hm" | "xj" | "xp" | "sdw";
 
 export interface RicambioSeriesConfig {
   key: RicambioSeriesKey;
@@ -73,6 +73,17 @@ export const RICAMBIO_SERIES: Record<RicambioSeriesKey, RicambioSeriesConfig> = 
     diagramLocalPath: "/diagrams/xp-series.svg",
     hotspotsJsonPath: "src/data/diagrams/xp-series-hotspots.json",
     draftJsonPath: "src/data/import/xp-series-ricambio-draft.json",
+  },
+  sdw: {
+    key: "sdw",
+    catalogueId: "CE_201",
+    familyId: "family-shallow-well",
+    title: "Shallow/Deep Well Jets",
+    sourceUrl: catalogueUrl("CE_201", "CE_200"),
+    diagramSourceUrl: `${BASE}/ce/001/CE_201_1.SVG`,
+    diagramLocalPath: "/diagrams/sdw-series.svg",
+    hotspotsJsonPath: "src/data/diagrams/sdw-series-hotspots.json",
+    draftJsonPath: "src/data/import/sdw-series-ricambio-draft.json",
   },
 };
 

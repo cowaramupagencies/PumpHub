@@ -35,7 +35,7 @@ const FAMILY_VISUALS: Record<string, PumpFamilyVisual> = {
   // Additional ranges — catalogue import pending:
   "shallow-well": {
     imageUrl: "/pumps/families/shallow-well.png",
-    browseLabel: "Shallow Well",
+    browseLabel: "Shallow/Deep Well",
     imageBgClass: "bg-davey-yellow",
   },
   evodrive: {

@@ -2,7 +2,7 @@
 
 import { useCallback, useEffect, useState } from "react";
 import { createPortal } from "react-dom";
-import { RotateCw, Smartphone, X } from "lucide-react";
+import { ExternalLink, RotateCw, Smartphone, X } from "lucide-react";
 import { cn } from "@/utils";
 import { Button } from "@/components/ui/Button";
 
@@ -11,6 +11,7 @@ interface PumpCurveProps {
   imageUrl: string;
   seriesLabel: string;
   seriesName?: string;
+  isDocument?: boolean;
 }
 
 async function tryLockLandscape(): Promise<void> {
@@ -32,7 +33,13 @@ async function tryUnlockOrientation(): Promise<void> {
   }
 }
 
-export function PumpCurve({ pumpName, imageUrl, seriesLabel, seriesName }: PumpCurveProps) {
+export function PumpCurve({
+  pumpName,
+  imageUrl,
+  seriesLabel,
+  seriesName,
+  isDocument = false,
+}: PumpCurveProps) {
   const [landscapeOpen, setLandscapeOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -100,6 +107,26 @@ export function PumpCurve({ pumpName, imageUrl, seriesLabel, seriesName }: PumpC
     />
   );
 
+  const renderDocumentPreview = (className?: string) => (
+    <div className={cn("flex h-full w-full flex-col items-center justify-center gap-4 p-6 text-center", className)}>
+      <p className="text-base text-muted">
+        Performance curves for {seriesName ?? "this pump range"} are in the official datasheet PDF.
+      </p>
+      <Button
+        type="button"
+        variant="secondary"
+        onClick={() => window.open(imageUrl, "_blank", "noopener,noreferrer")}
+        className="min-h-[3.5rem]"
+      >
+        <ExternalLink className="h-5 w-5" />
+        Open Performance Datasheet
+      </Button>
+    </div>
+  );
+
+  const renderCurveContent = (className?: string) =>
+    isDocument ? renderDocumentPreview(className) : renderCurveImage(className);
+
   const landscapeOverlay =
     mounted && landscapeOpen
       ? createPortal(
@@ -130,7 +157,7 @@ export function PumpCurve({ pumpName, imageUrl, seriesLabel, seriesName }: PumpC
             </p>
 
             <div className="flex min-h-0 flex-1 items-center justify-center p-4 sm:p-6">
-              {renderCurveImage()}
+              {renderCurveContent()}
             </div>
           </div>,
           document.body,
@@ -153,47 +180,60 @@ export function PumpCurve({ pumpName, imageUrl, seriesLabel, seriesName }: PumpC
         )}
         style={{ touchAction: "manipulation" }}
       >
-        {renderCurveImage("h-full w-full")}
+        {renderCurveContent("h-full w-full")}
       </div>
 
       <p className="text-sm text-muted">
-        Total head (m) vs flow (lpm).
-        {seriesName === "XJ Series" || seriesName === "XP Series"
-          ? " Lines show performance at different suction lift heights for this pump."
-          : seriesName === "HP Series"
-            ? " HP45, HP65 and HP85 curves are shown — follow the line labelled "
-            : seriesName === "HM Series"
-              ? " HM60/HM90 and HM160/HM270 curves are shown — follow the line labelled "
-              : " Both HS50 and HS60 curves are shown — follow the line labelled "}
-        {seriesName !== "XJ Series" && seriesName !== "XP Series" && (
-          <>
-            {seriesLabel} for this pump.
-          </>
-        )}
+        {isDocument
+          ? `Follow the ${seriesLabel} curve line in the datasheet for this pump.`
+          : seriesName === "XJ Series" || seriesName === "XP Series"
+            ? "Total head (m) vs flow (lpm). Lines show performance at different suction lift heights for this pump."
+            : seriesName === "HP Series"
+              ? `Total head (m) vs flow (lpm). HP45, HP65 and HP85 curves are shown — follow the line labelled ${seriesLabel} for this pump.`
+              : seriesName === "HM Series"
+                ? `Total head (m) vs flow (lpm). HM60/HM90 and HM160/HM270 curves are shown — follow the line labelled ${seriesLabel} for this pump.`
+                : seriesName === "Shallow/Deep Well Jets"
+                  ? `Total head (m) vs flow (lpm). Open the datasheet and follow the ${seriesLabel} curve for this pump.`
+                  : `Total head (m) vs flow (lpm). Both HS50 and HS60 curves are shown — follow the line labelled ${seriesLabel} for this pump.`}
       </p>
 
-      <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+      {!isDocument && (
+        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
+          <Button
+            type="button"
+            variant="secondary"
+            fullWidth
+            onClick={() => void openLandscape()}
+            className="min-h-[3.5rem] sm:hidden"
+          >
+            <Smartphone className="h-5 w-5 rotate-90" />
+            Landscape View
+          </Button>
+          <Button
+            type="button"
+            variant="ghost"
+            fullWidth
+            onClick={() => void openLandscape()}
+            className="hidden min-h-[3.5rem] sm:flex"
+          >
+            <RotateCw className="h-5 w-5" />
+            Open Full Chart View
+          </Button>
+        </div>
+      )}
+
+      {isDocument && (
         <Button
           type="button"
           variant="secondary"
           fullWidth
-          onClick={() => void openLandscape()}
-          className="min-h-[3.5rem] sm:hidden"
+          onClick={() => window.open(imageUrl, "_blank", "noopener,noreferrer")}
+          className="min-h-[3.5rem]"
         >
-          <Smartphone className="h-5 w-5 rotate-90" />
-          Landscape View
+          <ExternalLink className="h-5 w-5" />
+          Open Performance Datasheet
         </Button>
-        <Button
-          type="button"
-          variant="ghost"
-          fullWidth
-          onClick={() => void openLandscape()}
-          className="hidden min-h-[3.5rem] sm:flex"
-        >
-          <RotateCw className="h-5 w-5" />
-          Open Full Chart View
-        </Button>
-      </div>
+      )}
 
       {landscapeOverlay}
     </div>

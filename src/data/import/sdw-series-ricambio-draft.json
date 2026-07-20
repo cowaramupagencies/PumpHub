@@ -1,0 +1,1237 @@
+{
+  "sourceUrl": "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_201&PRF=4&PRNDS=CE_200&PRC=|R|CE_1|CE_111|CE_200|CE_201&MP1=CE_201&MP=CE_201.cex#CE_201",
+  "diagramSourceUrl": "https://davey.ricambio.net/ce/001/CE_201_1.SVG",
+  "diagramLocalPath": "/diagrams/sdw-series.svg",
+  "diagramWidth": 800,
+  "diagramHeight": 970,
+  "cataloguePageTitle": "Shallow/Deep Well Jets",
+  "parts": [
+    {
+      "diagramReference": "1",
+      "partNumber": "800",
+      "description": "Motor - 1.2kW 220/1/50",
+      "sourceCompatibilityText": "095S, 095D TEFC",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "985,45",
+      "illustrated": true,
+      "zoomRect": "190,154,600,492,'0'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "807",
+      "description": "Motor - 1.8kW 220/1/50",
+      "sourceCompatibilityText": "125S, 125D, 165S, 165D TEFC",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1294,55",
+      "illustrated": true,
+      "zoomRect": "190,154,600,492,'1'"
+    },
+    {
+      "diagramReference": "1",
+      "partNumber": "859",
+      "description": "Motor - 1.8kW 415/3/50 MEPS",
+      "sourceCompatibilityText": "165S3, 165D3 TEFC",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "1014,55",
+      "illustrated": true,
+      "zoomRect": "190,154,600,492,'2'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "31383",
+      "description": "Bracket Assy - P/switch",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "60,00",
+      "illustrated": true,
+      "zoomRect": "70,199,242,629,'3'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "11971",
+      "description": "Loom - P/switch assy",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "90,199,300,629,'4'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "404131SP",
+      "description": "Pressure Switch 260-380kpa, 38-55psi",
+      "sourceCompatibilityText": "Shallow Well models",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "86,36",
+      "illustrated": true,
+      "zoomRect": "112,199,368,629,'5'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "404130SP",
+      "description": "Pressure Switch 207-345kpa, 30-50psi",
+      "sourceCompatibilityText": "Deep Well models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "82,73",
+      "illustrated": true,
+      "zoomRect": "112,199,368,629,'6'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "31382D",
+      "description": "Tube Assy - P/switch TEFC",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "68,18",
+      "illustrated": true,
+      "zoomRect": "129,199,419,629,'7'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "W21100610",
+      "description": "Washer - Spring (pk10)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "16,36",
+      "illustrated": true,
+      "zoomRect": "158,199,506,629,'8'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "N041010",
+      "description": "Nut - (pk10)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,00",
+      "illustrated": true,
+      "zoomRect": "166,198,532,628,'9'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "12098SP",
+      "description": "Plug & O-ring - 1\" priming For pressure gauge",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "25,45",
+      "illustrated": true,
+      "zoomRect": "176,199,562,629,'10'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "8890-2SP",
+      "description": "Plug & O-ring - Priming",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "176,199,562,629,'11'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "49090",
+      "description": "Gauge - Pressure 1000kPa btm/mt.",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "85,45",
+      "illustrated": true,
+      "zoomRect": "188,199,596,629,'12'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "9665SP",
+      "description": "Cover - Outlet",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "204,55",
+      "illustrated": true,
+      "zoomRect": "200,199,600,629,'13'"
+    },
+    {
+      "diagramReference": "10a",
+      "partNumber": "9447",
+      "description": "Gasket - Outlet",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "154,248,502,722,'14'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "43067",
+      "description": "O-ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": "212,198,588,628,'15'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "10291SP",
+      "description": "Tee - Discharge Shallow Well",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "83,64",
+      "illustrated": true,
+      "zoomRect": "161,388,515,582,'16'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "31035SP",
+      "description": "A.D.R. Valve assy - Deep well",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "233,64",
+      "illustrated": true,
+      "zoomRect": "161,388,515,582,'17'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "404365",
+      "description": "Plug .25\" BSP (Pack of 5)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "37,27",
+      "illustrated": true,
+      "zoomRect": "236,199,564,629,'18'"
+    },
+    {
+      "diagramReference": "16",
+      "partNumber": "10046-34",
+      "description": "Stud - (pk4)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "155,260,497,710,'19'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "10046-24",
+      "description": "Stud - (pk4)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "154,268,496,702,'20'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "103244",
+      "description": "Stud - (pk4)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,55",
+      "illustrated": true,
+      "zoomRect": "210,244,590,726,'21'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "32768",
+      "description": "Seal Kit Shallow Well -0/-1",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "105,45",
+      "illustrated": true,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "32770",
+      "description": "Seal Kit Deepwell -0/-1",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "105,45",
+      "illustrated": true,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "19a",
+      "partNumber": "43473",
+      "description": "O-ring - Sleeve/impeller",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": true,
+      "zoomRect": "324,227,476,721,'24'"
+    },
+    {
+      "diagramReference": "19b",
+      "partNumber": "9210-1",
+      "description": "Sleeve - Shaft s/s",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "320,350,480,620,'25'"
+    },
+    {
+      "diagramReference": "19c",
+      "partNumber": "43402",
+      "description": "O-ring - Casing",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,00",
+      "illustrated": true,
+      "zoomRect": "272,350,528,620,'26'"
+    },
+    {
+      "diagramReference": "19d",
+      "partNumber": "47863",
+      "description": "Seal - Mechanical 5/8\"",
+      "sourceCompatibilityText": "-0 & -1 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "61,82",
+      "illustrated": true,
+      "zoomRect": "258,350,542,620,'27'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "32769",
+      "description": "Seal Kit Shallow Well -2",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "93,64",
+      "illustrated": true,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "32771",
+      "description": "Seal Kit Deepwell -2",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "93,64",
+      "illustrated": true,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": "19a",
+      "partNumber": "43473",
+      "description": "O-ring - Sleeve/impeller",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": true,
+      "zoomRect": "324,227,476,721,'30'"
+    },
+    {
+      "diagramReference": "19b",
+      "partNumber": "9210-1",
+      "description": "Sleeve - Shaft s/s",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "320,350,480,620,'31'"
+    },
+    {
+      "diagramReference": "19c",
+      "partNumber": "43402",
+      "description": "O-ring - Casing",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "30,00",
+      "illustrated": true,
+      "zoomRect": "272,350,528,620,'32'"
+    },
+    {
+      "diagramReference": "19d",
+      "partNumber": "48801SP",
+      "description": "Seal - Mechanical 5/8\"",
+      "sourceCompatibilityText": "-2 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "54,55",
+      "illustrated": true,
+      "zoomRect": "258,350,542,620,'33'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "9243",
+      "description": "Backplate",
+      "sourceCompatibilityText": "-0 & -1 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "94,55",
+      "illustrated": true,
+      "zoomRect": "302,350,498,620,'34'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "9243-2SP",
+      "description": "Backplate",
+      "sourceCompatibilityText": "-2 models",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "94,55",
+      "illustrated": true,
+      "zoomRect": "302,350,498,620,'35'"
+    },
+    {
+      "diagramReference": "21",
+      "partNumber": "9855-3SP",
+      "description": "Impeller Assy 095S 095D",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "227,27",
+      "illustrated": true,
+      "zoomRect": "244,350,556,620,'36'"
+    },
+    {
+      "diagramReference": "21",
+      "partNumber": "10218SP",
+      "description": "Impeller Assy 125S 125D 165S 165D",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "227,27",
+      "illustrated": true,
+      "zoomRect": "244,350,556,620,'37'"
+    },
+    {
+      "diagramReference": "22",
+      "partNumber": "9796SP",
+      "description": "Cover - Front",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "109,09",
+      "illustrated": true,
+      "zoomRect": "222,350,578,620,'38'"
+    },
+    {
+      "diagramReference": "23",
+      "partNumber": "96376",
+      "description": "Screw - (pk6)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "14,55",
+      "illustrated": true,
+      "zoomRect": "213,350,587,620,'39'"
+    },
+    {
+      "diagramReference": "24",
+      "partNumber": "43596",
+      "description": "O-ring - Diffuser",
+      "sourceNoteText": "A",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "10,91",
+      "illustrated": true,
+      "zoomRect": "202,350,598,620,'40'"
+    },
+    {
+      "diagramReference": "25",
+      "partNumber": "31498",
+      "description": "Kit - Bolt S/W & D/W",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "4",
+      "sourcePriceText": "37,27",
+      "illustrated": true,
+      "zoomRect": "185,350,587,620,'41'"
+    },
+    {
+      "diagramReference": "26",
+      "partNumber": "10292SP",
+      "description": "Casing - Incl. studs",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "753,64",
+      "illustrated": true,
+      "zoomRect": "174,350,552,620,'42'"
+    },
+    {
+      "diagramReference": "27",
+      "partNumber": "102416",
+      "description": "Stud - Shallow Well (pk6)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "37,27",
+      "illustrated": true,
+      "zoomRect": "160,350,510,620,'43'"
+    },
+    {
+      "diagramReference": "27",
+      "partNumber": "10046-16",
+      "description": "Stud - Deep Well (pk6)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "160,350,510,620,'44'"
+    },
+    {
+      "diagramReference": "29",
+      "partNumber": "10353SP",
+      "description": "Base",
+      "sourceNoteText": "C",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "197,334,603,636,'45'"
+    },
+    {
+      "diagramReference": "29a",
+      "partNumber": "12078",
+      "description": "Support",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "23,64",
+      "illustrated": true,
+      "zoomRect": "140,349,462,621,'46'"
+    },
+    {
+      "diagramReference": "30",
+      "partNumber": "10112",
+      "description": "Gasket - Jet Housing S/W",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "330,445,470,525,'47'"
+    },
+    {
+      "diagramReference": "31",
+      "partNumber": "9439",
+      "description": "Housing - S/W press pump",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "257,27",
+      "illustrated": true,
+      "zoomRect": "309,446,491,524,'48'"
+    },
+    {
+      "diagramReference": "32",
+      "partNumber": "43067",
+      "description": "O-ring",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,73",
+      "illustrated": true,
+      "zoomRect": "288,446,512,524,'49'"
+    },
+    {
+      "diagramReference": "33",
+      "partNumber": "9952-36",
+      "description": "Venturi - Green",
+      "sourceCompatibilityText": "095S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "274,445,526,525,'50'"
+    },
+    {
+      "diagramReference": "33",
+      "partNumber": "9952-33",
+      "description": "Venturi - White",
+      "sourceCompatibilityText": "95S, 125S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "274,445,526,525,'51'"
+    },
+    {
+      "diagramReference": "33",
+      "partNumber": "9952-38",
+      "description": "Venturi - Brown",
+      "sourceCompatibilityText": "125S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "274,445,526,525,'52'"
+    },
+    {
+      "diagramReference": "33",
+      "partNumber": "9952-41",
+      "description": "Venturi - Black",
+      "sourceCompatibilityText": "125S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "274,445,526,525,'53'"
+    },
+    {
+      "diagramReference": "33",
+      "partNumber": "9952-43",
+      "description": "Venturi - Red",
+      "sourceCompatibilityText": "165S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "274,445,526,525,'54'"
+    },
+    {
+      "diagramReference": "33",
+      "partNumber": "9952-47",
+      "description": "Venturi - Yellow",
+      "sourceCompatibilityText": "165S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "57,27",
+      "illustrated": true,
+      "zoomRect": "274,445,526,525,'55'"
+    },
+    {
+      "diagramReference": "34",
+      "partNumber": "8816-8",
+      "description": "Jet - Brown",
+      "sourceCompatibilityText": "95S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "252,446,548,524,'56'"
+    },
+    {
+      "diagramReference": "34",
+      "partNumber": "8816-7",
+      "description": "Jet - Black",
+      "sourceCompatibilityText": "95S, 125S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "252,446,548,524,'57'"
+    },
+    {
+      "diagramReference": "34",
+      "partNumber": "8816-5",
+      "description": "Jet - Green",
+      "sourceCompatibilityText": "125S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "252,446,548,524,'58'"
+    },
+    {
+      "diagramReference": "34",
+      "partNumber": "8816-9",
+      "description": "Jet - Yellow",
+      "sourceCompatibilityText": "125S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "0,00",
+      "illustrated": true,
+      "zoomRect": "252,446,548,524,'59'"
+    },
+    {
+      "diagramReference": "34",
+      "partNumber": "8816-3",
+      "description": "Jet - White",
+      "sourceCompatibilityText": "165S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "252,446,548,524,'60'"
+    },
+    {
+      "diagramReference": "34",
+      "partNumber": "8816-6",
+      "description": "Jet - Red",
+      "sourceCompatibilityText": "165S",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "40,91",
+      "illustrated": true,
+      "zoomRect": "252,446,548,524,'61'"
+    },
+    {
+      "diagramReference": "35",
+      "partNumber": "10113",
+      "description": "Gasket suction cover S/W",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "244,446,556,524,'62'"
+    },
+    {
+      "diagramReference": "36",
+      "partNumber": "9446SP",
+      "description": "Cover - Suction S/W",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "140,91",
+      "illustrated": true,
+      "zoomRect": "234,446,566,524,'63'"
+    },
+    {
+      "diagramReference": "37",
+      "partNumber": "10220SP",
+      "description": "Cover - Suction D/W",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "221,82",
+      "illustrated": true,
+      "zoomRect": "104,442,344,528,'64'"
+    },
+    {
+      "diagramReference": "38",
+      "partNumber": "9448",
+      "description": "Gasket - Suction cover",
+      "sourceCompatibilityText": "D/W",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "20,00",
+      "illustrated": true,
+      "zoomRect": "126,442,412,528,'65'"
+    },
+    {
+      "diagramReference": "39",
+      "partNumber": "10224",
+      "description": "Elbow - 1\" BSP M/F",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "101,82",
+      "illustrated": true,
+      "zoomRect": "95,442,317,528,'66'"
+    },
+    {
+      "diagramReference": "40",
+      "partNumber": "10222",
+      "description": "Elbow - 1.5\" Poly (4\" injector)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "269,09",
+      "illustrated": true,
+      "zoomRect": "63,388,221,582,'67'"
+    },
+    {
+      "diagramReference": "40",
+      "partNumber": "10221",
+      "description": "Elbow - 2\" Poly (5\" injector)",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "270,00",
+      "illustrated": true,
+      "zoomRect": "63,388,221,582,'68'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "8573-5",
+      "description": "Lead & 3 Pin Plug - Sqd P/swtch All other models not specified",
+      "sourceNoteText": "-",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "45,45",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "TT70",
+      "description": "Torrium 2 - 700kPa",
+      "sourceNoteText": "D",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "379,09",
+      "illustrated": false,
+      "zoomRect": null
+    }
+  ],
+  "hotspots": [
+    {
+      "reference": "1",
+      "x": 0.47375,
+      "y": 0.31641237113402065,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "800",
+        "807",
+        "859"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.17505000000000004,
+      "y": 0.40994845360824744,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "31383"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.223275,
+      "y": 0.40994845360824744,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "11971"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.28040000000000004,
+      "y": 0.4103814432989691,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "404131SP",
+        "404130SP"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.322875,
+      "y": 0.40994845360824744,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "31382D"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.395175,
+      "y": 0.4108144329896907,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "W21100610"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.1189625,
+      "y": 0.8799381443298969,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "W21100610"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.5644625,
+      "y": 0.9188247422680412,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "W21100610"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.4167125,
+      "y": 0.4095154639175258,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "N041010"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.1184375,
+      "y": 0.9179690721649484,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "N041010"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.5231125,
+      "y": 0.8989175257731958,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "N041010"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.4407875,
+      "y": 0.4103814432989691,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "12098SP",
+        "8890-2SP"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.470175,
+      "y": 0.40994845360824744,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "49090"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.49896250000000003,
+      "y": 0.40994845360824744,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9665SP",
+        "9447"
+      ]
+    },
+    {
+      "reference": "10a",
+      "x": 0.3853125,
+      "y": 0.5129072164948454,
+      "width": 0.02495,
+      "height": 0.02041237113402062,
+      "partNumbers": [
+        "9447"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.5294000000000001,
+      "y": 0.4095154639175258,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "43067"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.558175,
+      "y": 0.40994845360824744,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10291SP",
+        "31035SP"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.403025,
+      "y": 0.7991237113402062,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10291SP",
+        "31035SP"
+      ]
+    },
+    {
+      "reference": "13",
+      "x": 0.5901875000000001,
+      "y": 0.40994845360824744,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "404365"
+      ]
+    },
+    {
+      "reference": "14",
+      "x": 0.6194875000000001,
+      "y": 0.4768865979381443,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": []
+    },
+    {
+      "reference": "15",
+      "x": 0.6205375,
+      "y": 0.4955051546391752,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": []
+    },
+    {
+      "reference": "16",
+      "x": 0.38732500000000003,
+      "y": 0.534762886597938,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10046-34"
+      ]
+    },
+    {
+      "reference": "17",
+      "x": 0.3868,
+      "y": 0.5516597938144329,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10046-24"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.5262625,
+      "y": 0.501979381443299,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "103244"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.6469499999999999,
+      "y": 0.46789690721649485,
+      "width": 0.18735,
+      "height": 0.2744948453608248,
+      "partNumbers": [
+        "32768",
+        "32770",
+        "32769",
+        "32771",
+        "43473",
+        "9210-1",
+        "43402",
+        "47863",
+        "48801SP"
+      ]
+    },
+    {
+      "reference": "20",
+      "x": 0.7542375,
+      "y": 0.7222680412371133,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9243",
+        "9243-2SP"
+      ]
+    },
+    {
+      "reference": "21",
+      "x": 0.6111125,
+      "y": 0.7218350515463917,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9855-3SP",
+        "10218SP"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.5566125000000001,
+      "y": 0.7218350515463917,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9796SP"
+      ]
+    },
+    {
+      "reference": "23",
+      "x": 0.5320125,
+      "y": 0.7222680412371133,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "96376"
+      ]
+    },
+    {
+      "reference": "24",
+      "x": 0.5041875,
+      "y": 0.722701030927835,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "43596"
+      ]
+    },
+    {
+      "reference": "25",
+      "x": 0.46285000000000004,
+      "y": 0.722701030927835,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "31498"
+      ]
+    },
+    {
+      "reference": "26",
+      "x": 0.43346250000000003,
+      "y": 0.722701030927835,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10292SP"
+      ]
+    },
+    {
+      "reference": "27",
+      "x": 0.3988375,
+      "y": 0.722701030927835,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "102416",
+        "10046-16"
+      ]
+    },
+    {
+      "reference": "28",
+      "x": 0.485875,
+      "y": 0.7132061855670102,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": []
+    },
+    {
+      "reference": "29",
+      "x": 0.492675,
+      "y": 0.6881134020618556,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10353SP",
+        "12078"
+      ]
+    },
+    {
+      "reference": "29a",
+      "x": 0.35129999999999995,
+      "y": 0.7198247422680413,
+      "width": 0.02495,
+      "height": 0.02041237113402062,
+      "partNumbers": [
+        "12078"
+      ]
+    },
+    {
+      "reference": "30",
+      "x": 0.8244374999999999,
+      "y": 0.9188247422680412,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10112"
+      ]
+    },
+    {
+      "reference": "31",
+      "x": 0.77255,
+      "y": 0.9192577319587628,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9439"
+      ]
+    },
+    {
+      "reference": "32",
+      "x": 0.7201374999999999,
+      "y": 0.9192577319587628,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "43067"
+      ]
+    },
+    {
+      "reference": "33",
+      "x": 0.6840249999999999,
+      "y": 0.9179690721649484,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9952-36",
+        "9952-33",
+        "9952-38",
+        "9952-41",
+        "9952-43",
+        "9952-47"
+      ]
+    },
+    {
+      "reference": "34",
+      "x": 0.6310875,
+      "y": 0.9196907216494844,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "8816-8",
+        "8816-7",
+        "8816-5",
+        "8816-9",
+        "8816-3",
+        "8816-6"
+      ]
+    },
+    {
+      "reference": "35",
+      "x": 0.610075,
+      "y": 0.9188247422680412,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10113"
+      ]
+    },
+    {
+      "reference": "36",
+      "x": 0.5839,
+      "y": 0.9188247422680412,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9446SP"
+      ]
+    },
+    {
+      "reference": "37",
+      "x": 0.26051250000000004,
+      "y": 0.9114226804123711,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10220SP"
+      ]
+    },
+    {
+      "reference": "38",
+      "x": 0.3165875,
+      "y": 0.9101340206185566,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "9448"
+      ]
+    },
+    {
+      "reference": "39",
+      "x": 0.23740000000000003,
+      "y": 0.9101340206185566,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10224"
+      ]
+    },
+    {
+      "reference": "40",
+      "x": 0.15777499999999997,
+      "y": 0.8012783505154639,
+      "width": 0.019875,
+      "height": 0.016391752577319587,
+      "partNumbers": [
+        "10222",
+        "10221"
+      ]
+    }
+  ]
+}

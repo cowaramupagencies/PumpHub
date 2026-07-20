@@ -54,10 +54,21 @@ function clampOffset(
 function usePanZoom(enabled: boolean) {
   const viewportRef = useRef<HTMLDivElement>(null);
   const [state, setState] = useState<PanZoomState>({ scale: 1, offset: { x: 0, y: 0 } });
+  const stateRef = useRef(state);
   const [isDragging, setIsDragging] = useState(false);
   const dragStart = useRef({ x: 0, y: 0, offsetX: 0, offsetY: 0 });
+  const touchPanStart = useRef<{ x: number; y: number; offsetX: number; offsetY: number } | null>(
+    null,
+  );
   const lastTouchDistance = useRef<number | null>(null);
   const pinching = useRef(false);
+
+  useEffect(() => {
+    stateRef.current = state;
+  }, [state]);
+
+  const isHotspotTarget = (target: EventTarget | null) =>
+    target instanceof Element && Boolean(target.closest("[data-hotspot]"));
 
   const getViewportSize = useCallback(() => {
     const rect = viewportRef.current?.getBoundingClientRect();
@@ -72,17 +83,21 @@ function usePanZoom(enabled: boolean) {
       setState((current) => {
         const next = updater(current);
         const { width, height } = getViewportSize();
-        return {
+        const clamped = {
           scale: next.scale,
           offset: clampOffset(next.offset, next.scale, width, height),
         };
+        stateRef.current = clamped;
+        return clamped;
       });
     },
     [getViewportSize],
   );
 
   const resetView = useCallback(() => {
-    setState({ scale: 1, offset: { x: 0, y: 0 } });
+    const reset = { scale: 1, offset: { x: 0, y: 0 } };
+    stateRef.current = reset;
+    setState(reset);
   }, []);
 
   const zoomIn = useCallback(() => {
@@ -110,34 +125,75 @@ function usePanZoom(enabled: boolean) {
     if (!node || !enabled) return;
 
     const onTouchStart = (event: TouchEvent) => {
+      if (isHotspotTarget(event.target)) return;
+
       if (event.touches.length === 2) {
         pinching.current = true;
+        touchPanStart.current = null;
         setIsDragging(false);
         const dx = event.touches[0].clientX - event.touches[1].clientX;
         const dy = event.touches[0].clientY - event.touches[1].clientY;
         lastTouchDistance.current = Math.hypot(dx, dy);
+        return;
+      }
+
+      if (event.touches.length === 1 && stateRef.current.scale > 1) {
+        const touch = event.touches[0];
+        touchPanStart.current = {
+          x: touch.clientX,
+          y: touch.clientY,
+          offsetX: stateRef.current.offset.x,
+          offsetY: stateRef.current.offset.y,
+        };
+        setIsDragging(true);
       }
     };
 
     const onTouchMove = (event: TouchEvent) => {
-      if (event.touches.length !== 2 || lastTouchDistance.current === null) return;
-      event.preventDefault();
+      if (event.touches.length === 2 && lastTouchDistance.current !== null) {
+        event.preventDefault();
+        pinching.current = true;
+        touchPanStart.current = null;
+        setIsDragging(false);
 
-      const dx = event.touches[0].clientX - event.touches[1].clientX;
-      const dy = event.touches[0].clientY - event.touches[1].clientY;
-      const dist = Math.hypot(dx, dy);
-      const delta = dist - lastTouchDistance.current;
-      lastTouchDistance.current = dist;
+        const dx = event.touches[0].clientX - event.touches[1].clientX;
+        const dy = event.touches[0].clientY - event.touches[1].clientY;
+        const dist = Math.hypot(dx, dy);
+        const delta = dist - lastTouchDistance.current;
+        lastTouchDistance.current = dist;
 
-      applyState((current) => ({
-        scale: Math.min(4, Math.max(1, current.scale + delta * 0.008)),
-        offset: current.offset,
-      }));
+        applyState((current) => ({
+          scale: Math.min(4, Math.max(1, current.scale + delta * 0.008)),
+          offset: current.offset,
+        }));
+        return;
+      }
+
+      if (
+        event.touches.length === 1 &&
+        touchPanStart.current &&
+        !pinching.current &&
+        stateRef.current.scale > 1
+      ) {
+        event.preventDefault();
+        const touch = event.touches[0];
+        const start = touchPanStart.current;
+
+        applyState((current) => ({
+          scale: current.scale,
+          offset: {
+            x: start.offsetX + (touch.clientX - start.x),
+            y: start.offsetY + (touch.clientY - start.y),
+          },
+        }));
+      }
     };
 
     const onTouchEnd = () => {
       lastTouchDistance.current = null;
       pinching.current = false;
+      touchPanStart.current = null;
+      setIsDragging(false);
     };
 
     node.addEventListener("touchstart", onTouchStart, { passive: true });
@@ -154,17 +210,17 @@ function usePanZoom(enabled: boolean) {
   }, [applyState, enabled]);
 
   const handlePointerDown = (event: React.PointerEvent) => {
-    if (!enabled || pinching.current) return;
-    if ((event.target as HTMLElement).closest("[data-hotspot]")) return;
-    if (state.scale <= 1) return;
+    if (!enabled || pinching.current || event.pointerType === "touch") return;
+    if (isHotspotTarget(event.target)) return;
+    if (stateRef.current.scale <= 1) return;
 
     event.currentTarget.setPointerCapture(event.pointerId);
     setIsDragging(true);
     dragStart.current = {
       x: event.clientX,
       y: event.clientY,
-      offsetX: state.offset.x,
-      offsetY: state.offset.y,
+      offsetX: stateRef.current.offset.x,
+      offsetY: stateRef.current.offset.y,
     };
   };
 
@@ -241,7 +297,7 @@ function DiagramCanvas({
     const tapRadius = hasDiagramImage ? 22 : selected ? 28 : 24;
 
     return (
-      <g key={hotspot.id} data-hotspot>
+      <g key={hotspot.id} data-hotspot className="pointer-events-auto">
         <circle
           cx={cx}
           cy={cy}
@@ -283,7 +339,7 @@ function DiagramCanvas({
         />
         <svg
           viewBox={`0 0 ${viewWidth} ${viewHeight}`}
-          className="absolute inset-0 h-full w-full"
+          className="pointer-events-none absolute inset-0 h-full w-full"
           preserveAspectRatio="xMidYMid meet"
           aria-hidden
         >
@@ -421,7 +477,7 @@ export function PumpDiagram({
             <div className="flex shrink-0 items-center justify-between gap-3 border-b border-[var(--border-color)] px-4 py-3">
               <div className="min-w-0">
                 <p className="truncate text-base font-bold">{pumpName} diagram</p>
-                <p className="text-sm text-muted">Pinch to zoom · drag when zoomed in</p>
+                <p className="text-sm text-muted">Pinch to zoom · drag with one finger when zoomed in</p>
               </div>
               <button
                 type="button"

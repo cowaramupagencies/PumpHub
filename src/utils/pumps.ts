@@ -40,7 +40,23 @@ export const XP35_CURVE_IMAGE = "/pumps/xp35-performance-curve.png";
 /** XP45 performance curve (suction lift lines) */
 export const XP45_CURVE_IMAGE = "/pumps/xp45-performance-curve.png";
 
+/** Shallow/Deep Well jet pump product photo */
+export const SDW_SERIES_PUMP_IMAGE = "/pumps/families/shallow-well.png";
+
+/** Shallow well jet pump performance datasheet (PDF) */
+export const SHALLOW_WELL_CURVE_PDF =
+  "https://cdn.intelligencebank.com/au/share/BnKJ1e/73Bzg/0EAMz/original/ShallowWell_Jet_Datasheet";
+
+/** Deep well jet pump performance datasheet (PDF) */
+export const DEEP_WELL_CURVE_PDF =
+  "https://cdn.intelligencebank.com/au/share/BnKJ1e/73Bzg/739J0/original/DeepWell_Jet_Datasheet";
+
 import { getPumpFamilyImageUrl } from "@/utils/pump-families";
+
+function isCurveDocumentUrl(url: string): boolean {
+  const lower = url.toLowerCase();
+  return lower.includes("datasheet") || lower.includes(".pdf") || lower.includes("intelligencebank");
+}
 
 const PUMP_IMAGE_BY_SLUG: Record<string, string> = {
   hs50: HS_SERIES_PUMP_IMAGE,
@@ -58,8 +74,14 @@ const PUMP_IMAGE_BY_SLUG: Record<string, string> = {
   xp25: XP_SERIES_PUMP_IMAGE,
   xp35: XP_SERIES_PUMP_IMAGE,
   xp45: XP_SERIES_PUMP_IMAGE,
-  jt450: "/pumps/families/shallow-well.png",
-  jt750: "/pumps/families/shallow-well.png",
+  "95s": SDW_SERIES_PUMP_IMAGE,
+  "95d": SDW_SERIES_PUMP_IMAGE,
+  "125s": SDW_SERIES_PUMP_IMAGE,
+  "125d": SDW_SERIES_PUMP_IMAGE,
+  "165s": SDW_SERIES_PUMP_IMAGE,
+  "165d": SDW_SERIES_PUMP_IMAGE,
+  jt450: SDW_SERIES_PUMP_IMAGE,
+  jt750: SDW_SERIES_PUMP_IMAGE,
   "ed60-09": "/pumps/families/evodrive.png",
 };
 
@@ -79,6 +101,12 @@ const CURVE_LABELS: Record<string, string> = {
   xp25: "XP25P8",
   xp35: "XP35P8",
   xp45: "XP45P8",
+  "95s": "95S",
+  "95d": "95D",
+  "125s": "125S",
+  "125d": "125D",
+  "165s": "165S",
+  "165d": "165D",
 };
 
 const CURVE_IMAGES: Record<string, string> = {
@@ -111,6 +139,7 @@ export interface PumpCurveInfo {
   imageUrl: string;
   seriesLabel: string;
   seriesName?: string;
+  isDocument?: boolean;
 }
 
 export function getPumpCurveInfo(
@@ -123,6 +152,7 @@ export function getPumpCurveInfo(
     return {
       imageUrl: curveImageUrl,
       seriesLabel: curveLabel,
+      isDocument: isCurveDocumentUrl(curveImageUrl),
       seriesName:
         familySlug === "hp-series"
           ? "HP Series"
@@ -134,7 +164,9 @@ export function getPumpCurveInfo(
                 ? "XJ Series"
                 : familySlug === "xp-series"
                   ? "XP Series"
-                  : undefined,
+                  : familySlug === "shallow-well"
+                    ? "Shallow/Deep Well Jets"
+                    : undefined,
     };
   }
 

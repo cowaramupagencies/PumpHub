@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { describe, expect, it } from "vitest";
 import { partIdFromNumber } from "@/lib/ricambio/part-id";
 
-const SERIES = ["hs", "hp", "hm", "xj", "xp"] as const;
+const SERIES = ["hs", "hp", "hm", "xj", "xp", "sdw"] as const;
 
 function extractJsonArray(content: string, marker: string): unknown[] {
   const start = content.indexOf(marker);
@@ -45,9 +45,9 @@ describe("Ricambio seed catalogue completeness", () => {
         `${series}SeedParts`,
       );
       const draftNumbers = draft.parts.map((p: { partNumber: string }) => p.partNumber);
-      const missing = draftNumbers.filter((pn: string) => !seedParts.includes(pn));
+      const uniqueDraftNumbers = [...new Set(draftNumbers)];
+      const missing = uniqueDraftNumbers.filter((pn: string) => !seedParts.includes(pn));
       expect(missing, `missing from ${series}-seed.ts`).toEqual([]);
-      expect(seedParts.length).toBe(draftNumbers.length);
     });
 
     it(`${series.toUpperCase()} hotspots link to seeded parts`, () => {

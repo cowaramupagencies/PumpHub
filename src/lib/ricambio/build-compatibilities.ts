@@ -8,6 +8,7 @@ const FAMILY_ID: Record<RicambioSeriesKey, string> = {
   hm: "family-hm",
   xj: "family-xj",
   xp: "family-xp",
+  sdw: "family-shallow-well",
 };
 
 const DIAGRAM_ID: Record<RicambioSeriesKey, string> = {
@@ -16,6 +17,7 @@ const DIAGRAM_ID: Record<RicambioSeriesKey, string> = {
   hm: "diagram-hm",
   xj: "diagram-xj",
   xp: "diagram-xp",
+  sdw: "diagram-sdw",
 };
 
 const MODEL_ID: Record<RicambioSeriesKey, Record<string, string>> = {
@@ -29,6 +31,14 @@ const MODEL_ID: Record<RicambioSeriesKey, Record<string, string>> = {
   },
   xj: { xj50: "model-xj50", xj70: "model-xj70", xj90: "model-xj90" },
   xp: { xp25: "model-xp25", xp35: "model-xp35", xp45: "model-xp45" },
+  sdw: {
+    "95s": "model-95s",
+    "95d": "model-95d",
+    "125s": "model-125s",
+    "125d": "model-125d",
+    "165s": "model-165s",
+    "165d": "model-165d",
+  },
 };
 
 const ALL_MODEL_KEYS: Record<RicambioSeriesKey, string[]> = {
@@ -37,6 +47,7 @@ const ALL_MODEL_KEYS: Record<RicambioSeriesKey, string[]> = {
   hm: ["hm60", "hm90", "hm160", "hm270"],
   xj: ["xj50", "xj70", "xj90"],
   xp: ["xp25", "xp35", "xp45"],
+  sdw: ["95s", "95d", "125s", "125d", "165s", "165d"],
 };
 
 const ALL_SCOPE: Record<RicambioSeriesKey, DraftPartRecord["compatibilityScope"]> = {
@@ -45,8 +56,8 @@ const ALL_SCOPE: Record<RicambioSeriesKey, DraftPartRecord["compatibilityScope"]
   hm: "hm_all",
   xj: "xj_all",
   xp: "xp_all",
+  sdw: "sdw_all",
 };
-
 export function compatibilityLabel(
   scope: DraftPartRecord["compatibilityScope"] | undefined,
   series: RicambioSeriesKey,
@@ -99,6 +110,22 @@ export function compatibilityLabel(
       xp_all: "XP25, XP35 and XP45",
       family: "XP25, XP35 and XP45",
       verify: "XP25, XP35 and XP45 — requires verification",
+    },
+    sdw: {
+      sdw95s: "95S",
+      sdw95d: "95D",
+      sdw125s: "125S",
+      sdw125d: "125D",
+      sdw165s: "165S",
+      sdw165d: "165D",
+      sdw95_both: "95S and 95D",
+      sdw95s_125s: "95S and 125S",
+      sdw125_165: "125S, 125D, 165S and 165D",
+      shallow_all: "95S, 125S and 165S",
+      deep_all: "95D, 125D and 165D",
+      sdw_all: "95S, 95D, 125S, 125D, 165S and 165D",
+      family: "95S, 95D, 125S, 125D, 165S and 165D",
+      verify: "Shallow/Deep Well — requires verification",
     },
   };
 
@@ -169,6 +196,30 @@ function scopeModelKeys(
     case "xp35_xp45":
       return ["xp35", "xp45"];
     case "xp_all":
+      return all;
+    case "sdw95s":
+      return ["95s"];
+    case "sdw95d":
+      return ["95d"];
+    case "sdw125s":
+      return ["125s"];
+    case "sdw125d":
+      return ["125d"];
+    case "sdw165s":
+      return ["165s"];
+    case "sdw165d":
+      return ["165d"];
+    case "sdw95_both":
+      return ["95s", "95d"];
+    case "sdw95s_125s":
+      return ["95s", "125s"];
+    case "sdw125_165":
+      return ["125s", "125d", "165s", "165d"];
+    case "shallow_all":
+      return ["95s", "125s", "165s"];
+    case "deep_all":
+      return ["95d", "125d", "165d"];
+    case "sdw_all":
       return all;
     default:
       return all;
