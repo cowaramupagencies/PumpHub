@@ -34,14 +34,15 @@ export function DaveyLogo({
 
   if (presentation === "hero") {
     return (
-      <div className={cn("overflow-hidden", className)}>
+      <div className={cn("relative mx-auto aspect-[13/4] w-full max-w-[28rem]", className)}>
         <Image
           src={DAVEY_LOGO_WORDMARK_PATH}
           alt="Davey"
-          width={450}
-          height={250}
+          fill
           priority={priority}
-          className="h-auto w-full scale-[1.55] object-contain"
+          unoptimized
+          className="object-cover object-center"
+          sizes="(max-width: 448px) 100vw, 448px"
         />
       </div>
     );
