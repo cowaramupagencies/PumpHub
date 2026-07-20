@@ -1,7 +1,7 @@
 export const DAVEY_SLUG = "davey";
 export const DAVEY_BASE = `/${DAVEY_SLUG}`;
 
-export const DAVEY_LOGO_WORDMARK_PATH = "/brands/davey/davey-logo.png";
+export const DAVEY_LOGO_WORDMARK_PATH = "/brands/davey/davey-logo-transp.webp";
 export const DAVEY_LOGO_SQUARE_PATH = "/brands/davey/davey-logo-square.png";
 
 /** Davey brand yellow from official logo */

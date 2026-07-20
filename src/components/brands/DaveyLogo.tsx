@@ -33,8 +33,8 @@ export function DaveyLogo({
     <Image
       src={DAVEY_LOGO_WORDMARK_PATH}
       alt="Davey"
-      width={394}
-      height={70}
+      width={450}
+      height={250}
       priority={priority}
       className={cn("h-auto w-full object-contain", className)}
     />
