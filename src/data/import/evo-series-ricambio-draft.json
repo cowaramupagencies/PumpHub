@@ -1,0 +1,1118 @@
+{
+  "sourceUrl": "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_564&PRF=4&PRNDS=CE_179&PRC=|R|CE_1|CE_111|CE_179|CE_564&MP1=CE_564&MP=CE_564.cex#CE_564",
+  "diagramSourceUrl": "https://davey.ricambio.net/ce/001/CE_564_1.SVG",
+  "diagramLocalPath": "/diagrams/evo-series.svg",
+  "diagramWidth": 800,
+  "diagramHeight": 634,
+  "cataloguePageTitle": "EvoDrive",
+  "parts": [
+    {
+      "diagramReference": "1",
+      "partNumber": "16426",
+      "description": "Front Cover",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "65,00",
+      "illustrated": true,
+      "zoomRect": "66,151,244,483,'0'"
+    },
+    {
+      "diagramReference": "2",
+      "partNumber": "404259",
+      "description": "Casing Assembly",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "216,82",
+      "illustrated": true,
+      "zoomRect": "84,72,300,266,'1'"
+    },
+    {
+      "diagramReference": "3",
+      "partNumber": "33475",
+      "description": "Check Valve - Inlet",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "19,82",
+      "illustrated": true,
+      "zoomRect": "94,54,330,214,'2'"
+    },
+    {
+      "diagramReference": "4",
+      "partNumber": "404287",
+      "description": "T Kit 5 Way",
+      "sourceCompatibilityText": "Includes Pressure Tank Oring",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "74,82",
+      "illustrated": true,
+      "zoomRect": "113,47,389,191,'3'"
+    },
+    {
+      "diagramReference": "5",
+      "partNumber": "404289",
+      "description": "Temperature Sensor (Incl Oring)",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,91",
+      "illustrated": true,
+      "zoomRect": "124,59,418,225,'4'"
+    },
+    {
+      "diagramReference": "6",
+      "partNumber": "404290",
+      "description": "Pressure Sensor",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "104,91",
+      "illustrated": true,
+      "zoomRect": "154,48,514,194,'5'"
+    },
+    {
+      "diagramReference": "7",
+      "partNumber": "404308",
+      "description": "Tank Bracket",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "33,27",
+      "illustrated": true,
+      "zoomRect": "186,44,608,180,'6'"
+    },
+    {
+      "diagramReference": "8",
+      "partNumber": "404291",
+      "description": "Pressure Tank (Incl Oring)",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "89,64",
+      "illustrated": true,
+      "zoomRect": "219,39,581,167,'7'"
+    },
+    {
+      "diagramReference": "9",
+      "partNumber": "33467",
+      "description": "Oring Kit",
+      "sourceCompatibilityText": "Includes Casing Oring",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "28,91",
+      "illustrated": true,
+      "zoomRect": "106,84,368,302,'8'"
+    },
+    {
+      "diagramReference": "10",
+      "partNumber": "33471",
+      "description": "Screw Kit",
+      "sourceCompatibilityText": "Includes Impeller Nut & Washer",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,09",
+      "illustrated": true,
+      "zoomRect": "92,148,328,486,'9'"
+    },
+    {
+      "diagramReference": "11",
+      "partNumber": "33473",
+      "description": "Drain Plug (Incl Oring)",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "18,18",
+      "illustrated": true,
+      "zoomRect": "122,148,416,486,'10'"
+    },
+    {
+      "diagramReference": "12",
+      "partNumber": "33472",
+      "description": "Impeller Nut & Washer Assy",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "12,18",
+      "illustrated": true,
+      "zoomRect": "214,154,586,480,'11'"
+    },
+    {
+      "diagramReference": "13",
+      "partNumber": "33466",
+      "description": "Impeller",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "36,27",
+      "illustrated": true,
+      "zoomRect": "226,85,574,303,'12'"
+    },
+    {
+      "diagramReference": "14",
+      "partNumber": "404292",
+      "description": "Wet End Internal Assembly",
+      "sourceCompatibilityText": "Excludes Items 12, 13, 15 & 16",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "224,64",
+      "illustrated": true,
+      "zoomRect": "255,73,545,267,'13'"
+    },
+    {
+      "diagramReference": "15",
+      "partNumber": "33468",
+      "description": "Mechanical Seal",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "41,18",
+      "illustrated": true,
+      "zoomRect": "298,78,502,284,'14'"
+    },
+    {
+      "diagramReference": "16",
+      "partNumber": "33470",
+      "description": "Casing Oring (Pack 3)",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "34,18",
+      "illustrated": true,
+      "zoomRect": "304,61,496,233,'15'"
+    },
+    {
+      "diagramReference": "17",
+      "partNumber": "404294",
+      "description": "Motor Bracket",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "135,00",
+      "illustrated": true,
+      "zoomRect": "336,64,464,240,'16'"
+    },
+    {
+      "diagramReference": "18",
+      "partNumber": "404295",
+      "description": "Rotor Assembly (Incl Bearings)",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "197,91",
+      "illustrated": true,
+      "zoomRect": "120,221,408,413,'17'"
+    },
+    {
+      "diagramReference": "19",
+      "partNumber": "33474",
+      "description": "Bearings Kit",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "27,82",
+      "illustrated": true,
+      "zoomRect": "116,274,396,360,'18'"
+    },
+    {
+      "diagramReference": "20",
+      "partNumber": "404297",
+      "description": "Stator & Shell Assembly",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "398,91",
+      "illustrated": true,
+      "zoomRect": "170,277,558,357,'19'"
+    },
+    {
+      "diagramReference": "21",
+      "partNumber": "404299",
+      "description": "Fan (Incl Circlip)",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "24,82",
+      "illustrated": true,
+      "zoomRect": "194,282,606,352,'20'"
+    },
+    {
+      "diagramReference": "22",
+      "partNumber": "404300",
+      "description": "VSD Controller",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "684,18",
+      "illustrated": true,
+      "zoomRect": "214,195,586,439,'21'"
+    },
+    {
+      "diagramReference": "23",
+      "partNumber": "16427",
+      "description": "Rear Cover - Upper",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "79,82",
+      "illustrated": true,
+      "zoomRect": "246,198,554,436,'22'"
+    },
+    {
+      "diagramReference": "24",
+      "partNumber": "16428",
+      "description": "Rear Cover - Lower",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "42,64",
+      "illustrated": true,
+      "zoomRect": "288,270,512,364,'23'"
+    },
+    {
+      "diagramReference": "25",
+      "partNumber": "16429",
+      "description": "Baseplate",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "61,64",
+      "illustrated": true,
+      "zoomRect": "96,290,336,344,'24'"
+    },
+    {
+      "diagramReference": "26",
+      "partNumber": "33482",
+      "description": "Controller Decal",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "28,91",
+      "illustrated": true,
+      "zoomRect": "219,180,581,454,'25'"
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "33469",
+      "description": "Seal Kit",
+      "sourceCompatibilityText": "Includes Items 9 & 15",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "59,45",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "404304",
+      "description": "Motor & VSD Controller",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "927,27",
+      "illustrated": false,
+      "zoomRect": null
+    },
+    {
+      "diagramReference": null,
+      "partNumber": "404248",
+      "description": "Connection cable M to M",
+      "sourceQuantityText": "1",
+      "sourcePriceText": "18,09",
+      "illustrated": false,
+      "zoomRect": null
+    }
+  ],
+  "hotspots": [
+    {
+      "reference": "1",
+      "x": 0.16325000000000003,
+      "y": 0.4764984227129338,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16426"
+      ]
+    },
+    {
+      "reference": "1",
+      "x": 0.16325000000000003,
+      "y": 0.4764984227129338,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16426"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.20887500000000003,
+      "y": 0.22870662460567823,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404259"
+      ]
+    },
+    {
+      "reference": "2",
+      "x": 0.20887500000000003,
+      "y": 0.22870662460567823,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404259"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.23450000000000004,
+      "y": 0.172397476340694,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33475"
+      ]
+    },
+    {
+      "reference": "3",
+      "x": 0.23450000000000004,
+      "y": 0.172397476340694,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33475"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.28300000000000003,
+      "y": 0.14842271293375395,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404287"
+      ]
+    },
+    {
+      "reference": "4",
+      "x": 0.28300000000000003,
+      "y": 0.14842271293375395,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404287"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.30862500000000004,
+      "y": 0.1854889589905363,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404289"
+      ]
+    },
+    {
+      "reference": "5",
+      "x": 0.30862500000000004,
+      "y": 0.1854889589905363,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404289"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.3865,
+      "y": 0.15205047318611986,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404290"
+      ]
+    },
+    {
+      "reference": "6",
+      "x": 0.3865,
+      "y": 0.15205047318611986,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404290"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.46625,
+      "y": 0.13769716088328074,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404308"
+      ]
+    },
+    {
+      "reference": "7",
+      "x": 0.46625,
+      "y": 0.13769716088328074,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404308"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.547875,
+      "y": 0.12334384858044165,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404291"
+      ]
+    },
+    {
+      "reference": "8",
+      "x": 0.547875,
+      "y": 0.12334384858044165,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404291"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.49950000000000006,
+      "y": 0.12570977917981074,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.49950000000000006,
+      "y": 0.12570977917981074,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.26587500000000003,
+      "y": 0.2657728706624606,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.26587500000000003,
+      "y": 0.2657728706624606,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.45387500000000003,
+      "y": 0.48738170347003157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.45387500000000003,
+      "y": 0.48738170347003157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.501375,
+      "y": 0.48564668769716096,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.501375,
+      "y": 0.48564668769716096,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.696,
+      "y": 0.48974763406940064,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.696,
+      "y": 0.48974763406940064,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.41575,
+      "y": 0.12239747634069399,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "9",
+      "x": 0.41575,
+      "y": 0.12239747634069399,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33467"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.38075000000000003,
+      "y": 0.2526813880126183,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.38075000000000003,
+      "y": 0.2526813880126183,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.23162500000000003,
+      "y": 0.46703470031545746,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.23162500000000003,
+      "y": 0.46703470031545746,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.40737500000000004,
+      "y": 0.4910094637223975,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.40737500000000004,
+      "y": 0.4910094637223975,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.8242499999999999,
+      "y": 0.47050473186119873,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.8242499999999999,
+      "y": 0.47050473186119873,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.7264999999999999,
+      "y": 0.6094637223974764,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.7264999999999999,
+      "y": 0.6094637223974764,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.727375,
+      "y": 0.9088328075709778,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.727375,
+      "y": 0.9088328075709778,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.492875,
+      "y": 0.9436908517350157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.492875,
+      "y": 0.9436908517350157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.373125,
+      "y": 0.6753943217665614,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "10",
+      "x": 0.373125,
+      "y": 0.6753943217665614,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33471"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.30575,
+      "y": 0.46813880126182966,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33473"
+      ]
+    },
+    {
+      "reference": "11",
+      "x": 0.30575,
+      "y": 0.46813880126182966,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33473"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.533625,
+      "y": 0.48738170347003157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33472"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.533625,
+      "y": 0.48738170347003157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33472"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.73875,
+      "y": 0.48738170347003157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33472"
+      ]
+    },
+    {
+      "reference": "12",
+      "x": 0.73875,
+      "y": 0.48738170347003157,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33472"
+      ]
+    },
+    {
+      "reference": "13",
+      "x": 0.565,
+      "y": 0.26813880126182965,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33466"
+      ]
+    },
+    {
+      "reference": "13",
+      "x": 0.565,
+      "y": 0.26813880126182965,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33466"
+      ]
+    },
+    {
+      "reference": "14",
+      "x": 0.638125,
+      "y": 0.2298107255520505,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404292"
+      ]
+    },
+    {
+      "reference": "14",
+      "x": 0.638125,
+      "y": 0.2298107255520505,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404292"
+      ]
+    },
+    {
+      "reference": "15",
+      "x": 0.7463749999999999,
+      "y": 0.2466876971608833,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33468"
+      ]
+    },
+    {
+      "reference": "15",
+      "x": 0.7463749999999999,
+      "y": 0.2466876971608833,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33468"
+      ]
+    },
+    {
+      "reference": "16",
+      "x": 0.761625,
+      "y": 0.19274447949526816,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33470"
+      ]
+    },
+    {
+      "reference": "16",
+      "x": 0.761625,
+      "y": 0.19274447949526816,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33470"
+      ]
+    },
+    {
+      "reference": "17",
+      "x": 0.8413749999999999,
+      "y": 0.2011041009463722,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404294"
+      ]
+    },
+    {
+      "reference": "17",
+      "x": 0.8413749999999999,
+      "y": 0.2011041009463722,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404294"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.808125,
+      "y": 0.2406940063091483,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404295"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.808125,
+      "y": 0.2406940063091483,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404295"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.29912500000000003,
+      "y": 0.6970031545741325,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404295"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.29912500000000003,
+      "y": 0.6970031545741325,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404295"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.516625,
+      "y": 0.8753943217665615,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404295"
+      ]
+    },
+    {
+      "reference": "18",
+      "x": 0.516625,
+      "y": 0.8753943217665615,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404295"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.289625,
+      "y": 0.8657728706624606,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33474"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.289625,
+      "y": 0.8657728706624606,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33474"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.35325,
+      "y": 0.8656151419558359,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33474"
+      ]
+    },
+    {
+      "reference": "19",
+      "x": 0.35325,
+      "y": 0.8656151419558359,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33474"
+      ]
+    },
+    {
+      "reference": "20",
+      "x": 0.424375,
+      "y": 0.8735015772870661,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404297"
+      ]
+    },
+    {
+      "reference": "20",
+      "x": 0.424375,
+      "y": 0.8735015772870661,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404297"
+      ]
+    },
+    {
+      "reference": "21",
+      "x": 0.48425000000000007,
+      "y": 0.8910094637223974,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404299"
+      ]
+    },
+    {
+      "reference": "21",
+      "x": 0.48425000000000007,
+      "y": 0.8910094637223974,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404299"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.535625,
+      "y": 0.6157728706624607,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404300"
+      ]
+    },
+    {
+      "reference": "22",
+      "x": 0.535625,
+      "y": 0.6157728706624607,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "404300"
+      ]
+    },
+    {
+      "reference": "23",
+      "x": 0.613375,
+      "y": 0.6227129337539432,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16427"
+      ]
+    },
+    {
+      "reference": "23",
+      "x": 0.613375,
+      "y": 0.6227129337539432,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16427"
+      ]
+    },
+    {
+      "reference": "24",
+      "x": 0.72175,
+      "y": 0.8537854889589904,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16428"
+      ]
+    },
+    {
+      "reference": "24",
+      "x": 0.72175,
+      "y": 0.8537854889589904,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16428"
+      ]
+    },
+    {
+      "reference": "25",
+      "x": 0.23950000000000002,
+      "y": 0.9162460567823344,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16429"
+      ]
+    },
+    {
+      "reference": "25",
+      "x": 0.23950000000000002,
+      "y": 0.9162460567823344,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "16429"
+      ]
+    },
+    {
+      "reference": "26",
+      "x": 0.5473750000000001,
+      "y": 0.5679810725552051,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33482"
+      ]
+    },
+    {
+      "reference": "26",
+      "x": 0.5473750000000001,
+      "y": 0.5679810725552051,
+      "width": 0.0305,
+      "height": 0.038485804416403785,
+      "partNumbers": [
+        "33482"
+      ]
+    }
+  ]
+}

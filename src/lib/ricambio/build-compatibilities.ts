@@ -9,6 +9,7 @@ const FAMILY_ID: Record<RicambioSeriesKey, string> = {
   xj: "family-xj",
   xp: "family-xp",
   sdw: "family-shallow-well",
+  evo: "family-evodrive",
 };
 
 const DIAGRAM_ID: Record<RicambioSeriesKey, string> = {
@@ -18,6 +19,7 @@ const DIAGRAM_ID: Record<RicambioSeriesKey, string> = {
   xj: "diagram-xj",
   xp: "diagram-xp",
   sdw: "diagram-sdw",
+  evo: "diagram-evo",
 };
 
 const MODEL_ID: Record<RicambioSeriesKey, Record<string, string>> = {
@@ -39,6 +41,7 @@ const MODEL_ID: Record<RicambioSeriesKey, Record<string, string>> = {
     "165s": "model-165s",
     "165d": "model-165d",
   },
+  evo: { "ed60-09": "model-ed60-09" },
 };
 
 const ALL_MODEL_KEYS: Record<RicambioSeriesKey, string[]> = {
@@ -48,6 +51,7 @@ const ALL_MODEL_KEYS: Record<RicambioSeriesKey, string[]> = {
   xj: ["xj50", "xj70", "xj90"],
   xp: ["xp25", "xp35", "xp45"],
   sdw: ["95s", "95d", "125s", "125d", "165s", "165d"],
+  evo: ["ed60-09"],
 };
 
 const ALL_SCOPE: Record<RicambioSeriesKey, DraftPartRecord["compatibilityScope"]> = {
@@ -57,6 +61,7 @@ const ALL_SCOPE: Record<RicambioSeriesKey, DraftPartRecord["compatibilityScope"]
   xj: "xj_all",
   xp: "xp_all",
   sdw: "sdw_all",
+  evo: "family",
 };
 export function compatibilityLabel(
   scope: DraftPartRecord["compatibilityScope"] | undefined,
@@ -126,6 +131,11 @@ export function compatibilityLabel(
       sdw_all: "95S, 95D, 125S, 125D, 165S and 165D",
       family: "95S, 95D, 125S, 125D, 165S and 165D",
       verify: "Shallow/Deep Well — requires verification",
+    },
+    evo: {
+      family: "ED60-09",
+      both: "ED60-09",
+      verify: "EvoDrive — requires verification",
     },
   };
 

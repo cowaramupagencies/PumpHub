@@ -51,9 +51,17 @@ import {
   sdwSeedModels,
   sdwSeedParts,
 } from "@/data/seed/sdw-seed";
+import {
+  evoSeedCompatibilities,
+  evoSeedDiagram,
+  evoSeedFamily,
+  evoSeedHotspots,
+  evoSeedModels,
+  evoSeedParts,
+} from "@/data/seed/evo-seed";
 import type { Brand, Category, Part } from "@/types";
 
-export const SEED_VERSION = 14;
+export const SEED_VERSION = 15;
 
 function dedupePartsById(parts: Part[]): Part[] {
   return [...new Map(parts.map((part) => [part.id, part])).values()];
@@ -97,6 +105,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     xjSeedFamily,
     xpSeedFamily,
     sdwSeedFamily,
+    evoSeedFamily,
     ...extendedSeedFamilies,
   ]);
   await db.pumpModels.bulkPut([
@@ -106,6 +115,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     ...xjSeedModels,
     ...xpSeedModels,
     ...sdwSeedModels,
+    ...evoSeedModels,
     ...extendedSeedModels,
   ]);
   await db.diagrams.bulkPut([
@@ -115,6 +125,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     xjSeedDiagram,
     xpSeedDiagram,
     sdwSeedDiagram,
+    evoSeedDiagram,
   ]);
   await db.diagramHotspots.bulkPut([
     ...hsSeedHotspots,
@@ -123,6 +134,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     ...xjSeedHotspots,
     ...xpSeedHotspots,
     ...sdwSeedHotspots,
+    ...evoSeedHotspots,
   ]);
   await db.parts.bulkPut(
     dedupePartsById([
@@ -132,6 +144,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
       ...xjSeedParts,
       ...xpSeedParts,
       ...sdwSeedParts,
+      ...evoSeedParts,
     ]),
   );
   await db.partCompatibilities.bulkPut([
@@ -141,6 +154,7 @@ export async function seedDatabase(db: PumpHubDatabase): Promise<void> {
     ...xjSeedCompatibilities,
     ...xpSeedCompatibilities,
     ...sdwSeedCompatibilities,
+    ...evoSeedCompatibilities,
   ]);
   await db.appSettings.put({ id: "app", theme: "system", textSize: "standard" });
 }

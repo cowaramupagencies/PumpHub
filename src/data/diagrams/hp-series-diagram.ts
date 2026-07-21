@@ -4,6 +4,7 @@ import { getHmSeriesSvgHotspots } from "@/data/diagrams/hm-series-diagram";
 import { getXjSeriesSvgHotspots } from "@/data/diagrams/xj-series-diagram";
 import { getXpSeriesSvgHotspots } from "@/data/diagrams/xp-series-diagram";
 import { getSdwSeriesSvgHotspots } from "@/data/diagrams/sdw-series-diagram";
+import { getEvoSeriesSvgHotspots } from "@/data/diagrams/evo-series-diagram";
 import { partIdFromNumber } from "@/lib/ricambio/part-id";
 import { HP_SERIES_DIAGRAM_URL } from "@/lib/ricambio/url-validator";
 import type { DiagramHotspot } from "@/types";
@@ -38,5 +39,6 @@ export function getCatalogueHotspotsForFamily(familySlug: string): DraftHotspotR
   if (familySlug === "xj-series") return getXjSeriesSvgHotspots();
   if (familySlug === "xp-series") return getXpSeriesSvgHotspots();
   if (familySlug === "shallow-well") return getSdwSeriesSvgHotspots();
+  if (familySlug === "evodrive") return getEvoSeriesSvgHotspots();
   return [];
 }

@@ -32,7 +32,7 @@ const FAMILY_VISUALS: Record<string, PumpFamilyVisual> = {
     browseLabel: "XP Range",
     imageBgClass: "bg-davey-yellow",
   },
-  // Additional ranges — catalogue import pending:
+  // Additional ranges:
   "shallow-well": {
     imageUrl: "/pumps/families/shallow-well.png",
     browseLabel: "Shallow/Deep Well",

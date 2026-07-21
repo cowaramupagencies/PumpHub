@@ -31,6 +31,11 @@ export const SDW_SERIES_SOURCE_URL =
 
 export const SDW_SERIES_DIAGRAM_URL = "https://davey.ricambio.net/ce/001/CE_201_1.SVG";
 
+export const EVO_SERIES_SOURCE_URL =
+  "https://davey.ricambio.net/site/pagece5.wplus?ID_COUNT=ce_5_home&LN=2&CEPV=Davey001&CELN=2&CEME=2&NDS=CE_564&PRF=4&PRNDS=CE_179&PRC=|R|CE_1|CE_111|CE_179|CE_564&MP1=CE_564&MP=CE_564.cex#CE_564";
+
+export const EVO_SERIES_DIAGRAM_URL = "https://davey.ricambio.net/ce/001/CE_564_1.SVG";
+
 export {
   RICAMBIO_SERIES,
   getRicambioSeriesConfig,

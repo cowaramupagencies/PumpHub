@@ -68,6 +68,7 @@ const FAMILY_ID = {
   xj: "family-xj",
   xp: "family-xp",
   sdw: "family-shallow-well",
+  evo: "family-evodrive",
 };
 
 const DIAGRAM_ID = {
@@ -77,6 +78,7 @@ const DIAGRAM_ID = {
   xj: "diagram-xj",
   xp: "diagram-xp",
   sdw: "diagram-sdw",
+  evo: "diagram-evo",
 };
 
 const SERIES = {
@@ -620,6 +622,55 @@ import {
   width: SDW_SERIES_DIAGRAM_WIDTH,
   height: SDW_SERIES_DIAGRAM_HEIGHT,
   sourceUrl: SDW_SERIES_DIAGRAM_SOURCE_URL,
+};`,
+  },
+  evo: {
+    parseModule: "src/lib/ricambio/parse-evo-series.ts",
+    seedFile: "src/data/seed/evo-seed.ts",
+    prefix: "evo",
+    diagramImports: `import {
+  EVO_SERIES_DIAGRAM_HEIGHT,
+  EVO_SERIES_DIAGRAM_PATH,
+  EVO_SERIES_DIAGRAM_SOURCE_URL,
+  EVO_SERIES_DIAGRAM_WIDTH,
+} from "@/data/diagrams/evo-series-diagram";
+import { EVODRIVE_CURVE_IMAGE, EVODRIVE_PUMP_IMAGE } from "@/utils/pumps";`,
+    familyBlock: (sourceUrl) => `export const evoSeedFamily: PumpFamily = {
+  id: "family-evodrive",
+  brandId: BRAND_ID,
+  categoryId: CATEGORY_ID,
+  name: "EvoDrive",
+  slug: "evodrive",
+  description: "Variable speed drive constant pressure pumps for modern homes.",
+  sourceUrl: ${JSON.stringify(sourceUrl)},
+  identificationNotes: "Confirm exact EvoDrive model code on the controller nameplate before ordering parts.",
+};`,
+    modelsBlock: `export const evoSeedModels: PumpModel[] = [
+  {
+    id: "model-ed60-09",
+    familyId: evoSeedFamily.id,
+    name: "ED60-09",
+    slug: "ed60-09",
+    modelCode: "ED60-09",
+    aliases: ["EvoDrive", "ED60-09G", "ED 60-09"],
+    description: "Variable speed constant pressure pump with integrated VSD controller.",
+    frequency: "50 / 60 Hz",
+    status: "active",
+    identificationNotes: "Factory set point is typically 30 m (3 bar) — confirm on the controller display.",
+    imageUrl: EVODRIVE_PUMP_IMAGE,
+    curveImageUrl: EVODRIVE_CURVE_IMAGE,
+    curveLabel: "ED60-09",
+  },
+];`,
+    diagramBlock: `export const evoSeedDiagram: Diagram = {
+  id: "diagram-evo",
+  familyId: evoSeedFamily.id,
+  name: "EvoDrive Exploded View",
+  imageUrl: EVO_SERIES_DIAGRAM_PATH,
+  imageType: "svg",
+  width: EVO_SERIES_DIAGRAM_WIDTH,
+  height: EVO_SERIES_DIAGRAM_HEIGHT,
+  sourceUrl: EVO_SERIES_DIAGRAM_SOURCE_URL,
 };`,
   },
 };

@@ -47,6 +47,13 @@ describe("getPumpCurveInfo", () => {
     expect(curve?.imageUrl).toContain("xp25-performance-curve");
   });
 
+  it("returns EvoDrive curve for ED60-09", () => {
+    const curve = getPumpCurveInfo("ed60-09", undefined, undefined, "evodrive");
+    expect(curve?.seriesLabel).toBe("ED60-09");
+    expect(curve?.seriesName).toBe("EvoDrive");
+    expect(curve?.imageUrl).toBe("/pumps/evodrive-performance-curve.png");
+  });
+
   it("returns undefined for pumps without curves", () => {
     expect(getPumpCurveInfo("unknown")).toBeUndefined();
   });

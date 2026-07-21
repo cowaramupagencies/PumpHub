@@ -51,6 +51,12 @@ export const SHALLOW_WELL_CURVE_PDF =
 export const DEEP_WELL_CURVE_PDF =
   "https://cdn.intelligencebank.com/au/share/BnKJ1e/73Bzg/739J0/original/DeepWell_Jet_Datasheet";
 
+/** EvoDrive product photo */
+export const EVODRIVE_PUMP_IMAGE = "/pumps/families/evodrive.png";
+
+/** EvoDrive performance curve (flow vs total head, factory set point 30 m) */
+export const EVODRIVE_CURVE_IMAGE = "/pumps/evodrive-performance-curve.png";
+
 import { getPumpFamilyImageUrl } from "@/utils/pump-families";
 
 function isCurveDocumentUrl(url: string): boolean {
@@ -82,7 +88,7 @@ const PUMP_IMAGE_BY_SLUG: Record<string, string> = {
   "165d": SDW_SERIES_PUMP_IMAGE,
   jt450: SDW_SERIES_PUMP_IMAGE,
   jt750: SDW_SERIES_PUMP_IMAGE,
-  "ed60-09": "/pumps/families/evodrive.png",
+  "ed60-09": EVODRIVE_PUMP_IMAGE,
 };
 
 const CURVE_LABELS: Record<string, string> = {
@@ -107,6 +113,7 @@ const CURVE_LABELS: Record<string, string> = {
   "125d": "125D",
   "165s": "165S",
   "165d": "165D",
+  "ed60-09": "ED60-09",
 };
 
 const CURVE_IMAGES: Record<string, string> = {
@@ -125,6 +132,7 @@ const CURVE_IMAGES: Record<string, string> = {
   xp25: XP25_CURVE_IMAGE,
   xp35: XP35_CURVE_IMAGE,
   xp45: XP45_CURVE_IMAGE,
+  "ed60-09": EVODRIVE_CURVE_IMAGE,
 };
 
 export function getPumpImageUrl(slug: string, imageUrl?: string, familySlug?: string): string | undefined {
@@ -166,7 +174,9 @@ export function getPumpCurveInfo(
                   ? "XP Series"
                   : familySlug === "shallow-well"
                     ? "Shallow/Deep Well Jets"
-                    : undefined,
+                    : familySlug === "evodrive"
+                      ? "EvoDrive"
+                      : undefined,
     };
   }
 
@@ -185,6 +195,8 @@ export function getPumpCurveInfo(
           ? "XJ Series"
           : normalized.startsWith("xp")
             ? "XP Series"
-            : "HS Series",
+            : normalized.startsWith("ed")
+              ? "EvoDrive"
+              : "HS Series",
   };
 }

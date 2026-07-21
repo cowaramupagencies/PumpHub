@@ -1,4 +1,4 @@
-export type RicambioSeriesKey = "hs" | "hp" | "hm" | "xj" | "xp" | "sdw";
+export type RicambioSeriesKey = "hs" | "hp" | "hm" | "xj" | "xp" | "sdw" | "evo";
 
 export interface RicambioSeriesConfig {
   key: RicambioSeriesKey;
@@ -84,6 +84,17 @@ export const RICAMBIO_SERIES: Record<RicambioSeriesKey, RicambioSeriesConfig> = 
     diagramLocalPath: "/diagrams/sdw-series.svg",
     hotspotsJsonPath: "src/data/diagrams/sdw-series-hotspots.json",
     draftJsonPath: "src/data/import/sdw-series-ricambio-draft.json",
+  },
+  evo: {
+    key: "evo",
+    catalogueId: "CE_564",
+    familyId: "family-evodrive",
+    title: "EvoDrive",
+    sourceUrl: catalogueUrl("CE_564", "CE_179"),
+    diagramSourceUrl: `${BASE}/ce/001/CE_564_1.SVG`,
+    diagramLocalPath: "/diagrams/evo-series.svg",
+    hotspotsJsonPath: "src/data/diagrams/evo-series-hotspots.json",
+    draftJsonPath: "src/data/import/evo-series-ricambio-draft.json",
   },
 };
 

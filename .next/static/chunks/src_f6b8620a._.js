@@ -1667,7 +1667,7 @@ function PumpCurve(param) {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                 className: "text-sm text-muted",
-                children: isDocument ? "Follow the ".concat(seriesLabel, " curve line in the datasheet for this pump.") : seriesName === "XJ Series" || seriesName === "XP Series" ? "Total head (m) vs flow (lpm). Lines show performance at different suction lift heights for this pump." : seriesName === "HP Series" ? "Total head (m) vs flow (lpm). HP45, HP65 and HP85 curves are shown — follow the line labelled ".concat(seriesLabel, " for this pump.") : seriesName === "HM Series" ? "Total head (m) vs flow (lpm). HM60/HM90 and HM160/HM270 curves are shown — follow the line labelled ".concat(seriesLabel, " for this pump.") : seriesName === "Shallow/Deep Well Jets" ? "Total head (m) vs flow (lpm). Open the datasheet and follow the ".concat(seriesLabel, " curve for this pump.") : "Total head (m) vs flow (lpm). Both HS50 and HS60 curves are shown — follow the line labelled ".concat(seriesLabel, " for this pump.")
+                children: isDocument ? "Follow the ".concat(seriesLabel, " curve line in the datasheet for this pump.") : seriesName === "XJ Series" || seriesName === "XP Series" ? "Total head (m) vs flow (lpm). Lines show performance at different suction lift heights for this pump." : seriesName === "HP Series" ? "Total head (m) vs flow (lpm). HP45, HP65 and HP85 curves are shown — follow the line labelled ".concat(seriesLabel, " for this pump.") : seriesName === "HM Series" ? "Total head (m) vs flow (lpm). HM60/HM90 and HM160/HM270 curves are shown — follow the line labelled ".concat(seriesLabel, " for this pump.") : seriesName === "Shallow/Deep Well Jets" ? "Total head (m) vs flow (lpm). Open the datasheet and follow the ".concat(seriesLabel, " curve for this pump.") : seriesName === "EvoDrive" ? "Total head (m) vs flow (lpm). Factory set point is marked at 30 m (3 bar) — confirm on the controller display." : "Total head (m) vs flow (lpm). Both HS50 and HS60 curves are shown — follow the line labelled ".concat(seriesLabel, " for this pump.")
             }, void 0, false, {
                 fileName: "[project]/src/features/pumps/PumpCurve.tsx",
                 lineNumber: 186,
@@ -1687,14 +1687,14 @@ function PumpCurve(param) {
                                 className: "h-5 w-5 rotate-90"
                             }, void 0, false, {
                                 fileName: "[project]/src/features/pumps/PumpCurve.tsx",
-                                lineNumber: 209,
+                                lineNumber: 211,
                                 columnNumber: 13
                             }, this),
                             "Landscape View"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/features/pumps/PumpCurve.tsx",
-                        lineNumber: 202,
+                        lineNumber: 204,
                         columnNumber: 11
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1708,20 +1708,20 @@ function PumpCurve(param) {
                                 className: "h-5 w-5"
                             }, void 0, false, {
                                 fileName: "[project]/src/features/pumps/PumpCurve.tsx",
-                                lineNumber: 219,
+                                lineNumber: 221,
                                 columnNumber: 13
                             }, this),
                             "Open Full Chart View"
                         ]
                     }, void 0, true, {
                         fileName: "[project]/src/features/pumps/PumpCurve.tsx",
-                        lineNumber: 212,
+                        lineNumber: 214,
                         columnNumber: 11
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/features/pumps/PumpCurve.tsx",
-                lineNumber: 201,
+                lineNumber: 203,
                 columnNumber: 9
             }, this),
             isDocument && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$src$2f$components$2f$ui$2f$Button$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Button"], {
@@ -1735,14 +1735,14 @@ function PumpCurve(param) {
                         className: "h-5 w-5"
                     }, void 0, false, {
                         fileName: "[project]/src/features/pumps/PumpCurve.tsx",
-                        lineNumber: 233,
+                        lineNumber: 235,
                         columnNumber: 11
                     }, this),
                     "Open Performance Datasheet"
                 ]
             }, void 0, true, {
                 fileName: "[project]/src/features/pumps/PumpCurve.tsx",
-                lineNumber: 226,
+                lineNumber: 228,
                 columnNumber: 9
             }, this),
             landscapeOverlay

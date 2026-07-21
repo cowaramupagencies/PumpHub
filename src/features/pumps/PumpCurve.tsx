@@ -194,7 +194,9 @@ export function PumpCurve({
                 ? `Total head (m) vs flow (lpm). HM60/HM90 and HM160/HM270 curves are shown — follow the line labelled ${seriesLabel} for this pump.`
                 : seriesName === "Shallow/Deep Well Jets"
                   ? `Total head (m) vs flow (lpm). Open the datasheet and follow the ${seriesLabel} curve for this pump.`
-                  : `Total head (m) vs flow (lpm). Both HS50 and HS60 curves are shown — follow the line labelled ${seriesLabel} for this pump.`}
+                  : seriesName === "EvoDrive"
+                    ? "Total head (m) vs flow (lpm). Factory set point is marked at 30 m (3 bar) — confirm on the controller display."
+                    : `Total head (m) vs flow (lpm). Both HS50 and HS60 curves are shown — follow the line labelled ${seriesLabel} for this pump.`}
       </p>
 
       {!isDocument && (
