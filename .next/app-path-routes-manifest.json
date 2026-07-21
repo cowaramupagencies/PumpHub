@@ -1,0 +1,19 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/catalogue/fetch/route": "/api/catalogue/fetch",
+  "/davey/page": "/davey",
+  "/davey/browse/[[...slug]]/page": "/davey/browse/[[...slug]]",
+  "/davey/pumps/[slug]/page": "/davey/pumps/[slug]",
+  "/davey/saved/page": "/davey/saved",
+  "/davey/parts/[id]/page": "/davey/parts/[id]",
+  "/davey/search/page": "/davey/search",
+  "/davey/settings/diagram-setup/page": "/davey/settings/diagram-setup",
+  "/davey/settings/page": "/davey/settings",
+  "/davey/settings/catalogue-review/page": "/davey/settings/catalogue-review",
+  "/davey/settings/xj-catalogue-review/page": "/davey/settings/xj-catalogue-review",
+  "/davey/settings/hm-catalogue-review/page": "/davey/settings/hm-catalogue-review",
+  "/settings/page": "/settings",
+  "/davey/settings/hp-catalogue-review/page": "/davey/settings/hp-catalogue-review",
+  "/davey/settings/xp-catalogue-review/page": "/davey/settings/xp-catalogue-review",
+  "/page": "/"
+}
